@@ -2,7 +2,7 @@
 
 一个使用量子最小门控单元设计的，用于语音情感识别的，量子联邦学习算法
 
-由经典SER方法 https://github.com/Renovamen/Speech-Emotion-Recognition.git 添加量子模型QMGU与量子联邦框架后构建
+由[经典SER方法](https://github.com/Renovamen/Speech-Emotion-Recognition.git) 添加量子模型QMGU与量子联邦框架后构建
 
 经典MGU的结构设计见文献 [1]Zhou G B, Wu J, Zhang C L, et al. Minimal gated unit for recurrent neural networks[J]. International Journal of Automation and Computing, 2016, 13(3): 226-234.
 
@@ -22,16 +22,17 @@
 ## Structure
 
 ```
+
 ├── models/                // 模型实现
-│   ├── common.py          // 所有模型的基类
+│   ├── common.py          
 │   ├── dnn                // 神经网络模型
-│   │   ├── dnn.py         // 所有神经网络模型的基类
-│   │   ├── cnn.py         // CNN
-│   │   └── lstm.py        // LSTM
-│   └── ml.py              // SVM & MLP
+│   │   ├── dnn.py         
+│   │   ├── cnn.py         
+│   │   └── lstm.py        // 使用该文件进行量子模型构建
+│   └── ml.py              
 ├── extract_feats/         // 特征提取
-│   ├── librosa.py         // librosa 提取特征
-│   └── opensmile.py       // Opensmile 提取特征
+│   ├── librosa.py         
+│   └── opensmile.py       // 使用 Opensmile 提取特征
 ├── utils/
 │   ├── files.py           // 用于整理数据集（分类、批量重命名）
 │   ├── opts.py            // 使用 argparse 从命令行读入参数
