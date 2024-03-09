@@ -27,17 +27,12 @@ QMGU相比 [QLSTM](https://github.com/rdisipio/qlstm.git) 和 [QGRU](https://git
 ```
 ├── configs/                // 配置参数（.yaml）
 │   └── lstm.yaml           // 借用这个配置文件进行路径和参数设置
-├── models/                // 模型实现
-│   ├── common.py          
+├── models/                // 模型实现        
 │   ├── dnn                // 神经网络模型           
-│   │   └── lstm.py        // 借用该文件进行量子模型构建
-│   └── ml.py              
+│       └── lstm.py        // 借用该文件进行量子模型构建            
 ├── extract_feats/         // 特征提取        
 │   └── opensmile.py       // 使用 Opensmile 提取特征
-├── utils/                 // 辅助工具
-│   ├── files.py           
-│   ├── opts.py            
-│   └── plot.py            
+├── utils/                 // 辅助工具          
 ├── features/              // 存储提取好的特征可存储在此，路径通过lstm.yaml设置
 ├── checkpoints/           // 存储训练好的模型权重
 ├── PrintLogs/             // 打印训练时的评估指标
@@ -45,7 +40,7 @@ QMGU相比 [QLSTM](https://github.com/rdisipio/qlstm.git) 和 [QGRU](https://git
 ├── qlstm_pennylane.py     // 负责QLSTM,QGRU,QMGU的量子线路搭建
 └── preprocess.py          // 数据预处理（提取数据集中音频的特征并保存）
 ```
-
+其他一些以“draw”命名的`.py`文件可以用来绘制曲线图、条形图、热力图，供参考。
 
 &nbsp;
 
