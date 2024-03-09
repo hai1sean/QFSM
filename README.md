@@ -106,7 +106,7 @@ QMGU相比 [QLSTM](https://github.com/rdisipio/qlstm.git) 和 [QGRU](https://git
 
 三个量子模型都在`qlstm_pennylane.py`
 
-所有VQC都用最简单的线路 比如这样
+所有VQC都用最简单的线路 比如这样 可以按照文献[^1]中的19种线路去尝试 最后发现并不能提升准确率 只会更费时间 （有可能是我的数据量还是太少了，但我认为这个可能性很小）
 ```
 qml.AngleEmbedding(inputs, wires=self.wires_forget, rotation='X')
 qml.BasicEntanglerLayers(weights, wires=self.wires_forget)
@@ -123,7 +123,18 @@ n_t = torch.tanh(self.layer_out(self.block1layer(xq_t)) + f_t * self.layer_out(s
 
 &nbsp;
 
+## Citation
+量子SER目前成果很少，两篇QLSTM[^2][^3]都没有用规模那么大的数据集，QGRU[^4]重点在经典上
 
+我们将这个QFSM算法用在IoV上，结合了量子联邦学习框架，量子模型的参数在代码实现上是可以直接拿出来的，但要注意copy的方式
+
+更多实验结果与内容可以去查阅我们发表在T-IV上的论文 [QFSM: A Novel Quantum Federated Learning Algorithm for Speech Emotion Recognition with Minimal Gated Unit in 5G IoV](https://ieeexplore.ieee.org/abstract/document/10453624)，希望这个文档对你有帮助！
+> [QFSM] Z. Qu, Z. Chen, S. Dehdashti and P. Tiwari, "QFSM: A Novel Quantum Federated Learning Algorithm for Speech Emotion Recognition With Minimal Gated Unit in 5G IoV," in IEEE Transactions on Intelligent Vehicles, doi: 10.1109/TIV.2024.3370398.
+
+[^1]: Sim S, Johnson P D, Aspuru - Guzik A. Expressibility and entangling capability of parameterized quantum circuits for hybrid quantum-classical algorithms[J]. Advanced Quantum Technologies, 2019, 2(12): 1900070.
+[^2]: Di Sipio R, Huang J H, Chen S Y C, et al. The dawn of quantum natural language processing[C]. ICASSP 2022-2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2022: 8612-8616.
+[^3]: Chen S Y C, Yoo S, Fang Y L L. Quantum long short-term memory[C]. ICASSP 2022-2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2022: 8622-8626.
+[^4]: Hong Z, Wang J, Qu X, et al. QSpeech: Low-Qubit Quantum Speech Application Toolkit[C]. 2022 International Joint Conference on Neural Networks (IJCNN). IEEE, 2022: 1-8.
 
 
 
