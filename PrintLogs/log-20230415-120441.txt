@@ -1,0 +1,19 @@
+Input dim:    64
+LSTM output size: 64
+Number of qubits: 4
+Training epochs:  100
+Batch_size:       200
+Num_rounds:       50
+Local_epochs:       5
+Tagger will use Quantum MGU running on backend default.qubit
+weight_shapes = (n_qlayers, n_qubits) = (1, 4)
+Communication round : 1
+client: 1
+batch 1, loss 1.3298485279083252, batch_time 0m 33s
+batch 2, loss 1.2391797304153442, batch_time 0m 37s
+batch 3, loss 1.1601322889328003, batch_time 0m 34s
+batch 4, loss 1.0957940816879272, batch_time 0m 30s
+epoch: 1 Loss = 1.20624 Acc = 0.38281 epoch_time 2m 15s
+batch 1, loss 1.1444519758224487, batch_time 0m 39s
+batch 2, loss 1.2343837022781372, batch_time 0m 35s
+batch 3, loss 1.114534854888916, batch_time 0m 39s

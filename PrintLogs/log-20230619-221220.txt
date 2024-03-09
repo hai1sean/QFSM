@@ -1,0 +1,2087 @@
+Input dim:    64
+LSTM output size: 64
+Number of qubits: 4
+Training epochs:  100
+Batch_size:       200
+Num_rounds:       150
+Local_epochs:       1
+BitPhaseFlip=0.1, Tagger will use Quantum MGU running on backend default.mixed
+weight_shapes = (n_qlayers, n_qubits) = (1, 4)
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 1.28523588180542, batch_time 1m 27s
+batch 2, loss 1.274033546447754, batch_time 2m 54s
+batch 3, loss 1.262304425239563, batch_time 4m 33s
+batch 4, loss 1.2388499975204468, batch_time 6m 4s
+batch 5, loss 1.2464030981063843, batch_time 7m 38s
+batch 6, loss 1.254645824432373, batch_time 9m 10s
+batch 7, loss 1.210181713104248, batch_time 10m 44s
+batch 8, loss 1.223663568496704, batch_time 12m 17s
+batch 9, loss 1.2176121473312378, batch_time 13m 50s
+batch 10, loss 1.212363839149475, batch_time 14m 46s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 1 / 100: Loss = 1.24253 Acc = 0.49427  Valid_acc = 0.4833333194255829 lr = 0.00100 Training complete in 17m 30s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 1.2046712636947632, batch_time 1m 31s
+batch 2, loss 1.2313069105148315, batch_time 3m 10s
+batch 3, loss 1.1878553628921509, batch_time 4m 50s
+batch 4, loss 1.153439998626709, batch_time 6m 30s
+batch 5, loss 1.1790275573730469, batch_time 8m 3s
+batch 6, loss 1.2125431299209595, batch_time 9m 44s
+batch 7, loss 1.1507847309112549, batch_time 11m 25s
+batch 8, loss 1.1854795217514038, batch_time 13m 5s
+batch 9, loss 1.185765266418457, batch_time 14m 38s
+batch 10, loss 1.1829363107681274, batch_time 15m 34s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 2 / 100: Loss = 1.18738 Acc = 0.50417  Valid_acc = 0.4833333194255829 lr = 0.00100 Training complete in 18m 18s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 1.1725125312805176, batch_time 1m 31s
+batch 2, loss 1.2243425846099854, batch_time 3m 2s
+batch 3, loss 1.1562618017196655, batch_time 4m 43s
+batch 4, loss 1.1118119955062866, batch_time 6m 23s
+batch 5, loss 1.1491416692733765, batch_time 7m 57s
+batch 6, loss 1.19831120967865, batch_time 9m 30s
+batch 7, loss 1.1242420673370361, batch_time 11m 3s
+batch 8, loss 1.170028805732727, batch_time 12m 36s
+batch 9, loss 1.1733224391937256, batch_time 14m 17s
+batch 10, loss 1.1708524227142334, batch_time 15m 12s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 3 / 100: Loss = 1.16508 Acc = 0.50417  Valid_acc = 0.4833333194255829 lr = 0.00100 Training complete in 17m 56s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 1.1553720235824585, batch_time 1m 31s
+batch 2, loss 1.2195496559143066, batch_time 3m 3s
+batch 3, loss 1.1383793354034424, batch_time 4m 35s
+batch 4, loss 1.0902239084243774, batch_time 6m 8s
+batch 5, loss 1.129591703414917, batch_time 7m 41s
+batch 6, loss 1.1843637228012085, batch_time 9m 14s
+batch 7, loss 1.109769582748413, batch_time 10m 47s
+batch 8, loss 1.1562174558639526, batch_time 12m 20s
+batch 9, loss 1.1611042022705078, batch_time 13m 53s
+batch 10, loss 1.1586556434631348, batch_time 14m 49s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 4 / 100: Loss = 1.15032 Acc = 0.50365  Valid_acc = 0.4833333194255829 lr = 0.00100 Training complete in 17m 33s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 1.1374763250350952, batch_time 1m 31s
+batch 2, loss 1.2044795751571655, batch_time 3m 3s
+batch 3, loss 1.1215131282806396, batch_time 4m 36s
+batch 4, loss 1.0745600461959839, batch_time 6m 9s
+batch 5, loss 1.1114304065704346, batch_time 7m 50s
+batch 6, loss 1.1666417121887207, batch_time 9m 23s
+batch 7, loss 1.09715735912323, batch_time 10m 56s
+batch 8, loss 1.1402002573013306, batch_time 12m 37s
+batch 9, loss 1.1453591585159302, batch_time 14m 18s
+batch 10, loss 1.1436009407043457, batch_time 15m 18s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[ 12 156   0]
+ [  4 228   0]
+ [  0  80   0]]
+Validation precision: 0.5000
+Validation recall: 0.5000
+Validation F1 score: 0.3623
+Epoch 5 / 100: Loss = 1.13424 Acc = 0.50990  Valid_acc = 0.5 lr = 0.00100 Training complete in 18m 3s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 1.118212342262268, batch_time 1m 32s
+batch 2, loss 1.1833362579345703, batch_time 3m 3s
+batch 3, loss 1.1043806076049805, batch_time 4m 36s
+batch 4, loss 1.0584638118743896, batch_time 6m 9s
+batch 5, loss 1.0947480201721191, batch_time 7m 42s
+batch 6, loss 1.1500861644744873, batch_time 9m 15s
+batch 7, loss 1.0826762914657593, batch_time 10m 56s
+batch 8, loss 1.1238062381744385, batch_time 12m 29s
+batch 9, loss 1.1278951168060303, batch_time 14m 10s
+batch 10, loss 1.1270785331726074, batch_time 15m 6s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[ 34 134   0]
+ [ 12 220   0]
+ [  1  79   0]]
+Validation precision: 0.4988
+Validation recall: 0.5292
+Validation F1 score: 0.4305
+Epoch 6 / 100: Loss = 1.11707 Acc = 0.53646  Valid_acc = 0.5291666388511658 lr = 0.00100 Training complete in 17m 51s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 1.0990126132965088, batch_time 1m 40s
+batch 2, loss 1.1614238023757935, batch_time 3m 12s
+batch 3, loss 1.0871659517288208, batch_time 4m 52s
+batch 4, loss 1.0399436950683594, batch_time 6m 25s
+batch 5, loss 1.0787721872329712, batch_time 7m 58s
+batch 6, loss 1.1356064081192017, batch_time 9m 32s
+batch 7, loss 1.066725492477417, batch_time 11m 13s
+batch 8, loss 1.1080474853515625, batch_time 12m 46s
+batch 9, loss 1.110993504524231, batch_time 14m 20s
+batch 10, loss 1.1104029417037964, batch_time 15m 16s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[ 57 111   0]
+ [ 19 213   0]
+ [  1  79   0]]
+Validation precision: 0.5145
+Validation recall: 0.5625
+Validation F1 score: 0.4871
+Epoch 7 / 100: Loss = 1.09981 Acc = 0.57604  Valid_acc = 0.5625 lr = 0.00100 Training complete in 18m 0s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 1.0801715850830078, batch_time 1m 32s
+batch 2, loss 1.1404536962509155, batch_time 3m 4s
+batch 3, loss 1.069856882095337, batch_time 4m 45s
+batch 4, loss 1.0198419094085693, batch_time 6m 18s
+batch 5, loss 1.0625666379928589, batch_time 7m 51s
+batch 6, loss 1.121867299079895, batch_time 9m 25s
+batch 7, loss 1.0509263277053833, batch_time 11m 6s
+batch 8, loss 1.0932456254959106, batch_time 12m 39s
+batch 9, loss 1.0956016778945923, batch_time 14m 13s
+batch 10, loss 1.0941627025604248, batch_time 15m 9s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[ 78  90   0]
+ [ 30 202   0]
+ [  3  77   0]]
+Validation precision: 0.5105
+Validation recall: 0.5833
+Validation F1 score: 0.5206
+Epoch 8 / 100: Loss = 1.08287 Acc = 0.59583  Valid_acc = 0.5833333134651184 lr = 0.00100 Training complete in 17m 53s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 1.0623042583465576, batch_time 1m 32s
+batch 2, loss 1.1207351684570312, batch_time 3m 12s
+batch 3, loss 1.0531518459320068, batch_time 4m 53s
+batch 4, loss 0.9993938207626343, batch_time 6m 26s
+batch 5, loss 1.0469542741775513, batch_time 7m 60s
+batch 6, loss 1.109551191329956, batch_time 9m 33s
+batch 7, loss 1.0358607769012451, batch_time 11m 7s
+batch 8, loss 1.0799518823623657, batch_time 12m 48s
+batch 9, loss 1.0815231800079346, batch_time 14m 29s
+batch 10, loss 1.0785057544708252, batch_time 15m 25s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[ 85  83   0]
+ [ 38 194   0]
+ [  7  73   0]]
+Validation precision: 0.4968
+Validation recall: 0.5813
+Validation F1 score: 0.5219
+Epoch 9 / 100: Loss = 1.06679 Acc = 0.60000  Valid_acc = 0.581250011920929 lr = 0.00100 Training complete in 18m 10s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 1.0462820529937744, batch_time 1m 32s
+batch 2, loss 1.1021555662155151, batch_time 3m 4s
+batch 3, loss 1.0379207134246826, batch_time 4m 37s
+batch 4, loss 0.9796931743621826, batch_time 6m 10s
+batch 5, loss 1.0326204299926758, batch_time 7m 44s
+batch 6, loss 1.098980188369751, batch_time 9m 25s
+batch 7, loss 1.0216319561004639, batch_time 10m 58s
+batch 8, loss 1.0679482221603394, batch_time 12m 32s
+batch 9, loss 1.06828773021698, batch_time 14m 6s
+batch 10, loss 1.0634241104125977, batch_time 15m 2s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[ 93  75   0]
+ [ 43 189   0]
+ [  9  71   0]]
+Validation precision: 0.4972
+Validation recall: 0.5875
+Validation F1 score: 0.5302
+Epoch 10 / 100: Loss = 1.05189 Acc = 0.60104  Valid_acc = 0.5874999761581421 lr = 0.00100 Training complete in 17m 46s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 1.0322723388671875, batch_time 1m 32s
+batch 2, loss 1.0843631029129028, batch_time 3m 4s
+batch 3, loss 1.0244245529174805, batch_time 4m 38s
+batch 4, loss 0.9613580107688904, batch_time 6m 19s
+batch 5, loss 1.0192316770553589, batch_time 7m 60s
+batch 6, loss 1.0895020961761475, batch_time 9m 34s
+batch 7, loss 1.008108377456665, batch_time 11m 7s
+batch 8, loss 1.0564477443695068, batch_time 12m 41s
+batch 9, loss 1.0553929805755615, batch_time 14m 15s
+batch 10, loss 1.0490636825561523, batch_time 15m 11s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[ 96  72   0]
+ [ 45 187   0]
+ [ 10  70   0]]
+Validation precision: 0.4972
+Validation recall: 0.5896
+Validation F1 score: 0.5329
+Epoch 11 / 100: Loss = 1.03802 Acc = 0.60365  Valid_acc = 0.5895833373069763 lr = 0.00100 Training complete in 17m 55s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 1.0200698375701904, batch_time 1m 32s
+batch 2, loss 1.0673757791519165, batch_time 3m 12s
+batch 3, loss 1.012768268585205, batch_time 4m 45s
+batch 4, loss 0.9448535442352295, batch_time 6m 19s
+batch 5, loss 1.0061486959457397, batch_time 8m 0s
+batch 6, loss 1.08027184009552, batch_time 9m 42s
+batch 7, loss 0.9953035116195679, batch_time 11m 23s
+batch 8, loss 1.044771671295166, batch_time 12m 57s
+batch 9, loss 1.0423622131347656, batch_time 14m 30s
+batch 10, loss 1.035583257675171, batch_time 15m 26s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[ 97  71   0]
+ [ 48 184   0]
+ [ 10  70   0]]
+Validation precision: 0.4927
+Validation recall: 0.5854
+Validation F1 score: 0.5295
+Epoch 12 / 100: Loss = 1.02495 Acc = 0.60156  Valid_acc = 0.5854166746139526 lr = 0.00100 Training complete in 18m 11s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 1.0092010498046875, batch_time 1m 32s
+batch 2, loss 1.0512244701385498, batch_time 3m 5s
+batch 3, loss 1.002593755722046, batch_time 4m 38s
+batch 4, loss 0.9298199415206909, batch_time 6m 12s
+batch 5, loss 0.9927153587341309, batch_time 7m 53s
+batch 6, loss 1.0705139636993408, batch_time 9m 26s
+batch 7, loss 0.9825531840324402, batch_time 11m 0s
+batch 8, loss 1.0319633483886719, batch_time 12m 34s
+batch 9, loss 1.0285332202911377, batch_time 14m 7s
+batch 10, loss 1.0224469900131226, batch_time 15m 4s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[103  65   0]
+ [ 47 185   0]
+ [ 11  69   0]]
+Validation precision: 0.5042
+Validation recall: 0.6000
+Validation F1 score: 0.5437
+Epoch 13 / 100: Loss = 1.01216 Acc = 0.60833  Valid_acc = 0.6000000238418579 lr = 0.00100 Training complete in 17m 48s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.9988266229629517, batch_time 1m 32s
+batch 2, loss 1.0358107089996338, batch_time 3m 5s
+batch 3, loss 0.9933098554611206, batch_time 4m 38s
+batch 4, loss 0.9153204560279846, batch_time 6m 12s
+batch 5, loss 0.9781378507614136, batch_time 7m 53s
+batch 6, loss 1.0593304634094238, batch_time 9m 27s
+batch 7, loss 0.9693323373794556, batch_time 11m 8s
+batch 8, loss 1.0171897411346436, batch_time 12m 42s
+batch 9, loss 1.0132246017456055, batch_time 14m 16s
+batch 10, loss 1.0091277360916138, batch_time 15m 12s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[103  65   0]
+ [ 49 183   0]
+ [ 12  68   0]]
+Validation precision: 0.4997
+Validation recall: 0.5958
+Validation F1 score: 0.5400
+Epoch 14 / 100: Loss = 0.99896 Acc = 0.62135  Valid_acc = 0.5958333611488342 lr = 0.00100 Training complete in 17m 56s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.9882305860519409, batch_time 1m 40s
+batch 2, loss 1.0208085775375366, batch_time 3m 12s
+batch 3, loss 0.9843481183052063, batch_time 4m 46s
+batch 4, loss 0.9005738496780396, batch_time 6m 20s
+batch 5, loss 0.9621021747589111, batch_time 7m 53s
+batch 6, loss 1.0463063716888428, batch_time 9m 27s
+batch 7, loss 0.9551796913146973, batch_time 11m 1s
+batch 8, loss 1.0000947713851929, batch_time 12m 35s
+batch 9, loss 0.9960845708847046, batch_time 14m 8s
+batch 10, loss 0.995247483253479, batch_time 15m 4s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[107  61   0]
+ [ 47 185   0]
+ [ 13  67   0]]
+Validation precision: 0.5099
+Validation recall: 0.6083
+Validation F1 score: 0.5517
+Epoch 15 / 100: Loss = 0.98490 Acc = 0.63281  Valid_acc = 0.6083333492279053 lr = 0.00100 Training complete in 17m 48s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.9770065546035767, batch_time 1m 32s
+batch 2, loss 1.0059483051300049, batch_time 3m 5s
+batch 3, loss 0.9753310084342957, batch_time 4m 38s
+batch 4, loss 0.8850986361503601, batch_time 6m 12s
+batch 5, loss 0.9446901679039001, batch_time 7m 45s
+batch 6, loss 1.0311435461044312, batch_time 9m 19s
+batch 7, loss 0.940287709236145, batch_time 10m 60s
+batch 8, loss 0.980689287185669, batch_time 12m 33s
+batch 9, loss 0.9770432710647583, batch_time 14m 15s
+batch 10, loss 0.9807913303375244, batch_time 15m 11s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[114  54   0]
+ [ 48 184   0]
+ [ 13  67   0]]
+Validation precision: 0.5196
+Validation recall: 0.6208
+Validation F1 score: 0.5639
+Epoch 16 / 100: Loss = 0.96980 Acc = 0.64323  Valid_acc = 0.6208333373069763 lr = 0.00100 Training complete in 17m 56s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.9650506973266602, batch_time 1m 32s
+batch 2, loss 0.9909651875495911, batch_time 3m 5s
+batch 3, loss 0.9658088088035583, batch_time 4m 46s
+batch 4, loss 0.8687613010406494, batch_time 6m 27s
+batch 5, loss 0.9263690710067749, batch_time 8m 1s
+batch 6, loss 1.0141253471374512, batch_time 9m 42s
+batch 7, loss 0.9248348474502563, batch_time 11m 15s
+batch 8, loss 0.9594405293464661, batch_time 12m 49s
+batch 9, loss 0.9563613533973694, batch_time 14m 30s
+batch 10, loss 0.9656987190246582, batch_time 15m 26s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[117  51   0]
+ [ 44 188   0]
+ [ 14  66   0]]
+Validation precision: 0.5319
+Validation recall: 0.6354
+Validation F1 score: 0.5772
+Epoch 17 / 100: Loss = 0.95374 Acc = 0.65156  Valid_acc = 0.6354166865348816 lr = 0.00100 Training complete in 18m 11s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.9524083137512207, batch_time 1m 40s
+batch 2, loss 0.975881814956665, batch_time 3m 12s
+batch 3, loss 0.9557138681411743, batch_time 4m 53s
+batch 4, loss 0.8518557548522949, batch_time 6m 34s
+batch 5, loss 0.9082527756690979, batch_time 8m 8s
+batch 6, loss 0.9965524673461914, batch_time 9m 42s
+batch 7, loss 0.9092752933502197, batch_time 11m 15s
+batch 8, loss 0.9376384615898132, batch_time 12m 49s
+batch 9, loss 0.9349875450134277, batch_time 14m 22s
+batch 10, loss 0.9503487944602966, batch_time 15m 23s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[121  47   0]
+ [ 45 187   0]
+ [ 14  66   0]]
+Validation precision: 0.5366
+Validation recall: 0.6417
+Validation F1 score: 0.5832
+Epoch 18 / 100: Loss = 0.93729 Acc = 0.66146  Valid_acc = 0.6416666507720947 lr = 0.00100 Training complete in 18m 7s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.9396911859512329, batch_time 1m 32s
+batch 2, loss 0.9613831043243408, batch_time 3m 13s
+batch 3, loss 0.9451188445091248, batch_time 4m 46s
+batch 4, loss 0.8354344367980957, batch_time 6m 27s
+batch 5, loss 0.8917801380157471, batch_time 8m 1s
+batch 6, loss 0.9796353578567505, batch_time 9m 34s
+batch 7, loss 0.8947076797485352, batch_time 11m 8s
+batch 8, loss 0.917008101940155, batch_time 12m 49s
+batch 9, loss 0.914590060710907, batch_time 14m 23s
+batch 10, loss 0.9351266622543335, batch_time 15m 19s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[123  45   0]
+ [ 45 187   0]
+ [ 15  65   0]]
+Validation precision: 0.5396
+Validation recall: 0.6458
+Validation F1 score: 0.5870
+Epoch 19 / 100: Loss = 0.92145 Acc = 0.67292  Valid_acc = 0.6458333134651184 lr = 0.00100 Training complete in 18m 3s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.9276614785194397, batch_time 1m 32s
+batch 2, loss 0.9481751918792725, batch_time 3m 12s
+batch 3, loss 0.9338091015815735, batch_time 4m 45s
+batch 4, loss 0.8201785683631897, batch_time 6m 21s
+batch 5, loss 0.8780211806297302, batch_time 7m 55s
+batch 6, loss 0.9648898839950562, batch_time 9m 29s
+batch 7, loss 0.8813560009002686, batch_time 11m 2s
+batch 8, loss 0.8988277316093445, batch_time 12m 44s
+batch 9, loss 0.8962051868438721, batch_time 14m 25s
+batch 10, loss 0.9200673699378967, batch_time 15m 21s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[128  40   0]
+ [ 45 187   0]
+ [ 17  63   0]]
+Validation precision: 0.5475
+Validation recall: 0.6562
+Validation F1 score: 0.5966
+Epoch 20 / 100: Loss = 0.90692 Acc = 0.68021  Valid_acc = 0.65625 lr = 0.00100 Training complete in 18m 6s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.9168776273727417, batch_time 1m 32s
+batch 2, loss 0.9363698959350586, batch_time 3m 5s
+batch 3, loss 0.9215478301048279, batch_time 4m 38s
+batch 4, loss 0.8066731095314026, batch_time 6m 11s
+batch 5, loss 0.8667936325073242, batch_time 7m 44s
+batch 6, loss 0.9519309997558594, batch_time 9m 18s
+batch 7, loss 0.8697288036346436, batch_time 10m 51s
+batch 8, loss 0.8832733631134033, batch_time 12m 25s
+batch 9, loss 0.8806968331336975, batch_time 14m 6s
+batch 10, loss 0.9054051041603088, batch_time 15m 2s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[130  38   0]
+ [ 41 191   0]
+ [ 19  61   0]]
+Validation precision: 0.5578
+Validation recall: 0.6687
+Validation F1 score: 0.6079
+Epoch 21 / 100: Loss = 0.89393 Acc = 0.68490  Valid_acc = 0.668749988079071 lr = 0.00100 Training complete in 17m 47s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.9074662923812866, batch_time 1m 32s
+batch 2, loss 0.925850510597229, batch_time 3m 5s
+batch 3, loss 0.9086477756500244, batch_time 4m 38s
+batch 4, loss 0.795083224773407, batch_time 6m 12s
+batch 5, loss 0.857234001159668, batch_time 7m 45s
+batch 6, loss 0.9404752850532532, batch_time 9m 18s
+batch 7, loss 0.8594052195549011, batch_time 10m 52s
+batch 8, loss 0.8699914216995239, batch_time 12m 25s
+batch 9, loss 0.8678344488143921, batch_time 14m 7s
+batch 10, loss 0.8915045857429504, batch_time 15m 7s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[130  38   0]
+ [ 39 193   0]
+ [ 21  59   0]]
+Validation precision: 0.5611
+Validation recall: 0.6729
+Validation F1 score: 0.6116
+Epoch 22 / 100: Loss = 0.88235 Acc = 0.69219  Valid_acc = 0.6729166507720947 lr = 0.00100 Training complete in 17m 51s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.8990879058837891, batch_time 1m 32s
+batch 2, loss 0.9165242910385132, batch_time 3m 5s
+batch 3, loss 0.8959009051322937, batch_time 4m 38s
+batch 4, loss 0.7854001522064209, batch_time 6m 11s
+batch 5, loss 0.84861820936203, batch_time 7m 45s
+batch 6, loss 0.9299730062484741, batch_time 9m 18s
+batch 7, loss 0.850348174571991, batch_time 10m 52s
+batch 8, loss 0.8583855628967285, batch_time 12m 26s
+batch 9, loss 0.8572068214416504, batch_time 13m 59s
+batch 10, loss 0.8785673379898071, batch_time 15m 0s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[132  36   0]
+ [ 38 194   0]
+ [ 22  58   0]]
+Validation precision: 0.5662
+Validation recall: 0.6792
+Validation F1 score: 0.6173
+Epoch 23 / 100: Loss = 0.87200 Acc = 0.69479  Valid_acc = 0.6791666746139526 lr = 0.00100 Training complete in 17m 45s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.8915933966636658, batch_time 1m 32s
+batch 2, loss 0.9081568717956543, batch_time 3m 12s
+batch 3, loss 0.8838353157043457, batch_time 4m 53s
+batch 4, loss 0.7772564888000488, batch_time 6m 27s
+batch 5, loss 0.8405507206916809, batch_time 8m 0s
+batch 6, loss 0.9203876256942749, batch_time 9m 42s
+batch 7, loss 0.8423915505409241, batch_time 11m 16s
+batch 8, loss 0.847960889339447, batch_time 12m 50s
+batch 9, loss 0.84822678565979, batch_time 14m 23s
+batch 10, loss 0.866641640663147, batch_time 15m 23s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[132  36   0]
+ [ 37 195   0]
+ [ 22  58   0]]
+Validation precision: 0.5680
+Validation recall: 0.6813
+Validation F1 score: 0.6192
+Epoch 24 / 100: Loss = 0.86270 Acc = 0.69792  Valid_acc = 0.6812499761581421 lr = 0.00100 Training complete in 18m 8s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.8847818374633789, batch_time 1m 32s
+batch 2, loss 0.9005265235900879, batch_time 3m 13s
+batch 3, loss 0.8728567361831665, batch_time 4m 46s
+batch 4, loss 0.7702184319496155, batch_time 6m 19s
+batch 5, loss 0.8330070972442627, batch_time 7m 53s
+batch 6, loss 0.9118895530700684, batch_time 9m 34s
+batch 7, loss 0.8353842496871948, batch_time 11m 8s
+batch 8, loss 0.8386023044586182, batch_time 12m 41s
+batch 9, loss 0.8404932022094727, batch_time 14m 23s
+batch 10, loss 0.8556388020515442, batch_time 15m 18s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[132  36   0]
+ [ 36 196   0]
+ [ 22  58   0]]
+Validation precision: 0.5698
+Validation recall: 0.6833
+Validation F1 score: 0.6211
+Epoch 25 / 100: Loss = 0.85434 Acc = 0.70156  Valid_acc = 0.6833333373069763 lr = 0.00100 Training complete in 18m 3s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.8785902261734009, batch_time 1m 32s
+batch 2, loss 0.8934078812599182, batch_time 3m 5s
+batch 3, loss 0.8629791736602783, batch_time 4m 38s
+batch 4, loss 0.7641006112098694, batch_time 6m 12s
+batch 5, loss 0.8260469436645508, batch_time 7m 45s
+batch 6, loss 0.904400646686554, batch_time 9m 19s
+batch 7, loss 0.8292641639709473, batch_time 10m 60s
+batch 8, loss 0.829939603805542, batch_time 12m 33s
+batch 9, loss 0.8336818218231201, batch_time 14m 14s
+batch 10, loss 0.8453044891357422, batch_time 15m 15s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[133  35   0]
+ [ 36 196   0]
+ [ 21  59   0]]
+Validation precision: 0.5717
+Validation recall: 0.6854
+Validation F1 score: 0.6230
+Epoch 26 / 100: Loss = 0.84677 Acc = 0.70677  Valid_acc = 0.6854166388511658 lr = 0.00100 Training complete in 17m 59s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.872898280620575, batch_time 1m 32s
+batch 2, loss 0.8866375684738159, batch_time 3m 5s
+batch 3, loss 0.8541259765625, batch_time 4m 38s
+batch 4, loss 0.7586418390274048, batch_time 6m 12s
+batch 5, loss 0.819686770439148, batch_time 7m 46s
+batch 6, loss 0.8979659080505371, batch_time 9m 19s
+batch 7, loss 0.8238367438316345, batch_time 10m 53s
+batch 8, loss 0.8220509886741638, batch_time 12m 34s
+batch 9, loss 0.8276077508926392, batch_time 14m 16s
+batch 10, loss 0.835619330406189, batch_time 15m 12s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[135  33   0]
+ [ 35 197   0]
+ [ 23  57   0]]
+Validation precision: 0.5766
+Validation recall: 0.6917
+Validation F1 score: 0.6287
+Epoch 27 / 100: Loss = 0.83991 Acc = 0.71354  Valid_acc = 0.6916666626930237 lr = 0.00100 Training complete in 17m 56s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.867630124092102, batch_time 1m 40s
+batch 2, loss 0.8801652193069458, batch_time 3m 13s
+batch 3, loss 0.8462024331092834, batch_time 4m 54s
+batch 4, loss 0.7537811994552612, batch_time 6m 28s
+batch 5, loss 0.8139404654502869, batch_time 8m 9s
+batch 6, loss 0.8922594785690308, batch_time 9m 44s
+batch 7, loss 0.8190219402313232, batch_time 11m 25s
+batch 8, loss 0.8147808313369751, batch_time 12m 58s
+batch 9, loss 0.8221643567085266, batch_time 14m 31s
+batch 10, loss 0.8265129327774048, batch_time 15m 27s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[135  33   0]
+ [ 33 199   0]
+ [ 24  56   0]]
+Validation precision: 0.5801
+Validation recall: 0.6958
+Validation F1 score: 0.6324
+Epoch 28 / 100: Loss = 0.83365 Acc = 0.71615  Valid_acc = 0.6958333253860474 lr = 0.00100 Training complete in 18m 11s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.8626292943954468, batch_time 1m 32s
+batch 2, loss 0.8739410638809204, batch_time 3m 5s
+batch 3, loss 0.8390427827835083, batch_time 4m 46s
+batch 4, loss 0.7493523359298706, batch_time 6m 19s
+batch 5, loss 0.8086260557174683, batch_time 7m 52s
+batch 6, loss 0.8871901035308838, batch_time 9m 34s
+batch 7, loss 0.8145710229873657, batch_time 11m 7s
+batch 8, loss 0.8080687522888184, batch_time 12m 48s
+batch 9, loss 0.8172150254249573, batch_time 14m 22s
+batch 10, loss 0.8179466724395752, batch_time 15m 18s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[135  33   0]
+ [ 33 199   0]
+ [ 24  56   0]]
+Validation precision: 0.5801
+Validation recall: 0.6958
+Validation F1 score: 0.6324
+Epoch 29 / 100: Loss = 0.82786 Acc = 0.71771  Valid_acc = 0.6958333253860474 lr = 0.00100 Training complete in 18m 2s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.8578833341598511, batch_time 1m 32s
+batch 2, loss 0.8680219054222107, batch_time 3m 5s
+batch 3, loss 0.8325558304786682, batch_time 4m 38s
+batch 4, loss 0.7452812194824219, batch_time 6m 12s
+batch 5, loss 0.8037402629852295, batch_time 7m 46s
+batch 6, loss 0.8827412724494934, batch_time 9m 19s
+batch 7, loss 0.8104017972946167, batch_time 10m 53s
+batch 8, loss 0.801763653755188, batch_time 12m 26s
+batch 9, loss 0.8126214742660522, batch_time 13m 60s
+batch 10, loss 0.8099130392074585, batch_time 14m 56s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[134  34   0]
+ [ 32 200   0]
+ [ 23  57   0]]
+Validation precision: 0.5803
+Validation recall: 0.6958
+Validation F1 score: 0.6324
+Epoch 30 / 100: Loss = 0.82249 Acc = 0.72031  Valid_acc = 0.6958333253860474 lr = 0.00100 Training complete in 17m 40s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.8533958196640015, batch_time 1m 32s
+batch 2, loss 0.8623920679092407, batch_time 3m 13s
+batch 3, loss 0.8266628980636597, batch_time 4m 46s
+batch 4, loss 0.7415767312049866, batch_time 6m 20s
+batch 5, loss 0.7991654872894287, batch_time 7m 54s
+batch 6, loss 0.8785994648933411, batch_time 9m 27s
+batch 7, loss 0.8065153360366821, batch_time 11m 1s
+batch 8, loss 0.7959902286529541, batch_time 12m 34s
+batch 9, loss 0.8083518743515015, batch_time 14m 8s
+batch 10, loss 0.8024622201919556, batch_time 15m 8s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[135  33   0]
+ [ 32 200   0]
+ [ 25  55   0]]
+Validation precision: 0.5817
+Validation recall: 0.6979
+Validation F1 score: 0.6343
+Epoch 31 / 100: Loss = 0.81751 Acc = 0.72188  Valid_acc = 0.6979166865348816 lr = 0.00100 Training complete in 17m 52s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.8490849733352661, batch_time 1m 32s
+batch 2, loss 0.8570043444633484, batch_time 3m 5s
+batch 3, loss 0.8213537931442261, batch_time 4m 38s
+batch 4, loss 0.7381353974342346, batch_time 6m 20s
+batch 5, loss 0.7948912382125854, batch_time 7m 53s
+batch 6, loss 0.8749167919158936, batch_time 9m 27s
+batch 7, loss 0.8027530908584595, batch_time 11m 8s
+batch 8, loss 0.7906947135925293, batch_time 12m 42s
+batch 9, loss 0.8043036460876465, batch_time 14m 15s
+batch 10, loss 0.7955142259597778, batch_time 15m 11s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[135  33   0]
+ [ 32 200   0]
+ [ 25  55   0]]
+Validation precision: 0.5817
+Validation recall: 0.6979
+Validation F1 score: 0.6343
+Epoch 32 / 100: Loss = 0.81287 Acc = 0.72396  Valid_acc = 0.6979166865348816 lr = 0.00100 Training complete in 17m 55s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.8449820280075073, batch_time 1m 40s
+batch 2, loss 0.8518337607383728, batch_time 3m 13s
+batch 3, loss 0.8165380954742432, batch_time 4m 54s
+batch 4, loss 0.7349423170089722, batch_time 6m 28s
+batch 5, loss 0.7907426357269287, batch_time 8m 1s
+batch 6, loss 0.8712261915206909, batch_time 9m 42s
+batch 7, loss 0.7993150949478149, batch_time 11m 16s
+batch 8, loss 0.7857543230056763, batch_time 12m 58s
+batch 9, loss 0.8005107045173645, batch_time 14m 39s
+batch 10, loss 0.7890141010284424, batch_time 15m 36s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[135  33   0]
+ [ 31 201   0]
+ [ 24  56   0]]
+Validation precision: 0.5837
+Validation recall: 0.7000
+Validation F1 score: 0.6362
+Epoch 33 / 100: Loss = 0.80849 Acc = 0.72604  Valid_acc = 0.699999988079071 lr = 0.00100 Training complete in 18m 20s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.8411291837692261, batch_time 1m 32s
+batch 2, loss 0.8469579815864563, batch_time 3m 5s
+batch 3, loss 0.8120619058609009, batch_time 4m 38s
+batch 4, loss 0.7317982912063599, batch_time 6m 20s
+batch 5, loss 0.7868635654449463, batch_time 7m 53s
+batch 6, loss 0.867885947227478, batch_time 9m 27s
+batch 7, loss 0.7959206104278564, batch_time 11m 8s
+batch 8, loss 0.7810829877853394, batch_time 12m 49s
+batch 9, loss 0.7967900633811951, batch_time 14m 23s
+batch 10, loss 0.7827871441841125, batch_time 15m 18s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[136  32   0]
+ [ 30 202   0]
+ [ 24  56   0]]
+Validation precision: 0.5872
+Validation recall: 0.7042
+Validation F1 score: 0.6400
+Epoch 34 / 100: Loss = 0.80433 Acc = 0.72656  Valid_acc = 0.7041666507720947 lr = 0.00100 Training complete in 18m 3s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.8374043703079224, batch_time 1m 32s
+batch 2, loss 0.8423030972480774, batch_time 3m 5s
+batch 3, loss 0.8079296946525574, batch_time 4m 40s
+batch 4, loss 0.7288440465927124, batch_time 6m 21s
+batch 5, loss 0.7829459309577942, batch_time 7m 55s
+batch 6, loss 0.8644031286239624, batch_time 9m 33s
+batch 7, loss 0.7927099466323853, batch_time 11m 10s
+batch 8, loss 0.7767484784126282, batch_time 12m 44s
+batch 9, loss 0.7932511568069458, batch_time 14m 18s
+batch 10, loss 0.7768677473068237, batch_time 15m 14s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[137  31   0]
+ [ 30 202   0]
+ [ 26  54   0]]
+Validation precision: 0.5886
+Validation recall: 0.7063
+Validation F1 score: 0.6419
+Epoch 35 / 100: Loss = 0.80034 Acc = 0.72656  Valid_acc = 0.706250011920929 lr = 0.00100 Training complete in 17m 58s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.8338131904602051, batch_time 1m 32s
+batch 2, loss 0.8378983736038208, batch_time 3m 5s
+batch 3, loss 0.8040112257003784, batch_time 4m 39s
+batch 4, loss 0.7259595394134521, batch_time 6m 12s
+batch 5, loss 0.7792190313339233, batch_time 7m 46s
+batch 6, loss 0.8611173629760742, batch_time 9m 28s
+batch 7, loss 0.7895349860191345, batch_time 11m 1s
+batch 8, loss 0.7725346088409424, batch_time 12m 35s
+batch 9, loss 0.7898041605949402, batch_time 14m 9s
+batch 10, loss 0.771173357963562, batch_time 15m 5s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[136  32   0]
+ [ 30 202   0]
+ [ 26  54   0]]
+Validation precision: 0.5869
+Validation recall: 0.7042
+Validation F1 score: 0.6400
+Epoch 36 / 100: Loss = 0.79651 Acc = 0.72760  Valid_acc = 0.7041666507720947 lr = 0.00100 Training complete in 17m 49s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.8303533792495728, batch_time 1m 32s
+batch 2, loss 0.8337124586105347, batch_time 3m 6s
+batch 3, loss 0.8003392219543457, batch_time 4m 39s
+batch 4, loss 0.7231817245483398, batch_time 6m 13s
+batch 5, loss 0.7754612565040588, batch_time 7m 54s
+batch 6, loss 0.8577039241790771, batch_time 9m 35s
+batch 7, loss 0.7865054607391357, batch_time 11m 17s
+batch 8, loss 0.7685638070106506, batch_time 12m 50s
+batch 9, loss 0.7864737510681152, batch_time 14m 31s
+batch 10, loss 0.7657100558280945, batch_time 15m 27s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[136  32   0]
+ [ 30 202   0]
+ [ 26  54   0]]
+Validation precision: 0.5869
+Validation recall: 0.7042
+Validation F1 score: 0.6400
+Epoch 37 / 100: Loss = 0.79280 Acc = 0.73021  Valid_acc = 0.7041666507720947 lr = 0.00100 Training complete in 18m 12s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.8270514607429504, batch_time 1m 40s
+batch 2, loss 0.8297777771949768, batch_time 3m 20s
+batch 3, loss 0.7969346642494202, batch_time 4m 54s
+batch 4, loss 0.7205252647399902, batch_time 6m 35s
+batch 5, loss 0.7718809843063354, batch_time 8m 16s
+batch 6, loss 0.8544459939002991, batch_time 9m 50s
+batch 7, loss 0.7834923267364502, batch_time 11m 23s
+batch 8, loss 0.7647480964660645, batch_time 12m 57s
+batch 9, loss 0.7832261919975281, batch_time 14m 38s
+batch 10, loss 0.7605005502700806, batch_time 15m 33s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[135  33   0]
+ [ 30 202   0]
+ [ 27  53   0]]
+Validation precision: 0.5851
+Validation recall: 0.7021
+Validation F1 score: 0.6380
+Epoch 38 / 100: Loss = 0.78926 Acc = 0.73177  Valid_acc = 0.7020833492279053 lr = 0.00100 Training complete in 18m 18s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.8237790465354919, batch_time 1m 32s
+batch 2, loss 0.8259539604187012, batch_time 3m 5s
+batch 3, loss 0.7937093377113342, batch_time 4m 46s
+batch 4, loss 0.717961847782135, batch_time 6m 27s
+batch 5, loss 0.7682234048843384, batch_time 8m 8s
+batch 6, loss 0.8509953022003174, batch_time 9m 42s
+batch 7, loss 0.7804438471794128, batch_time 11m 16s
+batch 8, loss 0.7611685991287231, batch_time 12m 49s
+batch 9, loss 0.7800270915031433, batch_time 14m 23s
+batch 10, loss 0.7554597854614258, batch_time 15m 19s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[135  33   0]
+ [ 30 202   0]
+ [ 28  52   0]]
+Validation precision: 0.5850
+Validation recall: 0.7021
+Validation F1 score: 0.6380
+Epoch 39 / 100: Loss = 0.78577 Acc = 0.73177  Valid_acc = 0.7020833492279053 lr = 0.00100 Training complete in 18m 4s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.8206049799919128, batch_time 1m 32s
+batch 2, loss 0.8223614692687988, batch_time 3m 6s
+batch 3, loss 0.7906106114387512, batch_time 4m 39s
+batch 4, loss 0.7153944969177246, batch_time 6m 14s
+batch 5, loss 0.7646855711936951, batch_time 7m 48s
+batch 6, loss 0.8476218581199646, batch_time 9m 29s
+batch 7, loss 0.7774337530136108, batch_time 11m 3s
+batch 8, loss 0.7575456500053406, batch_time 12m 37s
+batch 9, loss 0.7768024802207947, batch_time 14m 18s
+batch 10, loss 0.7505249381065369, batch_time 15m 14s
+Validation confusion matrix:
+[[135  33   0]
+ [ 29 202   1]
+ [ 27  53   0]]
+Validation precision: 0.5864
+Validation recall: 0.7021
+Validation F1 score: 0.6387
+Epoch 40 / 100: Loss = 0.78236 Acc = 0.73333  Valid_acc = 0.7020833492279053 lr = 0.00100 Training complete in 17m 58s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.8176101446151733, batch_time 1m 32s
+batch 2, loss 0.8189070224761963, batch_time 3m 5s
+batch 3, loss 0.7876326441764832, batch_time 4m 46s
+batch 4, loss 0.7128818035125732, batch_time 6m 19s
+batch 5, loss 0.7611700296401978, batch_time 7m 53s
+batch 6, loss 0.8441402912139893, batch_time 9m 27s
+batch 7, loss 0.7744647860527039, batch_time 11m 0s
+batch 8, loss 0.7541463375091553, batch_time 12m 34s
+batch 9, loss 0.7736334204673767, batch_time 14m 7s
+batch 10, loss 0.7458058595657349, batch_time 15m 3s
+Validation confusion matrix:
+[[135  33   0]
+ [ 29 202   1]
+ [ 29  51   0]]
+Validation precision: 0.5862
+Validation recall: 0.7021
+Validation F1 score: 0.6387
+Epoch 41 / 100: Loss = 0.77904 Acc = 0.73542  Valid_acc = 0.7020833492279053 lr = 0.00100 Training complete in 17m 47s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.814689040184021, batch_time 1m 32s
+batch 2, loss 0.815595805644989, batch_time 3m 5s
+batch 3, loss 0.7848422527313232, batch_time 4m 38s
+batch 4, loss 0.7104524970054626, batch_time 6m 12s
+batch 5, loss 0.7578291296958923, batch_time 7m 46s
+batch 6, loss 0.8406962752342224, batch_time 9m 20s
+batch 7, loss 0.7715277075767517, batch_time 10m 53s
+batch 8, loss 0.7507455348968506, batch_time 12m 27s
+batch 9, loss 0.7704243063926697, batch_time 14m 8s
+batch 10, loss 0.7411566376686096, batch_time 15m 9s
+Validation confusion matrix:
+[[135  33   0]
+ [ 29 202   1]
+ [ 29  51   0]]
+Validation precision: 0.5862
+Validation recall: 0.7021
+Validation F1 score: 0.6387
+Epoch 42 / 100: Loss = 0.77580 Acc = 0.73542  Valid_acc = 0.7020833492279053 lr = 0.00100 Training complete in 17m 53s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.8118478655815125, batch_time 1m 32s
+batch 2, loss 0.8123162388801575, batch_time 3m 6s
+batch 3, loss 0.7821637988090515, batch_time 4m 39s
+batch 4, loss 0.7080360054969788, batch_time 6m 13s
+batch 5, loss 0.7545000910758972, batch_time 7m 47s
+batch 6, loss 0.8371825218200684, batch_time 9m 22s
+batch 7, loss 0.7685494422912598, batch_time 10m 56s
+batch 8, loss 0.7474862337112427, batch_time 12m 30s
+batch 9, loss 0.7672298550605774, batch_time 14m 3s
+batch 10, loss 0.7366353273391724, batch_time 14m 59s
+Validation confusion matrix:
+[[135  33   0]
+ [ 29 202   1]
+ [ 29  51   0]]
+Validation precision: 0.5862
+Validation recall: 0.7021
+Validation F1 score: 0.6387
+Epoch 43 / 100: Loss = 0.77259 Acc = 0.73802  Valid_acc = 0.7020833492279053 lr = 0.00100 Training complete in 17m 44s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.8090975880622864, batch_time 1m 32s
+batch 2, loss 0.8091817498207092, batch_time 3m 5s
+batch 3, loss 0.7795715928077698, batch_time 4m 46s
+batch 4, loss 0.7056394815444946, batch_time 6m 20s
+batch 5, loss 0.751244843006134, batch_time 7m 54s
+batch 6, loss 0.8335977792739868, batch_time 9m 28s
+batch 7, loss 0.7656087875366211, batch_time 11m 2s
+batch 8, loss 0.7442053556442261, batch_time 12m 36s
+batch 9, loss 0.7640625238418579, batch_time 14m 9s
+batch 10, loss 0.7322285771369934, batch_time 15m 5s
+Validation confusion matrix:
+[[135  33   0]
+ [ 29 202   1]
+ [ 29  51   0]]
+Validation precision: 0.5862
+Validation recall: 0.7021
+Validation F1 score: 0.6387
+Epoch 44 / 100: Loss = 0.76944 Acc = 0.74010  Valid_acc = 0.7020833492279053 lr = 0.00100 Training complete in 17m 50s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.8064166903495789, batch_time 1m 32s
+batch 2, loss 0.8061202764511108, batch_time 3m 14s
+batch 3, loss 0.7770506143569946, batch_time 4m 55s
+batch 4, loss 0.7032675743103027, batch_time 6m 36s
+batch 5, loss 0.7480247020721436, batch_time 8m 10s
+batch 6, loss 0.8299596309661865, batch_time 9m 51s
+batch 7, loss 0.7626456618309021, batch_time 11m 25s
+batch 8, loss 0.7409948110580444, batch_time 12m 59s
+batch 9, loss 0.7608431577682495, batch_time 14m 32s
+batch 10, loss 0.7278821468353271, batch_time 15m 28s
+Validation confusion matrix:
+[[136  32   0]
+ [ 28 203   1]
+ [ 29  51   0]]
+Validation precision: 0.5897
+Validation recall: 0.7063
+Validation F1 score: 0.6425
+Epoch 45 / 100: Loss = 0.76632 Acc = 0.74063  Valid_acc = 0.706250011920929 lr = 0.00100 Training complete in 18m 12s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.803811252117157, batch_time 1m 32s
+batch 2, loss 0.8031455278396606, batch_time 3m 6s
+batch 3, loss 0.7745671272277832, batch_time 4m 47s
+batch 4, loss 0.7008899450302124, batch_time 6m 28s
+batch 5, loss 0.7448191046714783, batch_time 8m 2s
+batch 6, loss 0.8262922763824463, batch_time 9m 36s
+batch 7, loss 0.7596625685691833, batch_time 11m 9s
+batch 8, loss 0.7378064393997192, batch_time 12m 43s
+batch 9, loss 0.7575774788856506, batch_time 14m 17s
+batch 10, loss 0.7235928773880005, batch_time 15m 13s
+Validation confusion matrix:
+[[136  32   0]
+ [ 29 202   1]
+ [ 29  51   0]]
+Validation precision: 0.5879
+Validation recall: 0.7042
+Validation F1 score: 0.6407
+Epoch 46 / 100: Loss = 0.76322 Acc = 0.74063  Valid_acc = 0.7041666507720947 lr = 0.00100 Training complete in 17m 57s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.8012322187423706, batch_time 1m 32s
+batch 2, loss 0.8002007007598877, batch_time 3m 14s
+batch 3, loss 0.7721391916275024, batch_time 4m 47s
+batch 4, loss 0.6985474824905396, batch_time 6m 21s
+batch 5, loss 0.7416802644729614, batch_time 7m 54s
+batch 6, loss 0.8225502371788025, batch_time 9m 35s
+batch 7, loss 0.7567142248153687, batch_time 11m 9s
+batch 8, loss 0.7346885204315186, batch_time 12m 42s
+batch 9, loss 0.7543479204177856, batch_time 14m 24s
+batch 10, loss 0.7193602919578552, batch_time 15m 20s
+Validation confusion matrix:
+[[135  33   0]
+ [ 29 202   1]
+ [ 29  51   0]]
+Validation precision: 0.5862
+Validation recall: 0.7021
+Validation F1 score: 0.6387
+Epoch 47 / 100: Loss = 0.76015 Acc = 0.74010  Valid_acc = 0.7020833492279053 lr = 0.00100 Training complete in 18m 4s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.7986995577812195, batch_time 1m 32s
+batch 2, loss 0.7973085641860962, batch_time 3m 5s
+batch 3, loss 0.7697216868400574, batch_time 4m 38s
+batch 4, loss 0.69615238904953, batch_time 6m 20s
+batch 5, loss 0.7386228442192078, batch_time 7m 53s
+batch 6, loss 0.8188339471817017, batch_time 9m 27s
+batch 7, loss 0.753675639629364, batch_time 11m 0s
+batch 8, loss 0.7315469980239868, batch_time 12m 41s
+batch 9, loss 0.751085102558136, batch_time 14m 15s
+batch 10, loss 0.7151719927787781, batch_time 15m 11s
+Validation confusion matrix:
+[[136  32   0]
+ [ 28 202   2]
+ [ 29  51   0]]
+Validation precision: 0.5892
+Validation recall: 0.7042
+Validation F1 score: 0.6414
+Epoch 48 / 100: Loss = 0.75708 Acc = 0.74115  Valid_acc = 0.7041666507720947 lr = 0.00100 Training complete in 17m 56s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.7961651682853699, batch_time 1m 40s
+batch 2, loss 0.7944815754890442, batch_time 3m 14s
+batch 3, loss 0.7672839164733887, batch_time 4m 54s
+batch 4, loss 0.6937845349311829, batch_time 6m 29s
+batch 5, loss 0.7355998754501343, batch_time 8m 3s
+batch 6, loss 0.815017819404602, batch_time 9m 44s
+batch 7, loss 0.7506411075592041, batch_time 11m 18s
+batch 8, loss 0.7283961772918701, batch_time 12m 51s
+batch 9, loss 0.7478293180465698, batch_time 14m 25s
+batch 10, loss 0.7109822034835815, batch_time 15m 21s
+Validation confusion matrix:
+[[137  31   0]
+ [ 29 201   2]
+ [ 29  50   1]]
+Validation precision: 0.6460
+Validation recall: 0.7063
+Validation F1 score: 0.6462
+Epoch 49 / 100: Loss = 0.75402 Acc = 0.74115  Valid_acc = 0.706250011920929 lr = 0.00100 Training complete in 18m 5s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.7936212420463562, batch_time 1m 32s
+batch 2, loss 0.7916700839996338, batch_time 3m 6s
+batch 3, loss 0.7648208141326904, batch_time 4m 39s
+batch 4, loss 0.6913439035415649, batch_time 6m 14s
+batch 5, loss 0.7326862812042236, batch_time 7m 48s
+batch 6, loss 0.8112682104110718, batch_time 9m 21s
+batch 7, loss 0.7475360631942749, batch_time 10m 55s
+batch 8, loss 0.7252322435379028, batch_time 12m 29s
+batch 9, loss 0.7445495128631592, batch_time 14m 2s
+batch 10, loss 0.7067161202430725, batch_time 15m 3s
+Validation confusion matrix:
+[[138  30   0]
+ [ 30 200   2]
+ [ 27  51   2]]
+Validation precision: 0.6750
+Validation recall: 0.7083
+Validation F1 score: 0.6509
+Epoch 50 / 100: Loss = 0.75094 Acc = 0.73958  Valid_acc = 0.7083333134651184 lr = 0.00100 Training complete in 17m 47s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.7910577058792114, batch_time 1m 40s
+batch 2, loss 0.7888129353523254, batch_time 3m 14s
+batch 3, loss 0.7623028755187988, batch_time 4m 47s
+batch 4, loss 0.6889025568962097, batch_time 6m 21s
+batch 5, loss 0.7298309803009033, batch_time 7m 55s
+batch 6, loss 0.8074593544006348, batch_time 9m 36s
+batch 7, loss 0.7443104386329651, batch_time 11m 9s
+batch 8, loss 0.7220404148101807, batch_time 12m 43s
+batch 9, loss 0.7411397099494934, batch_time 14m 24s
+batch 10, loss 0.7024563550949097, batch_time 15m 20s
+Validation confusion matrix:
+[[138  29   1]
+ [ 30 200   2]
+ [ 26  51   3]]
+Validation precision: 0.6775
+Validation recall: 0.7104
+Validation F1 score: 0.6561
+Epoch 51 / 100: Loss = 0.74783 Acc = 0.74010  Valid_acc = 0.7104166746139526 lr = 0.00100 Training complete in 18m 4s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.7884759902954102, batch_time 1m 32s
+batch 2, loss 0.7859073281288147, batch_time 3m 6s
+batch 3, loss 0.7597167491912842, batch_time 4m 47s
+batch 4, loss 0.6863847374916077, batch_time 6m 29s
+batch 5, loss 0.7270533442497253, batch_time 8m 10s
+batch 6, loss 0.8036288022994995, batch_time 9m 44s
+batch 7, loss 0.7410330772399902, batch_time 11m 17s
+batch 8, loss 0.71878981590271, batch_time 12m 51s
+batch 9, loss 0.7376496195793152, batch_time 14m 24s
+batch 10, loss 0.6980786323547363, batch_time 15m 20s
+Validation confusion matrix:
+[[138  29   1]
+ [ 30 200   2]
+ [ 26  51   3]]
+Validation precision: 0.6775
+Validation recall: 0.7104
+Validation F1 score: 0.6561
+Epoch 52 / 100: Loss = 0.74467 Acc = 0.74063  Valid_acc = 0.7104166746139526 lr = 0.00100 Training complete in 18m 4s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.785860538482666, batch_time 1m 33s
+batch 2, loss 0.7829334735870361, batch_time 3m 6s
+batch 3, loss 0.7570768594741821, batch_time 4m 40s
+batch 4, loss 0.6838035583496094, batch_time 6m 14s
+batch 5, loss 0.7242577075958252, batch_time 7m 55s
+batch 6, loss 0.7998255491256714, batch_time 9m 36s
+batch 7, loss 0.7375336289405823, batch_time 11m 17s
+batch 8, loss 0.7155042886734009, batch_time 12m 51s
+batch 9, loss 0.7340391874313354, batch_time 14m 24s
+batch 10, loss 0.693662703037262, batch_time 15m 20s
+Validation confusion matrix:
+[[138  29   1]
+ [ 30 200   2]
+ [ 26  51   3]]
+Validation precision: 0.6775
+Validation recall: 0.7104
+Validation F1 score: 0.6561
+Epoch 53 / 100: Loss = 0.74145 Acc = 0.74271  Valid_acc = 0.7104166746139526 lr = 0.00100 Training complete in 18m 4s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.7831912040710449, batch_time 1m 32s
+batch 2, loss 0.7798411846160889, batch_time 3m 6s
+batch 3, loss 0.7543696165084839, batch_time 4m 39s
+batch 4, loss 0.6812160611152649, batch_time 6m 13s
+batch 5, loss 0.7214548587799072, batch_time 7m 46s
+batch 6, loss 0.7958470582962036, batch_time 9m 20s
+batch 7, loss 0.7340431213378906, batch_time 10m 54s
+batch 8, loss 0.7121908664703369, batch_time 12m 35s
+batch 9, loss 0.7304874062538147, batch_time 14m 16s
+batch 10, loss 0.6891714334487915, batch_time 15m 16s
+Validation confusion matrix:
+[[139  28   1]
+ [ 30 200   2]
+ [ 25  52   3]]
+Validation precision: 0.6793
+Validation recall: 0.7125
+Validation F1 score: 0.6580
+Epoch 54 / 100: Loss = 0.73818 Acc = 0.74740  Valid_acc = 0.7124999761581421 lr = 0.00100 Training complete in 18m 0s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.7805261611938477, batch_time 1m 32s
+batch 2, loss 0.7767046689987183, batch_time 3m 6s
+batch 3, loss 0.75154709815979, batch_time 4m 39s
+batch 4, loss 0.6785193681716919, batch_time 6m 13s
+batch 5, loss 0.718821108341217, batch_time 7m 46s
+batch 6, loss 0.7920761108398438, batch_time 9m 20s
+batch 7, loss 0.7303361892700195, batch_time 11m 1s
+batch 8, loss 0.7087781429290771, batch_time 12m 35s
+batch 9, loss 0.7268080711364746, batch_time 14m 16s
+batch 10, loss 0.684606671333313, batch_time 15m 12s
+Validation confusion matrix:
+[[139  28   1]
+ [ 29 201   2]
+ [ 25  50   5]]
+Validation precision: 0.7044
+Validation recall: 0.7188
+Validation F1 score: 0.6687
+Epoch 55 / 100: Loss = 0.73487 Acc = 0.74687  Valid_acc = 0.71875 lr = 0.00100 Training complete in 17m 56s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.7778797149658203, batch_time 1m 32s
+batch 2, loss 0.7735030651092529, batch_time 3m 6s
+batch 3, loss 0.7486555576324463, batch_time 4m 39s
+batch 4, loss 0.6757502555847168, batch_time 6m 20s
+batch 5, loss 0.716153085231781, batch_time 8m 1s
+batch 6, loss 0.7881546020507812, batch_time 9m 35s
+batch 7, loss 0.7265000939369202, batch_time 11m 8s
+batch 8, loss 0.7052836418151855, batch_time 12m 42s
+batch 9, loss 0.7229929566383362, batch_time 14m 15s
+batch 10, loss 0.6799691319465637, batch_time 15m 11s
+Validation confusion matrix:
+[[140  27   1]
+ [ 30 199   3]
+ [ 25  48   7]]
+Validation precision: 0.7084
+Validation recall: 0.7208
+Validation F1 score: 0.6758
+Epoch 56 / 100: Loss = 0.73148 Acc = 0.74948  Valid_acc = 0.7208333611488342 lr = 0.00100 Training complete in 17m 55s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.7751930952072144, batch_time 1m 32s
+batch 2, loss 0.7702736854553223, batch_time 3m 6s
+batch 3, loss 0.7457017302513123, batch_time 4m 39s
+batch 4, loss 0.6728431582450867, batch_time 6m 21s
+batch 5, loss 0.7134838104248047, batch_time 7m 54s
+batch 6, loss 0.7842680811882019, batch_time 9m 36s
+batch 7, loss 0.7225805521011353, batch_time 11m 9s
+batch 8, loss 0.7017682790756226, batch_time 12m 43s
+batch 9, loss 0.7190631031990051, batch_time 14m 17s
+batch 10, loss 0.6753059029579163, batch_time 15m 12s
+Validation confusion matrix:
+[[140  27   1]
+ [ 30 199   3]
+ [ 23  49   8]]
+Validation precision: 0.7148
+Validation recall: 0.7229
+Validation F1 score: 0.6799
+Epoch 57 / 100: Loss = 0.72805 Acc = 0.75417  Valid_acc = 0.7229166626930237 lr = 0.00100 Training complete in 17m 57s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.7723791599273682, batch_time 1m 32s
+batch 2, loss 0.7669790983200073, batch_time 3m 6s
+batch 3, loss 0.7426576018333435, batch_time 4m 39s
+batch 4, loss 0.6698146462440491, batch_time 6m 13s
+batch 5, loss 0.7107979655265808, batch_time 7m 54s
+batch 6, loss 0.7803770899772644, batch_time 9m 28s
+batch 7, loss 0.7184839248657227, batch_time 11m 2s
+batch 8, loss 0.6981463432312012, batch_time 12m 35s
+batch 9, loss 0.7149273753166199, batch_time 14m 9s
+batch 10, loss 0.6704862117767334, batch_time 15m 5s
+Validation confusion matrix:
+[[140  27   1]
+ [ 30 199   3]
+ [ 21  51   8]]
+Validation precision: 0.7149
+Validation recall: 0.7229
+Validation F1 score: 0.6799
+Epoch 58 / 100: Loss = 0.72450 Acc = 0.75313  Valid_acc = 0.7229166626930237 lr = 0.00100 Training complete in 17m 49s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.7694975137710571, batch_time 1m 32s
+batch 2, loss 0.7636354565620422, batch_time 3m 6s
+batch 3, loss 0.7395585179328918, batch_time 4m 39s
+batch 4, loss 0.6666756868362427, batch_time 6m 13s
+batch 5, loss 0.7080608010292053, batch_time 7m 47s
+batch 6, loss 0.7763800621032715, batch_time 9m 21s
+batch 7, loss 0.7142415046691895, batch_time 10m 54s
+batch 8, loss 0.6945374011993408, batch_time 12m 28s
+batch 9, loss 0.7106941342353821, batch_time 14m 1s
+batch 10, loss 0.6655889749526978, batch_time 15m 2s
+Validation confusion matrix:
+[[140  25   3]
+ [ 30 199   3]
+ [ 20  51   9]]
+Validation precision: 0.7077
+Validation recall: 0.7250
+Validation F1 score: 0.6847
+Epoch 59 / 100: Loss = 0.72089 Acc = 0.75521  Valid_acc = 0.7250000238418579 lr = 0.00100 Training complete in 17m 46s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.7665340900421143, batch_time 1m 33s
+batch 2, loss 0.7602458000183105, batch_time 3m 7s
+batch 3, loss 0.736322283744812, batch_time 4m 40s
+batch 4, loss 0.6634167432785034, batch_time 6m 14s
+batch 5, loss 0.7053548097610474, batch_time 7m 48s
+batch 6, loss 0.7724002599716187, batch_time 9m 22s
+batch 7, loss 0.7099337577819824, batch_time 10m 56s
+batch 8, loss 0.6908365488052368, batch_time 12m 30s
+batch 9, loss 0.7063708305358887, batch_time 14m 3s
+batch 10, loss 0.6606020331382751, batch_time 14m 59s
+Validation confusion matrix:
+[[140  25   3]
+ [ 29 199   4]
+ [ 20  51   9]]
+Validation precision: 0.7028
+Validation recall: 0.7250
+Validation F1 score: 0.6852
+Epoch 60 / 100: Loss = 0.71720 Acc = 0.75990  Valid_acc = 0.7250000238418579 lr = 0.00100 Training complete in 17m 43s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.7635645270347595, batch_time 1m 40s
+batch 2, loss 0.7568243145942688, batch_time 3m 14s
+batch 3, loss 0.7330526113510132, batch_time 4m 48s
+batch 4, loss 0.6600143313407898, batch_time 6m 22s
+batch 5, loss 0.7026327848434448, batch_time 7m 55s
+batch 6, loss 0.768417239189148, batch_time 9m 29s
+batch 7, loss 0.7054685354232788, batch_time 11m 3s
+batch 8, loss 0.6871052980422974, batch_time 12m 37s
+batch 9, loss 0.7019301056861877, batch_time 14m 10s
+batch 10, loss 0.6555088758468628, batch_time 15m 6s
+Validation confusion matrix:
+[[139  26   3]
+ [ 28 199   5]
+ [ 19  51  10]]
+Validation precision: 0.7026
+Validation recall: 0.7250
+Validation F1 score: 0.6875
+Epoch 61 / 100: Loss = 0.71345 Acc = 0.76354  Valid_acc = 0.7250000238418579 lr = 0.00100 Training complete in 17m 51s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.7605136036872864, batch_time 1m 40s
+batch 2, loss 0.7533283829689026, batch_time 3m 21s
+batch 3, loss 0.7297024130821228, batch_time 4m 55s
+batch 4, loss 0.6564723253250122, batch_time 6m 29s
+batch 5, loss 0.6998705267906189, batch_time 8m 2s
+batch 6, loss 0.7643280625343323, batch_time 9m 37s
+batch 7, loss 0.7009146213531494, batch_time 11m 10s
+batch 8, loss 0.6833230257034302, batch_time 12m 44s
+batch 9, loss 0.6973832845687866, batch_time 14m 17s
+batch 10, loss 0.6502752304077148, batch_time 15m 18s
+Validation confusion matrix:
+[[139  26   3]
+ [ 27 198   7]
+ [ 19  49  12]]
+Validation precision: 0.7044
+Validation recall: 0.7271
+Validation F1 score: 0.6939
+Epoch 62 / 100: Loss = 0.70961 Acc = 0.76823  Valid_acc = 0.7270833253860474 lr = 0.00100 Training complete in 18m 2s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.7574203610420227, batch_time 1m 33s
+batch 2, loss 0.7497832775115967, batch_time 3m 6s
+batch 3, loss 0.726267397403717, batch_time 4m 40s
+batch 4, loss 0.6527501344680786, batch_time 6m 14s
+batch 5, loss 0.6970835328102112, batch_time 7m 47s
+batch 6, loss 0.7601810693740845, batch_time 9m 21s
+batch 7, loss 0.6962450742721558, batch_time 11m 2s
+batch 8, loss 0.6794528961181641, batch_time 12m 44s
+batch 9, loss 0.6926982998847961, batch_time 14m 17s
+batch 10, loss 0.6449431777000427, batch_time 15m 13s
+Validation confusion matrix:
+[[138  26   4]
+ [ 27 198   7]
+ [ 18  49  13]]
+Validation precision: 0.7048
+Validation recall: 0.7271
+Validation F1 score: 0.6959
+Epoch 63 / 100: Loss = 0.70568 Acc = 0.77031  Valid_acc = 0.7270833253860474 lr = 0.00100 Training complete in 17m 58s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.7542554140090942, batch_time 1m 32s
+batch 2, loss 0.7461372017860413, batch_time 3m 6s
+batch 3, loss 0.7227513790130615, batch_time 4m 47s
+batch 4, loss 0.6488872170448303, batch_time 6m 21s
+batch 5, loss 0.6943137645721436, batch_time 8m 2s
+batch 6, loss 0.755946159362793, batch_time 9m 36s
+batch 7, loss 0.6915105581283569, batch_time 11m 9s
+batch 8, loss 0.6755777597427368, batch_time 12m 43s
+batch 9, loss 0.687875509262085, batch_time 14m 16s
+batch 10, loss 0.6394688487052917, batch_time 15m 12s
+Validation confusion matrix:
+[[138  26   4]
+ [ 27 198   7]
+ [ 18  49  13]]
+Validation precision: 0.7048
+Validation recall: 0.7271
+Validation F1 score: 0.6959
+Epoch 64 / 100: Loss = 0.70167 Acc = 0.77292  Valid_acc = 0.7270833253860474 lr = 0.00100 Training complete in 17m 57s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.7509766221046448, batch_time 1m 33s
+batch 2, loss 0.7423675656318665, batch_time 3m 14s
+batch 3, loss 0.7192147970199585, batch_time 4m 47s
+batch 4, loss 0.6448469161987305, batch_time 6m 21s
+batch 5, loss 0.691463053226471, batch_time 7m 55s
+batch 6, loss 0.7515590190887451, batch_time 9m 37s
+batch 7, loss 0.686640739440918, batch_time 11m 11s
+batch 8, loss 0.6716365814208984, batch_time 12m 45s
+batch 9, loss 0.682965099811554, batch_time 14m 26s
+batch 10, loss 0.6338740587234497, batch_time 15m 27s
+Validation confusion matrix:
+[[136  26   6]
+ [ 27 198   7]
+ [ 16  49  15]]
+Validation precision: 0.7058
+Validation recall: 0.7271
+Validation F1 score: 0.6997
+Epoch 65 / 100: Loss = 0.69755 Acc = 0.77500  Valid_acc = 0.7270833253860474 lr = 0.00100 Training complete in 18m 11s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.7476471662521362, batch_time 1m 40s
+batch 2, loss 0.7384599447250366, batch_time 3m 14s
+batch 3, loss 0.7155255675315857, batch_time 4m 47s
+batch 4, loss 0.6406025886535645, batch_time 6m 21s
+batch 5, loss 0.6885114312171936, batch_time 7m 55s
+batch 6, loss 0.7470345497131348, batch_time 9m 36s
+batch 7, loss 0.6816999912261963, batch_time 11m 10s
+batch 8, loss 0.667604386806488, batch_time 12m 44s
+batch 9, loss 0.6779798269271851, batch_time 14m 17s
+batch 10, loss 0.6281169652938843, batch_time 15m 13s
+Validation confusion matrix:
+[[136  26   6]
+ [ 26 195  11]
+ [ 13  49  18]]
+Validation precision: 0.7068
+Validation recall: 0.7271
+Validation F1 score: 0.7052
+Epoch 66 / 100: Loss = 0.69332 Acc = 0.77656  Valid_acc = 0.7270833253860474 lr = 0.00100 Training complete in 17m 57s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.7442163825035095, batch_time 1m 41s
+batch 2, loss 0.7344706058502197, batch_time 3m 15s
+batch 3, loss 0.7118456363677979, batch_time 4m 48s
+batch 4, loss 0.6361990571022034, batch_time 6m 29s
+batch 5, loss 0.6855090856552124, batch_time 8m 3s
+batch 6, loss 0.7424177527427673, batch_time 9m 36s
+batch 7, loss 0.6766195297241211, batch_time 11m 10s
+batch 8, loss 0.6635674834251404, batch_time 12m 44s
+batch 9, loss 0.6728644967079163, batch_time 14m 17s
+batch 10, loss 0.6221652030944824, batch_time 15m 13s
+Validation confusion matrix:
+[[136  26   6]
+ [ 25 196  11]
+ [ 13  48  19]]
+Validation precision: 0.7124
+Validation recall: 0.7312
+Validation F1 score: 0.7104
+Epoch 67 / 100: Loss = 0.68899 Acc = 0.77917  Valid_acc = 0.731249988079071 lr = 0.00100 Training complete in 17m 57s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.7406931519508362, batch_time 1m 32s
+batch 2, loss 0.7303418517112732, batch_time 3m 6s
+batch 3, loss 0.708052396774292, batch_time 4m 39s
+batch 4, loss 0.6316320300102234, batch_time 6m 13s
+batch 5, loss 0.6823813915252686, batch_time 7m 47s
+batch 6, loss 0.7375547885894775, batch_time 9m 21s
+batch 7, loss 0.6715093851089478, batch_time 10m 54s
+batch 8, loss 0.659473180770874, batch_time 12m 28s
+batch 9, loss 0.6676652431488037, batch_time 14m 1s
+batch 10, loss 0.6160492897033691, batch_time 15m 2s
+Validation confusion matrix:
+[[136  25   7]
+ [ 25 196  11]
+ [ 13  47  20]]
+Validation precision: 0.7148
+Validation recall: 0.7333
+Validation F1 score: 0.7138
+Epoch 68 / 100: Loss = 0.68454 Acc = 0.77917  Valid_acc = 0.7333333492279053 lr = 0.00100 Training complete in 17m 46s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.7370925545692444, batch_time 1m 33s
+batch 2, loss 0.7261149883270264, batch_time 3m 14s
+batch 3, loss 0.7042591571807861, batch_time 4m 47s
+batch 4, loss 0.626908540725708, batch_time 6m 21s
+batch 5, loss 0.6792058944702148, batch_time 7m 55s
+batch 6, loss 0.7325245141983032, batch_time 9m 28s
+batch 7, loss 0.6663197875022888, batch_time 11m 1s
+batch 8, loss 0.6553176045417786, batch_time 12m 35s
+batch 9, loss 0.6623397469520569, batch_time 14m 9s
+batch 10, loss 0.6096952557563782, batch_time 15m 4s
+Validation confusion matrix:
+[[136  24   8]
+ [ 25 195  12]
+ [ 13  46  21]]
+Validation precision: 0.7146
+Validation recall: 0.7333
+Validation F1 score: 0.7155
+Epoch 69 / 100: Loss = 0.67998 Acc = 0.77865  Valid_acc = 0.7333333492279053 lr = 0.00100 Training complete in 17m 49s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.7333484888076782, batch_time 1m 32s
+batch 2, loss 0.721723198890686, batch_time 3m 6s
+batch 3, loss 0.7004357576370239, batch_time 4m 46s
+batch 4, loss 0.6220795512199402, batch_time 6m 20s
+batch 5, loss 0.6758582592010498, batch_time 7m 54s
+batch 6, loss 0.7272605895996094, batch_time 9m 27s
+batch 7, loss 0.6609960198402405, batch_time 11m 1s
+batch 8, loss 0.6511381268501282, batch_time 12m 34s
+batch 9, loss 0.6569287776947021, batch_time 14m 7s
+batch 10, loss 0.6031641960144043, batch_time 15m 3s
+Validation confusion matrix:
+[[136  24   8]
+ [ 25 195  12]
+ [ 14  44  22]]
+Validation precision: 0.7177
+Validation recall: 0.7354
+Validation F1 score: 0.7185
+Epoch 70 / 100: Loss = 0.67529 Acc = 0.78073  Valid_acc = 0.7354166507720947 lr = 0.00100 Training complete in 17m 47s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.7295845746994019, batch_time 1m 31s
+batch 2, loss 0.7172224521636963, batch_time 3m 5s
+batch 3, loss 0.696415364742279, batch_time 4m 38s
+batch 4, loss 0.6170293092727661, batch_time 6m 12s
+batch 5, loss 0.6723767518997192, batch_time 7m 45s
+batch 6, loss 0.721754789352417, batch_time 9m 19s
+batch 7, loss 0.6556141972541809, batch_time 10m 60s
+batch 8, loss 0.6468923687934875, batch_time 12m 41s
+batch 9, loss 0.6513850092887878, batch_time 14m 15s
+batch 10, loss 0.5963826775550842, batch_time 15m 11s
+Validation confusion matrix:
+[[137  24   7]
+ [ 24 195  13]
+ [ 14  41  25]]
+Validation precision: 0.7291
+Validation recall: 0.7438
+Validation F1 score: 0.7294
+Epoch 71 / 100: Loss = 0.67047 Acc = 0.78229  Valid_acc = 0.7437499761581421 lr = 0.00100 Training complete in 17m 55s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.7257540225982666, batch_time 1m 40s
+batch 2, loss 0.712538480758667, batch_time 3m 14s
+batch 3, loss 0.6924087405204773, batch_time 4m 55s
+batch 4, loss 0.6118839979171753, batch_time 6m 29s
+batch 5, loss 0.6687681674957275, batch_time 8m 3s
+batch 6, loss 0.7160243988037109, batch_time 9m 36s
+batch 7, loss 0.6500740051269531, batch_time 11m 10s
+batch 8, loss 0.6425954103469849, batch_time 12m 51s
+batch 9, loss 0.6456683874130249, batch_time 14m 32s
+batch 10, loss 0.5894540548324585, batch_time 15m 32s
+Validation confusion matrix:
+[[136  24   8]
+ [ 25 194  13]
+ [ 13  42  25]]
+Validation precision: 0.7248
+Validation recall: 0.7396
+Validation F1 score: 0.7257
+Epoch 72 / 100: Loss = 0.66552 Acc = 0.78438  Valid_acc = 0.7395833134651184 lr = 0.00100 Training complete in 18m 17s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.7218996286392212, batch_time 1m 32s
+batch 2, loss 0.7077134847640991, batch_time 3m 6s
+batch 3, loss 0.6884285807609558, batch_time 4m 39s
+batch 4, loss 0.6066205501556396, batch_time 6m 13s
+batch 5, loss 0.6650336980819702, batch_time 7m 54s
+batch 6, loss 0.7101185321807861, batch_time 9m 28s
+batch 7, loss 0.6444975137710571, batch_time 11m 1s
+batch 8, loss 0.6382086277008057, batch_time 12m 35s
+batch 9, loss 0.6398395895957947, batch_time 14m 8s
+batch 10, loss 0.5824035406112671, batch_time 15m 4s
+Validation confusion matrix:
+[[136  23   9]
+ [ 25 194  13]
+ [ 13  40  27]]
+Validation precision: 0.7303
+Validation recall: 0.7438
+Validation F1 score: 0.7316
+Epoch 73 / 100: Loss = 0.66048 Acc = 0.78750  Valid_acc = 0.7437499761581421 lr = 0.00100 Training complete in 17m 49s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.7180026769638062, batch_time 1m 32s
+batch 2, loss 0.702726423740387, batch_time 3m 14s
+batch 3, loss 0.684349000453949, batch_time 4m 46s
+batch 4, loss 0.6012470722198486, batch_time 6m 20s
+batch 5, loss 0.6612110733985901, batch_time 7m 54s
+batch 6, loss 0.7040347456932068, batch_time 9m 27s
+batch 7, loss 0.6388301253318787, batch_time 11m 8s
+batch 8, loss 0.633834958076477, batch_time 12m 42s
+batch 9, loss 0.6338645815849304, batch_time 14m 16s
+batch 10, loss 0.5752001404762268, batch_time 15m 11s
+Validation confusion matrix:
+[[136  23   9]
+ [ 25 194  13]
+ [ 13  37  30]]
+Validation precision: 0.7389
+Validation recall: 0.7500
+Validation F1 score: 0.7400
+Epoch 74 / 100: Loss = 0.65533 Acc = 0.79010  Valid_acc = 0.75 lr = 0.00100 Training complete in 17m 58s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.7140556573867798, batch_time 1m 32s
+batch 2, loss 0.6975758671760559, batch_time 3m 14s
+batch 3, loss 0.6803601384162903, batch_time 4m 54s
+batch 4, loss 0.5958617329597473, batch_time 6m 28s
+batch 5, loss 0.6572456955909729, batch_time 8m 2s
+batch 6, loss 0.6977404952049255, batch_time 9m 35s
+batch 7, loss 0.6331290006637573, batch_time 11m 8s
+batch 8, loss 0.629431962966919, batch_time 12m 42s
+batch 9, loss 0.6278330087661743, batch_time 14m 15s
+batch 10, loss 0.5678330063819885, batch_time 15m 16s
+Validation confusion matrix:
+[[136  22  10]
+ [ 25 194  13]
+ [ 12  33  35]]
+Validation precision: 0.7523
+Validation recall: 0.7604
+Validation F1 score: 0.7536
+Epoch 75 / 100: Loss = 0.65011 Acc = 0.79271  Valid_acc = 0.7604166865348816 lr = 0.00100 Training complete in 18m 0s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.7101931571960449, batch_time 1m 32s
+batch 2, loss 0.692261815071106, batch_time 3m 6s
+batch 3, loss 0.6763082146644592, batch_time 4m 39s
+batch 4, loss 0.5905223488807678, batch_time 6m 13s
+batch 5, loss 0.6533116102218628, batch_time 7m 46s
+batch 6, loss 0.6913262605667114, batch_time 9m 20s
+batch 7, loss 0.6273664236068726, batch_time 10m 53s
+batch 8, loss 0.6250216960906982, batch_time 12m 27s
+batch 9, loss 0.6217168569564819, batch_time 14m 0s
+batch 10, loss 0.5603681206703186, batch_time 14m 56s
+Validation confusion matrix:
+[[137  20  11]
+ [ 26 192  14]
+ [ 12  33  35]]
+Validation precision: 0.7500
+Validation recall: 0.7583
+Validation F1 score: 0.7520
+Epoch 76 / 100: Loss = 0.64484 Acc = 0.79531  Valid_acc = 0.7583333253860474 lr = 0.00100 Training complete in 17m 40s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.7063302397727966, batch_time 1m 32s
+batch 2, loss 0.6867834329605103, batch_time 3m 6s
+batch 3, loss 0.6722373962402344, batch_time 4m 39s
+batch 4, loss 0.5851773023605347, batch_time 6m 13s
+batch 5, loss 0.649232029914856, batch_time 7m 46s
+batch 6, loss 0.6848059892654419, batch_time 9m 20s
+batch 7, loss 0.621665358543396, batch_time 10m 53s
+batch 8, loss 0.6206166744232178, batch_time 12m 27s
+batch 9, loss 0.6155617237091064, batch_time 14m 0s
+batch 10, loss 0.5527912378311157, batch_time 14m 56s
+Validation confusion matrix:
+[[136  20  12]
+ [ 25 192  15]
+ [ 11  33  36]]
+Validation precision: 0.7508
+Validation recall: 0.7583
+Validation F1 score: 0.7530
+Epoch 77 / 100: Loss = 0.63952 Acc = 0.80104  Valid_acc = 0.7583333253860474 lr = 0.00100 Training complete in 17m 40s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.7026448249816895, batch_time 1m 32s
+batch 2, loss 0.6812418103218079, batch_time 3m 6s
+batch 3, loss 0.6682438254356384, batch_time 4m 39s
+batch 4, loss 0.5799657106399536, batch_time 6m 13s
+batch 5, loss 0.6451348066329956, batch_time 7m 46s
+batch 6, loss 0.6782165765762329, batch_time 9m 19s
+batch 7, loss 0.6159029006958008, batch_time 11m 0s
+batch 8, loss 0.6162272691726685, batch_time 12m 34s
+batch 9, loss 0.6093541383743286, batch_time 14m 15s
+batch 10, loss 0.545124888420105, batch_time 15m 10s
+Validation confusion matrix:
+[[137  19  12]
+ [ 24 194  14]
+ [ 11  32  37]]
+Validation precision: 0.7594
+Validation recall: 0.7667
+Validation F1 score: 0.7615
+Epoch 78 / 100: Loss = 0.63421 Acc = 0.80469  Valid_acc = 0.7666666507720947 lr = 0.00100 Training complete in 17m 55s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.6990894079208374, batch_time 1m 32s
+batch 2, loss 0.6757451295852661, batch_time 3m 6s
+batch 3, loss 0.6642823219299316, batch_time 4m 39s
+batch 4, loss 0.5748233795166016, batch_time 6m 20s
+batch 5, loss 0.6410245299339294, batch_time 7m 54s
+batch 6, loss 0.6716083288192749, batch_time 9m 34s
+batch 7, loss 0.6102856993675232, batch_time 11m 8s
+batch 8, loss 0.6118688583374023, batch_time 12m 41s
+batch 9, loss 0.6031618118286133, batch_time 14m 22s
+batch 10, loss 0.5373924374580383, batch_time 15m 22s
+Validation confusion matrix:
+[[137  19  12]
+ [ 23 195  14]
+ [ 10  31  39]]
+Validation precision: 0.7668
+Validation recall: 0.7729
+Validation F1 score: 0.7686
+Epoch 79 / 100: Loss = 0.62893 Acc = 0.80729  Valid_acc = 0.7729166746139526 lr = 0.00100 Training complete in 18m 6s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.6957346200942993, batch_time 1m 40s
+batch 2, loss 0.6703041791915894, batch_time 3m 14s
+batch 3, loss 0.660407543182373, batch_time 4m 47s
+batch 4, loss 0.5698381662368774, batch_time 6m 21s
+batch 5, loss 0.6368251442909241, batch_time 8m 2s
+batch 6, loss 0.6650367975234985, batch_time 9m 36s
+batch 7, loss 0.6047896146774292, batch_time 11m 17s
+batch 8, loss 0.6075646877288818, batch_time 12m 50s
+batch 9, loss 0.5970740914344788, batch_time 14m 23s
+batch 10, loss 0.5296528339385986, batch_time 15m 24s
+Validation confusion matrix:
+[[137  20  11]
+ [ 21 197  14]
+ [ 11  30  39]]
+Validation precision: 0.7708
+Validation recall: 0.7771
+Validation F1 score: 0.7724
+Epoch 80 / 100: Loss = 0.62372 Acc = 0.81042  Valid_acc = 0.7770833373069763 lr = 0.00100 Training complete in 18m 8s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.6925851106643677, batch_time 1m 32s
+batch 2, loss 0.6648412346839905, batch_time 3m 6s
+batch 3, loss 0.6566931009292603, batch_time 4m 39s
+batch 4, loss 0.565054178237915, batch_time 6m 13s
+batch 5, loss 0.6326198577880859, batch_time 7m 46s
+batch 6, loss 0.6585691571235657, batch_time 9m 28s
+batch 7, loss 0.5994301438331604, batch_time 11m 2s
+batch 8, loss 0.6033155918121338, batch_time 12m 35s
+batch 9, loss 0.5911080837249756, batch_time 14m 8s
+batch 10, loss 0.5218519568443298, batch_time 15m 8s
+Validation confusion matrix:
+[[135  21  12]
+ [ 22 196  14]
+ [  9  29  42]]
+Validation precision: 0.7727
+Validation recall: 0.7771
+Validation F1 score: 0.7739
+Epoch 81 / 100: Loss = 0.61861 Acc = 0.81510  Valid_acc = 0.7770833373069763 lr = 0.00100 Training complete in 17m 53s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.6895761489868164, batch_time 1m 32s
+batch 2, loss 0.65958172082901, batch_time 3m 6s
+batch 3, loss 0.6530336737632751, batch_time 4m 39s
+batch 4, loss 0.5603950023651123, batch_time 6m 20s
+batch 5, loss 0.6283769607543945, batch_time 7m 54s
+batch 6, loss 0.6521791815757751, batch_time 9m 28s
+batch 7, loss 0.5943316221237183, batch_time 11m 1s
+batch 8, loss 0.5991239547729492, batch_time 12m 35s
+batch 9, loss 0.5852917432785034, batch_time 14m 8s
+batch 10, loss 0.5141608119010925, batch_time 15m 4s
+Validation confusion matrix:
+[[135  21  12]
+ [ 22 195  15]
+ [  9  29  42]]
+Validation precision: 0.7708
+Validation recall: 0.7750
+Validation F1 score: 0.7721
+Epoch 82 / 100: Loss = 0.61361 Acc = 0.81667  Valid_acc = 0.7749999761581421 lr = 0.00100 Training complete in 17m 48s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.6867520213127136, batch_time 1m 32s
+batch 2, loss 0.6544045209884644, batch_time 3m 6s
+batch 3, loss 0.6495128870010376, batch_time 4m 39s
+batch 4, loss 0.5559123754501343, batch_time 6m 13s
+batch 5, loss 0.6241487264633179, batch_time 7m 47s
+batch 6, loss 0.645967960357666, batch_time 9m 20s
+batch 7, loss 0.5894515514373779, batch_time 10m 54s
+batch 8, loss 0.595025360584259, batch_time 12m 27s
+batch 9, loss 0.5797119140625, batch_time 14m 1s
+batch 10, loss 0.5065932273864746, batch_time 14m 57s
+Validation confusion matrix:
+[[135  21  12]
+ [ 23 194  15]
+ [  9  29  42]]
+Validation precision: 0.7687
+Validation recall: 0.7729
+Validation F1 score: 0.7700
+Epoch 83 / 100: Loss = 0.60875 Acc = 0.81927  Valid_acc = 0.7729166746139526 lr = 0.00100 Training complete in 17m 41s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.6841230988502502, batch_time 1m 32s
+batch 2, loss 0.649425208568573, batch_time 3m 6s
+batch 3, loss 0.6460106372833252, batch_time 4m 39s
+batch 4, loss 0.5515974760055542, batch_time 6m 13s
+batch 5, loss 0.6199072599411011, batch_time 7m 46s
+batch 6, loss 0.6398596167564392, batch_time 9m 19s
+batch 7, loss 0.5849319100379944, batch_time 10m 53s
+batch 8, loss 0.5910193920135498, batch_time 12m 26s
+batch 9, loss 0.5743461847305298, batch_time 13m 59s
+batch 10, loss 0.49926066398620605, batch_time 14m 54s
+Validation confusion matrix:
+[[135  21  12]
+ [ 23 194  15]
+ [  9  28  43]]
+Validation precision: 0.7712
+Validation recall: 0.7750
+Validation F1 score: 0.7725
+Epoch 84 / 100: Loss = 0.60405 Acc = 0.82031  Valid_acc = 0.7749999761581421 lr = 0.00100 Training complete in 17m 38s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.6816158890724182, batch_time 1m 32s
+batch 2, loss 0.6445966958999634, batch_time 3m 6s
+batch 3, loss 0.6426241993904114, batch_time 4m 39s
+batch 4, loss 0.5474772453308105, batch_time 6m 20s
+batch 5, loss 0.6156749129295349, batch_time 7m 53s
+batch 6, loss 0.6339260339736938, batch_time 9m 26s
+batch 7, loss 0.5806585550308228, batch_time 11m 7s
+batch 8, loss 0.5871114730834961, batch_time 12m 40s
+batch 9, loss 0.5692280530929565, batch_time 14m 13s
+batch 10, loss 0.49230700731277466, batch_time 15m 9s
+Validation confusion matrix:
+[[134  20  14]
+ [ 23 194  15]
+ [  8  28  44]]
+Validation precision: 0.7722
+Validation recall: 0.7750
+Validation F1 score: 0.7732
+Epoch 85 / 100: Loss = 0.59952 Acc = 0.82344  Valid_acc = 0.7749999761581421 lr = 0.00100 Training complete in 17m 53s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.6791988015174866, batch_time 1m 39s
+batch 2, loss 0.6399639248847961, batch_time 3m 13s
+batch 3, loss 0.6392433643341064, batch_time 4m 53s
+batch 4, loss 0.5435429215431213, batch_time 6m 27s
+batch 5, loss 0.6114481091499329, batch_time 7m 60s
+batch 6, loss 0.6281757950782776, batch_time 9m 33s
+batch 7, loss 0.5767070651054382, batch_time 11m 6s
+batch 8, loss 0.5833346247673035, batch_time 12m 39s
+batch 9, loss 0.5643762350082397, batch_time 14m 12s
+batch 10, loss 0.4857352375984192, batch_time 15m 7s
+Validation confusion matrix:
+[[133  20  15]
+ [ 23 195  14]
+ [  8  27  45]]
+Validation precision: 0.7747
+Validation recall: 0.7771
+Validation F1 score: 0.7755
+Epoch 86 / 100: Loss = 0.59517 Acc = 0.82448  Valid_acc = 0.7770833373069763 lr = 0.00100 Training complete in 17m 51s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.6767787337303162, batch_time 1m 32s
+batch 2, loss 0.6354552507400513, batch_time 3m 6s
+batch 3, loss 0.6359053254127502, batch_time 4m 39s
+batch 4, loss 0.5398447513580322, batch_time 6m 13s
+batch 5, loss 0.6072245240211487, batch_time 7m 46s
+batch 6, loss 0.6225882768630981, batch_time 9m 27s
+batch 7, loss 0.5729931592941284, batch_time 10m 60s
+batch 8, loss 0.579623818397522, batch_time 12m 33s
+batch 9, loss 0.5597663521766663, batch_time 14m 6s
+batch 10, loss 0.47965145111083984, batch_time 15m 1s
+Validation confusion matrix:
+[[133  20  15]
+ [ 23 194  15]
+ [  9  27  44]]
+Validation precision: 0.7703
+Validation recall: 0.7729
+Validation F1 score: 0.7713
+Epoch 87 / 100: Loss = 0.59098 Acc = 0.82708  Valid_acc = 0.7729166746139526 lr = 0.00100 Training complete in 17m 46s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.6743254065513611, batch_time 1m 32s
+batch 2, loss 0.6310953497886658, batch_time 3m 5s
+batch 3, loss 0.6325142979621887, batch_time 4m 46s
+batch 4, loss 0.536348819732666, batch_time 6m 27s
+batch 5, loss 0.6030065417289734, batch_time 8m 8s
+batch 6, loss 0.6171606779098511, batch_time 9m 49s
+batch 7, loss 0.5695194005966187, batch_time 11m 22s
+batch 8, loss 0.5760207176208496, batch_time 12m 56s
+batch 9, loss 0.5554531812667847, batch_time 14m 36s
+batch 10, loss 0.4740022122859955, batch_time 15m 36s
+Validation confusion matrix:
+[[133  20  15]
+ [ 23 194  15]
+ [  9  26  45]]
+Validation precision: 0.7728
+Validation recall: 0.7750
+Validation F1 score: 0.7737
+Epoch 88 / 100: Loss = 0.58694 Acc = 0.82969  Valid_acc = 0.7749999761581421 lr = 0.00100 Training complete in 18m 20s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.671782374382019, batch_time 1m 32s
+batch 2, loss 0.6268138885498047, batch_time 3m 6s
+batch 3, loss 0.6291550993919373, batch_time 4m 39s
+batch 4, loss 0.5330564379692078, batch_time 6m 13s
+batch 5, loss 0.5988312363624573, batch_time 7m 46s
+batch 6, loss 0.6119165420532227, batch_time 9m 20s
+batch 7, loss 0.5662313103675842, batch_time 10m 53s
+batch 8, loss 0.5724077820777893, batch_time 12m 34s
+batch 9, loss 0.5514074563980103, batch_time 14m 8s
+batch 10, loss 0.46885499358177185, batch_time 15m 3s
+Validation confusion matrix:
+[[133  20  15]
+ [ 23 194  15]
+ [  9  26  45]]
+Validation precision: 0.7728
+Validation recall: 0.7750
+Validation F1 score: 0.7737
+Epoch 89 / 100: Loss = 0.58305 Acc = 0.83177  Valid_acc = 0.7749999761581421 lr = 0.00100 Training complete in 17m 47s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.6691343188285828, batch_time 1m 32s
+batch 2, loss 0.6227461695671082, batch_time 3m 6s
+batch 3, loss 0.6257653832435608, batch_time 4m 39s
+batch 4, loss 0.5299631357192993, batch_time 6m 12s
+batch 5, loss 0.5946484208106995, batch_time 7m 45s
+batch 6, loss 0.6068953275680542, batch_time 9m 19s
+batch 7, loss 0.5631623268127441, batch_time 10m 60s
+batch 8, loss 0.5688349604606628, batch_time 12m 33s
+batch 9, loss 0.5476657152175903, batch_time 14m 6s
+batch 10, loss 0.4641815423965454, batch_time 15m 2s
+Validation confusion matrix:
+[[133  20  15]
+ [ 25 192  15]
+ [  9  25  46]]
+Validation precision: 0.7712
+Validation recall: 0.7729
+Validation F1 score: 0.7719
+Epoch 90 / 100: Loss = 0.57930 Acc = 0.83438  Valid_acc = 0.7729166746139526 lr = 0.00100 Training complete in 17m 46s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.6664181351661682, batch_time 1m 32s
+batch 2, loss 0.6187511682510376, batch_time 3m 6s
+batch 3, loss 0.6224367618560791, batch_time 4m 39s
+batch 4, loss 0.5271503925323486, batch_time 6m 13s
+batch 5, loss 0.5905330777168274, batch_time 7m 46s
+batch 6, loss 0.6020607352256775, batch_time 9m 20s
+batch 7, loss 0.5602933168411255, batch_time 10m 53s
+batch 8, loss 0.5653018951416016, batch_time 12m 27s
+batch 9, loss 0.5441359281539917, batch_time 14m 7s
+batch 10, loss 0.4599383473396301, batch_time 15m 3s
+Validation confusion matrix:
+[[132  20  16]
+ [ 26 192  14]
+ [  9  25  46]]
+Validation precision: 0.7691
+Validation recall: 0.7708
+Validation F1 score: 0.7698
+Epoch 91 / 100: Loss = 0.57570 Acc = 0.83646  Valid_acc = 0.7708333134651184 lr = 0.00100 Training complete in 17m 47s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.6635394096374512, batch_time 1m 40s
+batch 2, loss 0.6150065064430237, batch_time 3m 14s
+batch 3, loss 0.6189965605735779, batch_time 4m 47s
+batch 4, loss 0.524497389793396, batch_time 6m 21s
+batch 5, loss 0.5864614248275757, batch_time 7m 54s
+batch 6, loss 0.5974750518798828, batch_time 9m 35s
+batch 7, loss 0.5576249361038208, batch_time 11m 8s
+batch 8, loss 0.5618003010749817, batch_time 12m 41s
+batch 9, loss 0.540840744972229, batch_time 14m 15s
+batch 10, loss 0.45598864555358887, batch_time 15m 14s
+Validation confusion matrix:
+[[132  20  16]
+ [ 27 192  13]
+ [  9  24  47]]
+Validation precision: 0.7713
+Validation recall: 0.7729
+Validation F1 score: 0.7720
+Epoch 92 / 100: Loss = 0.57222 Acc = 0.83646  Valid_acc = 0.7729166746139526 lr = 0.00100 Training complete in 17m 59s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.6606690883636475, batch_time 1m 40s
+batch 2, loss 0.6113524436950684, batch_time 3m 14s
+batch 3, loss 0.6155648231506348, batch_time 4m 47s
+batch 4, loss 0.5221966505050659, batch_time 6m 28s
+batch 5, loss 0.5824238657951355, batch_time 8m 1s
+batch 6, loss 0.593127429485321, batch_time 9m 34s
+batch 7, loss 0.5549978613853455, batch_time 11m 15s
+batch 8, loss 0.558301568031311, batch_time 12m 49s
+batch 9, loss 0.5377014875411987, batch_time 14m 22s
+batch 10, loss 0.4523516297340393, batch_time 15m 18s
+Validation confusion matrix:
+[[132  20  16]
+ [ 27 192  13]
+ [  9  23  48]]
+Validation precision: 0.7738
+Validation recall: 0.7750
+Validation F1 score: 0.7743
+Epoch 93 / 100: Loss = 0.56887 Acc = 0.83802  Valid_acc = 0.7749999761581421 lr = 0.00100 Training complete in 18m 2s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.6577273011207581, batch_time 1m 32s
+batch 2, loss 0.6079213619232178, batch_time 3m 6s
+batch 3, loss 0.61204594373703, batch_time 4m 47s
+batch 4, loss 0.5200071930885315, batch_time 6m 28s
+batch 5, loss 0.578449010848999, batch_time 8m 1s
+batch 6, loss 0.5889237523078918, batch_time 9m 34s
+batch 7, loss 0.5525094866752625, batch_time 11m 7s
+batch 8, loss 0.5547783374786377, batch_time 12m 41s
+batch 9, loss 0.5347973108291626, batch_time 14m 14s
+batch 10, loss 0.4489990472793579, batch_time 15m 9s
+Validation confusion matrix:
+[[131  20  17]
+ [ 27 192  13]
+ [  9  22  49]]
+Validation precision: 0.7745
+Validation recall: 0.7750
+Validation F1 score: 0.7747
+Epoch 94 / 100: Loss = 0.56562 Acc = 0.84062  Valid_acc = 0.7749999761581421 lr = 0.00100 Training complete in 17m 54s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.6546519994735718, batch_time 1m 32s
+batch 2, loss 0.6045371294021606, batch_time 3m 14s
+batch 3, loss 0.6085986495018005, batch_time 4m 47s
+batch 4, loss 0.5180908441543579, batch_time 6m 20s
+batch 5, loss 0.5745762586593628, batch_time 7m 54s
+batch 6, loss 0.58494633436203, batch_time 9m 27s
+batch 7, loss 0.5500572323799133, batch_time 11m 7s
+batch 8, loss 0.5513121485710144, batch_time 12m 41s
+batch 9, loss 0.5320027470588684, batch_time 14m 14s
+batch 10, loss 0.44583529233932495, batch_time 15m 9s
+Validation confusion matrix:
+[[131  20  17]
+ [ 27 192  13]
+ [  9  22  49]]
+Validation precision: 0.7745
+Validation recall: 0.7750
+Validation F1 score: 0.7747
+Epoch 95 / 100: Loss = 0.56246 Acc = 0.84062  Valid_acc = 0.7749999761581421 lr = 0.00100 Training complete in 17m 54s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.6515149474143982, batch_time 1m 32s
+batch 2, loss 0.6012842655181885, batch_time 3m 14s
+batch 3, loss 0.605170488357544, batch_time 4m 54s
+batch 4, loss 0.5163089632987976, batch_time 6m 27s
+batch 5, loss 0.570829451084137, batch_time 8m 1s
+batch 6, loss 0.5810800790786743, batch_time 9m 34s
+batch 7, loss 0.5477238297462463, batch_time 11m 7s
+batch 8, loss 0.5478624105453491, batch_time 12m 40s
+batch 9, loss 0.5293924808502197, batch_time 14m 13s
+batch 10, loss 0.442903995513916, batch_time 15m 9s
+Validation confusion matrix:
+[[131  19  18]
+ [ 26 193  13]
+ [  9  22  49]]
+Validation precision: 0.7769
+Validation recall: 0.7771
+Validation F1 score: 0.7770
+Epoch 96 / 100: Loss = 0.55941 Acc = 0.84219  Valid_acc = 0.7770833373069763 lr = 0.00100 Training complete in 17m 53s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.6483654975891113, batch_time 1m 32s
+batch 2, loss 0.598162055015564, batch_time 3m 6s
+batch 3, loss 0.6018218994140625, batch_time 4m 41s
+batch 4, loss 0.5146329402923584, batch_time 6m 14s
+batch 5, loss 0.5671143531799316, batch_time 7m 48s
+batch 6, loss 0.5774041414260864, batch_time 9m 21s
+batch 7, loss 0.5454369783401489, batch_time 10m 54s
+batch 8, loss 0.5444566011428833, batch_time 12m 27s
+batch 9, loss 0.5268726348876953, batch_time 14m 0s
+batch 10, loss 0.4400807023048401, batch_time 14m 56s
+Validation confusion matrix:
+[[132  19  17]
+ [ 27 191  14]
+ [  9  22  49]]
+Validation precision: 0.7750
+Validation recall: 0.7750
+Validation F1 score: 0.7750
+Epoch 97 / 100: Loss = 0.55643 Acc = 0.84323  Valid_acc = 0.7749999761581421 lr = 0.00100 Training complete in 17m 40s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.64516681432724, batch_time 1m 40s
+batch 2, loss 0.5951622128486633, batch_time 3m 14s
+batch 3, loss 0.5984094142913818, batch_time 4m 46s
+batch 4, loss 0.5131497383117676, batch_time 6m 20s
+batch 5, loss 0.563503623008728, batch_time 8m 0s
+batch 6, loss 0.5739253759384155, batch_time 9m 34s
+batch 7, loss 0.5432121753692627, batch_time 11m 7s
+batch 8, loss 0.5410760045051575, batch_time 12m 40s
+batch 9, loss 0.5244733095169067, batch_time 14m 13s
+batch 10, loss 0.43738096952438354, batch_time 15m 9s
+Validation confusion matrix:
+[[132  19  17]
+ [ 27 192  13]
+ [  9  22  49]]
+Validation precision: 0.7767
+Validation recall: 0.7771
+Validation F1 score: 0.7769
+Epoch 98 / 100: Loss = 0.55355 Acc = 0.84427  Valid_acc = 0.7770833373069763 lr = 0.00100 Training complete in 17m 53s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.6418983340263367, batch_time 1m 32s
+batch 2, loss 0.5922411680221558, batch_time 3m 14s
+batch 3, loss 0.5951136946678162, batch_time 4m 47s
+batch 4, loss 0.5117284059524536, batch_time 6m 20s
+batch 5, loss 0.5599572658538818, batch_time 7m 54s
+batch 6, loss 0.5706819891929626, batch_time 9m 27s
+batch 7, loss 0.5410184860229492, batch_time 11m 0s
+batch 8, loss 0.5376675128936768, batch_time 12m 34s
+batch 9, loss 0.5221908092498779, batch_time 14m 7s
+batch 10, loss 0.4348549246788025, batch_time 15m 2s
+Validation confusion matrix:
+[[131  20  17]
+ [ 27 193  12]
+ [  9  21  50]]
+Validation precision: 0.7787
+Validation recall: 0.7792
+Validation F1 score: 0.7789
+Epoch 99 / 100: Loss = 0.55074 Acc = 0.84375  Valid_acc = 0.7791666388511658 lr = 0.00100 Training complete in 17m 47s'
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\math\multi_dispatch.py:97: UserWarning: Contains tensors of types {'torch', 'autograd'}; dispatch will prioritize TensorFlow and PyTorch over autograd. Consider replacing Autograd with vanilla NumPy.
+  UserWarning,
+batch 1, loss 0.6385890245437622, batch_time 1m 32s
+batch 2, loss 0.5894641280174255, batch_time 3m 6s
+batch 3, loss 0.591836154460907, batch_time 4m 39s
+batch 4, loss 0.5104349255561829, batch_time 6m 13s
+batch 5, loss 0.5564112663269043, batch_time 7m 46s
+batch 6, loss 0.5675619840621948, batch_time 9m 27s
+batch 7, loss 0.5388676524162292, batch_time 11m 8s
+batch 8, loss 0.5342990159988403, batch_time 12m 41s
+batch 9, loss 0.519996166229248, batch_time 14m 14s
+batch 10, loss 0.4323737919330597, batch_time 15m 9s
+Validation confusion matrix:
+[[131  21  16]
+ [ 27 193  12]
+ [  9  20  51]]
+Validation precision: 0.7808
+Validation recall: 0.7812
+Validation F1 score: 0.7810
+Epoch 100 / 100: Loss = 0.54798 Acc = 0.84531  Valid_acc = 0.78125 lr = 0.00100 Training complete in 17m 54s'

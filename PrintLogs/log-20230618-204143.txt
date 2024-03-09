@@ -1,0 +1,40 @@
+Input dim:    64
+LSTM output size: 64
+Number of qubits: 4
+Training epochs:  100
+Batch_size:       200
+Num_rounds:       150
+Local_epochs:       1
+BitFlip=0.1, Tagger will use Quantum MGU running on backend default.mixed
+weight_shapes = (n_qlayers, n_qubits) = (1, 4)
+Traceback (most recent call last):
+  File "C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\_device.py", line 377, in map_wires
+    mapped_wires = wires.map(self.wire_map)
+  File "C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\wires.py", line 277, in map
+    raise WireError(f"No mapping for wire label {w} specified in wire map {wire_map}.")
+pennylane.wires.WireError: No mapping for wire label wire_forget_0 specified in wire map OrderedDict([('wire_block_1_0', 0), ('wire_block_1_1', 1), ('wire_block_1_2', 2), ('wire_block_1_3', 3)]).
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\swk\Anaconda3\envs\swk01\lib\contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\interfaces\set_shots.py", line 53, in set_shots
+    yield
+  File "C:\Users\swk\Anaconda3\envs\swk01\lib\contextlib.py", line 74, in inner
+    return func(*args, **kwds)
+  File "C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\_qubit_device.py", line 586, in batch_execute
+    res = self.execute(circuit)
+  File "C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\devices\default_mixed.py", line 594, in execute
+    return super().execute(circuit, **kwargs)
+  File "C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\_qubit_device.py", line 315, in execute
+    self.apply(circuit.operations, rotations=circuit.diagonalizing_gates, **kwargs)
+  File "C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\devices\default_mixed.py", line 610, in apply
+    self._apply_operation(operation)
+  File "C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\devices\default_mixed.py", line 539, in _apply_operation
+    self._apply_channel(matrices, wires)
+  File "C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\devices\default_mixed.py", line 282, in _apply_channel
+    channel_wires = self.map_wires(wires)
+  File "C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\pennylane\_device.py", line 381, in map_wires
+    ) from e
+pennylane.wires.WireError: Did not find some of the wires <Wires = ['wire_forget_0']> on device with wires <Wires = ['wire_block_1_0', 'wire_block_1_1', 'wire_block_1_2', 'wire_block_1_3']>.

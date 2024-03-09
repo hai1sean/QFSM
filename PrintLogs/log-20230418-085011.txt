@@ -1,0 +1,799 @@
+Input dim:    64
+LSTM output size: 64
+Number of qubits: 4
+Training epochs:  200
+Batch_size:       200
+Num_rounds:       50
+Local_epochs:       5
+Tagger will use Quantum MGU running on backend default.qubit
+wire_forget_0: ©¤©¤H©¤©¤RX(0.00)©¤©¤RZ(0.00)©¤¨qRX(0.00)©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤¨q¡ñ©¤©¤©¤©¤©¤©¤©¤©¤¨qRX(0.00)©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
+wire_forget_1: ©¤©¤H©¤©¤RX(0.00)©¤©¤RZ(0.00)©¤©¦©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤¨q¡ñ©¤©¤©¤©¤©¤©¤©¤©¤¨tRX(0.00)©¤©¦©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤
+wire_forget_2: ©¤©¤H©¤©¤RX(0.00)©¤©¤RZ(0.00)©¤©¦©¤©¤©¤©¤©¤©¤©¤©¤©¤¨q¡ñ©¤©¤©¤©¤©¤©¤©¤©¤¨tRX(0.00)©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¦©¤©¤©¤©¤©¤©¤©¤©¤©¤¨q¡ñ©¤©¤©¤©¤©¤©¤©¤
+wire_forget_3: ©¤©¤H©¤©¤RX(0.00)©¤©¤RZ(0.00)©¤¨t¡ñ©¤©¤©¤©¤©¤©¤©¤©¤¨tRX(0.00)©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤¨t¡ñ©¤©¤©¤©¤©¤©¤©¤©¤¨tRX(0.00)
+
+©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤¨q¡ñ©¤©¤©¤©¤©¤©¤©¤©¤©È  <Z>
+©¤©¤¨q¡ñ©¤©¤©¤©¤©¤©¤©¤©¤¨tRX(0.00)©¤©È  <Z>
+©¤©¤¨tRX(0.00)©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©È  <Z>
+©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©È  <Z>
+weight_shapes = (n_qlayers, n_qubits) = (2, 4)
+batch 1, loss 1.321728229522705, batch_time 0m 53s
+batch 2, loss 1.311439037322998, batch_time 1m 46s
+batch 3, loss 1.3026082515716553, batch_time 2m 43s
+batch 4, loss 1.2944492101669312, batch_time 3m 40s
+batch 5, loss 1.2773802280426025, batch_time 4m 37s
+batch 6, loss 1.2721201181411743, batch_time 5m 34s
+batch 7, loss 1.2600446939468384, batch_time 6m 32s
+batch 8, loss 1.2583898305892944, batch_time 7m 29s
+batch 9, loss 1.252893090248108, batch_time 8m 23s
+batch 10, loss 1.2442348003387451, batch_time 8m 55s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 1 / 200: Loss = 1.27953 Acc = 0.41667  Valid_acc = 0.4833333194255829  Training complete in 10m 39s'
+batch 1, loss 1.2369776964187622, batch_time 0m 54s
+batch 2, loss 1.254813551902771, batch_time 1m 47s
+batch 3, loss 1.2191671133041382, batch_time 2m 41s
+batch 4, loss 1.1881288290023804, batch_time 3m 35s
+batch 5, loss 1.210270643234253, batch_time 4m 28s
+batch 6, loss 1.2351019382476807, batch_time 5m 22s
+batch 7, loss 1.176842212677002, batch_time 6m 16s
+batch 8, loss 1.2093716859817505, batch_time 7m 9s
+batch 9, loss 1.2047702074050903, batch_time 8m 3s
+batch 10, loss 1.2016290426254272, batch_time 8m 37s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 2 / 200: Loss = 1.21371 Acc = 0.50417  Valid_acc = 0.4833333194255829  Training complete in 10m 21s'
+batch 1, loss 1.200356364250183, batch_time 0m 57s
+batch 2, loss 1.2424397468566895, batch_time 1m 51s
+batch 3, loss 1.1816023588180542, batch_time 2m 44s
+batch 4, loss 1.1355788707733154, batch_time 3m 38s
+batch 5, loss 1.1794694662094116, batch_time 4m 31s
+batch 6, loss 1.2228829860687256, batch_time 5m 25s
+batch 7, loss 1.141707420349121, batch_time 6m 19s
+batch 8, loss 1.1920517683029175, batch_time 7m 12s
+batch 9, loss 1.190158486366272, batch_time 8m 6s
+batch 10, loss 1.1881201267242432, batch_time 8m 40s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 3 / 200: Loss = 1.18744 Acc = 0.50417  Valid_acc = 0.4833333194255829  Training complete in 10m 24s'
+batch 1, loss 1.1859039068222046, batch_time 0m 54s
+batch 2, loss 1.2437283992767334, batch_time 1m 47s
+batch 3, loss 1.1649141311645508, batch_time 2m 41s
+batch 4, loss 1.1136846542358398, batch_time 3m 34s
+batch 5, loss 1.162207841873169, batch_time 4m 28s
+batch 6, loss 1.2125880718231201, batch_time 5m 22s
+batch 7, loss 1.1291495561599731, batch_time 6m 16s
+batch 8, loss 1.1832301616668701, batch_time 7m 9s
+batch 9, loss 1.1843191385269165, batch_time 8m 3s
+batch 10, loss 1.1813280582427979, batch_time 8m 37s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 4 / 200: Loss = 1.17611 Acc = 0.50417  Valid_acc = 0.4833333194255829  Training complete in 10m 22s'
+batch 1, loss 1.1761071681976318, batch_time 0m 57s
+batch 2, loss 1.240450382232666, batch_time 1m 50s
+batch 3, loss 1.1544594764709473, batch_time 2m 44s
+batch 4, loss 1.1042132377624512, batch_time 3m 37s
+batch 5, loss 1.1502132415771484, batch_time 4m 31s
+batch 6, loss 1.2012757062911987, batch_time 5m 25s
+batch 7, loss 1.1229064464569092, batch_time 6m 18s
+batch 8, loss 1.1751787662506104, batch_time 7m 12s
+batch 9, loss 1.177738904953003, batch_time 8m 6s
+batch 10, loss 1.1741334199905396, batch_time 8m 40s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 5 / 200: Loss = 1.16767 Acc = 0.50417  Valid_acc = 0.4833333194255829  Training complete in 10m 24s'
+batch 1, loss 1.1675575971603394, batch_time 0m 57s
+batch 2, loss 1.2320189476013184, batch_time 1m 51s
+batch 3, loss 1.146459698677063, batch_time 2m 44s
+batch 4, loss 1.0981007814407349, batch_time 3m 37s
+batch 5, loss 1.1422888040542603, batch_time 4m 31s
+batch 6, loss 1.1923261880874634, batch_time 5m 24s
+batch 7, loss 1.1165269613265991, batch_time 6m 18s
+batch 8, loss 1.167283296585083, batch_time 7m 11s
+batch 9, loss 1.1695518493652344, batch_time 8m 5s
+batch 10, loss 1.1662343740463257, batch_time 8m 39s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 6 / 200: Loss = 1.15983 Acc = 0.50417  Valid_acc = 0.4833333194255829  Training complete in 10m 23s'
+batch 1, loss 1.1602452993392944, batch_time 0m 57s
+batch 2, loss 1.222341537475586, batch_time 1m 51s
+batch 3, loss 1.1399973630905151, batch_time 2m 44s
+batch 4, loss 1.0925400257110596, batch_time 3m 38s
+batch 5, loss 1.136901617050171, batch_time 4m 31s
+batch 6, loss 1.185955286026001, batch_time 5m 25s
+batch 7, loss 1.1100044250488281, batch_time 6m 18s
+batch 8, loss 1.1603716611862183, batch_time 7m 12s
+batch 9, loss 1.1618554592132568, batch_time 8m 5s
+batch 10, loss 1.1591800451278687, batch_time 8m 40s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 7 / 200: Loss = 1.15294 Acc = 0.50417  Valid_acc = 0.4833333194255829  Training complete in 10m 22s'
+batch 1, loss 1.1542155742645264, batch_time 0m 55s
+batch 2, loss 1.2143065929412842, batch_time 1m 47s
+batch 3, loss 1.1346673965454102, batch_time 2m 42s
+batch 4, loss 1.0876975059509277, batch_time 3m 34s
+batch 5, loss 1.1324650049209595, batch_time 4m 29s
+batch 6, loss 1.1809098720550537, batch_time 5m 24s
+batch 7, loss 1.1047441959381104, batch_time 6m 16s
+batch 8, loss 1.1549500226974487, batch_time 7m 11s
+batch 9, loss 1.1560395956039429, batch_time 8m 7s
+batch 10, loss 1.1537634134292603, batch_time 8m 38s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 8 / 200: Loss = 1.14738 Acc = 0.50417  Valid_acc = 0.4833333194255829  Training complete in 10m 19s'
+batch 1, loss 1.1492549180984497, batch_time 0m 52s
+batch 2, loss 1.2085340023040771, batch_time 1m 44s
+batch 3, loss 1.130000352859497, batch_time 2m 39s
+batch 4, loss 1.083344578742981, batch_time 3m 34s
+batch 5, loss 1.1280734539031982, batch_time 4m 26s
+batch 6, loss 1.1762648820877075, batch_time 5m 21s
+batch 7, loss 1.1004730463027954, batch_time 6m 16s
+batch 8, loss 1.1505296230316162, batch_time 7m 11s
+batch 9, loss 1.1517094373703003, batch_time 8m 3s
+batch 10, loss 1.149643063545227, batch_time 8m 35s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 9 / 200: Loss = 1.14278 Acc = 0.50417  Valid_acc = 0.4833333194255829  Training complete in 10m 16s'
+batch 1, loss 1.145087480545044, batch_time 0m 52s
+batch 2, loss 1.2046163082122803, batch_time 1m 44s
+batch 3, loss 1.12601637840271, batch_time 2m 39s
+batch 4, loss 1.0795316696166992, batch_time 3m 34s
+batch 5, loss 1.1241096258163452, batch_time 4m 26s
+batch 6, loss 1.172369360923767, batch_time 5m 21s
+batch 7, loss 1.0969173908233643, batch_time 6m 16s
+batch 8, loss 1.1469531059265137, batch_time 7m 8s
+batch 9, loss 1.14826238155365, batch_time 8m 3s
+batch 10, loss 1.146237850189209, batch_time 8m 34s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 10 / 200: Loss = 1.13901 Acc = 0.50417  Valid_acc = 0.4833333194255829  Training complete in 10m 16s'
+batch 1, loss 1.1414904594421387, batch_time 0m 52s
+batch 2, loss 1.2014732360839844, batch_time 1m 44s
+batch 3, loss 1.122414231300354, batch_time 2m 35s
+batch 4, loss 1.0758649110794067, batch_time 3m 27s
+batch 5, loss 1.1205580234527588, batch_time 4m 19s
+batch 6, loss 1.169030785560608, batch_time 5m 14s
+batch 7, loss 1.0935840606689453, batch_time 6m 6s
+batch 8, loss 1.1438041925430298, batch_time 6m 58s
+batch 9, loss 1.1452094316482544, batch_time 7m 50s
+batch 10, loss 1.1432251930236816, batch_time 8m 21s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 11 / 200: Loss = 1.13567 Acc = 0.50417  Valid_acc = 0.4833333194255829  Training complete in 10m 2s'
+batch 1, loss 1.138428807258606, batch_time 0m 52s
+batch 2, loss 1.1987218856811523, batch_time 1m 44s
+batch 3, loss 1.1193956136703491, batch_time 2m 35s
+batch 4, loss 1.0727999210357666, batch_time 3m 31s
+batch 5, loss 1.1176913976669312, batch_time 4m 22s
+batch 6, loss 1.1663364171981812, batch_time 5m 18s
+batch 7, loss 1.0907620191574097, batch_time 6m 13s
+batch 8, loss 1.1411300897598267, batch_time 7m 5s
+batch 9, loss 1.142570972442627, batch_time 7m 60s
+batch 10, loss 1.1406222581863403, batch_time 8m 31s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 12 / 200: Loss = 1.13285 Acc = 0.50417  Valid_acc = 0.4833333194255829  Training complete in 10m 12s'
+batch 1, loss 1.1358649730682373, batch_time 0m 52s
+batch 2, loss 1.1962854862213135, batch_time 1m 45s
+batch 3, loss 1.1168924570083618, batch_time 2m 42s
+batch 4, loss 1.0702866315841675, batch_time 3m 36s
+batch 5, loss 1.1152700185775757, batch_time 4m 30s
+batch 6, loss 1.1640160083770752, batch_time 5m 27s
+batch 7, loss 1.088467001914978, batch_time 6m 24s
+batch 8, loss 1.138906717300415, batch_time 7m 17s
+batch 9, loss 1.1403834819793701, batch_time 8m 11s
+batch 10, loss 1.1384817361831665, batch_time 8m 43s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 13 / 200: Loss = 1.13049 Acc = 0.50417  Valid_acc = 0.4833333194255829  Training complete in 10m 28s'
+batch 1, loss 1.1337474584579468, batch_time 0m 54s
+batch 2, loss 1.1942055225372314, batch_time 1m 47s
+batch 3, loss 1.1148439645767212, batch_time 2m 44s
+batch 4, loss 1.0682644844055176, batch_time 3m 40s
+batch 5, loss 1.113247036933899, batch_time 4m 34s
+batch 6, loss 1.161969542503357, batch_time 5m 27s
+batch 7, loss 1.0863981246948242, batch_time 6m 21s
+batch 8, loss 1.1368303298950195, batch_time 7m 18s
+batch 9, loss 1.1382954120635986, batch_time 8m 11s
+batch 10, loss 1.1363897323608398, batch_time 8m 44s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 14 / 200: Loss = 1.12842 Acc = 0.50417  Valid_acc = 0.4833333194255829  Training complete in 10m 28s'
+batch 1, loss 1.131683349609375, batch_time 0m 53s
+batch 2, loss 1.1921465396881104, batch_time 1m 51s
+batch 3, loss 1.1128044128417969, batch_time 2m 44s
+batch 4, loss 1.0662380456924438, batch_time 3m 37s
+batch 5, loss 1.1112421751022339, batch_time 4m 31s
+batch 6, loss 1.1599795818328857, batch_time 5m 28s
+batch 7, loss 1.0844058990478516, batch_time 6m 21s
+batch 8, loss 1.1348515748977661, batch_time 7m 18s
+batch 9, loss 1.1363240480422974, batch_time 8m 11s
+batch 10, loss 1.1344261169433594, batch_time 8m 43s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 15 / 200: Loss = 1.12641 Acc = 0.50417  Valid_acc = 0.4833333194255829  Training complete in 10m 27s'
+batch 1, loss 1.1297193765640259, batch_time 0m 57s
+batch 2, loss 1.1901737451553345, batch_time 1m 50s
+batch 3, loss 1.110844612121582, batch_time 2m 44s
+batch 4, loss 1.064273715019226, batch_time 3m 37s
+batch 5, loss 1.109305739402771, batch_time 4m 31s
+batch 6, loss 1.158057689666748, batch_time 5m 24s
+batch 7, loss 1.0824452638626099, batch_time 6m 21s
+batch 8, loss 1.1329208612442017, batch_time 7m 18s
+batch 9, loss 1.1343967914581299, batch_time 8m 11s
+batch 10, loss 1.132506251335144, batch_time 8m 44s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 16 / 200: Loss = 1.12446 Acc = 0.50417  Valid_acc = 0.4833333194255829  Training complete in 10m 28s'
+batch 1, loss 1.1278163194656372, batch_time 0m 54s
+batch 2, loss 1.188307285308838, batch_time 1m 51s
+batch 3, loss 1.1089415550231934, batch_time 2m 44s
+batch 4, loss 1.0623557567596436, batch_time 3m 41s
+batch 5, loss 1.107401967048645, batch_time 4m 35s
+batch 6, loss 1.1561684608459473, batch_time 5m 32s
+batch 7, loss 1.0805524587631226, batch_time 6m 25s
+batch 8, loss 1.1310392618179321, batch_time 7m 22s
+batch 9, loss 1.1325205564498901, batch_time 8m 19s
+batch 10, loss 1.130637288093567, batch_time 8m 51s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 17 / 200: Loss = 1.12257 Acc = 0.50417  Valid_acc = 0.4833333194255829  Training complete in 10m 35s'
+batch 1, loss 1.1259409189224243, batch_time 0m 53s
+batch 2, loss 1.186442255973816, batch_time 1m 48s
+batch 3, loss 1.1070582866668701, batch_time 2m 42s
+batch 4, loss 1.0604625940322876, batch_time 3m 38s
+batch 5, loss 1.1055407524108887, batch_time 4m 32s
+batch 6, loss 1.1543328762054443, batch_time 5m 29s
+batch 7, loss 1.0786511898040771, batch_time 6m 23s
+batch 8, loss 1.12916898727417, batch_time 7m 16s
+batch 9, loss 1.1306395530700684, batch_time 8m 13s
+batch 10, loss 1.1287578344345093, batch_time 8m 45s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 18 / 200: Loss = 1.12070 Acc = 0.50417  Valid_acc = 0.4833333194255829  Training complete in 10m 30s'
+batch 1, loss 1.1240748167037964, batch_time 0m 54s
+batch 2, loss 1.1845824718475342, batch_time 1m 51s
+batch 3, loss 1.1052002906799316, batch_time 2m 45s
+batch 4, loss 1.0585989952087402, batch_time 3m 38s
+batch 5, loss 1.103684425354004, batch_time 4m 32s
+batch 6, loss 1.1524709463119507, batch_time 5m 25s
+batch 7, loss 1.0768057107925415, batch_time 6m 19s
+batch 8, loss 1.1273146867752075, batch_time 7m 16s
+batch 9, loss 1.1287915706634521, batch_time 8m 10s
+batch 10, loss 1.1269102096557617, batch_time 8m 42s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 19 / 200: Loss = 1.11884 Acc = 0.50417  Valid_acc = 0.4833333194255829  Training complete in 10m 26s'
+batch 1, loss 1.1222251653671265, batch_time 0m 53s
+batch 2, loss 1.1827257871627808, batch_time 1m 50s
+batch 3, loss 1.1033427715301514, batch_time 2m 44s
+batch 4, loss 1.056756615638733, batch_time 3m 37s
+batch 5, loss 1.1018474102020264, batch_time 4m 31s
+batch 6, loss 1.1506378650665283, batch_time 5m 28s
+batch 7, loss 1.0749666690826416, batch_time 6m 21s
+batch 8, loss 1.1254878044128418, batch_time 7m 15s
+batch 9, loss 1.1269651651382446, batch_time 8m 12s
+batch 10, loss 1.125091791152954, batch_time 8m 44s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 20 / 200: Loss = 1.11700 Acc = 0.50417  Valid_acc = 0.4833333194255829  Training complete in 10m 29s'
+batch 1, loss 1.1204159259796143, batch_time 0m 54s
+batch 2, loss 1.1809290647506714, batch_time 1m 50s
+batch 3, loss 1.1015527248382568, batch_time 2m 44s
+batch 4, loss 1.0549561977386475, batch_time 3m 37s
+batch 5, loss 1.100057601928711, batch_time 4m 31s
+batch 6, loss 1.1488536596298218, batch_time 5m 24s
+batch 7, loss 1.0731701850891113, batch_time 6m 17s
+batch 8, loss 1.1236999034881592, batch_time 7m 11s
+batch 9, loss 1.1251808404922485, batch_time 8m 7s
+batch 10, loss 1.1233190298080444, batch_time 8m 39s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 21 / 200: Loss = 1.11521 Acc = 0.50417  Valid_acc = 0.4833333194255829  Training complete in 10m 24s'
+batch 1, loss 1.1186449527740479, batch_time 0m 54s
+batch 2, loss 1.1791568994522095, batch_time 1m 47s
+batch 3, loss 1.0997819900512695, batch_time 2m 44s
+batch 4, loss 1.053206205368042, batch_time 3m 38s
+batch 5, loss 1.0983006954193115, batch_time 4m 31s
+batch 6, loss 1.147091269493103, batch_time 5m 28s
+batch 7, loss 1.0714260339736938, batch_time 6m 25s
+batch 8, loss 1.1219426393508911, batch_time 7m 22s
+batch 9, loss 1.123426079750061, batch_time 8m 15s
+batch 10, loss 1.1215589046478271, batch_time 8m 47s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 22 / 200: Loss = 1.11345 Acc = 0.50417  Valid_acc = 0.4833333194255829  Training complete in 10m 32s'
+batch 1, loss 1.1169005632400513, batch_time 0m 53s
+batch 2, loss 1.1773998737335205, batch_time 1m 50s
+batch 3, loss 1.0980584621429443, batch_time 2m 44s
+batch 4, loss 1.051495909690857, batch_time 3m 41s
+batch 5, loss 1.0965838432312012, batch_time 4m 34s
+batch 6, loss 1.1453626155853271, batch_time 5m 31s
+batch 7, loss 1.0697230100631714, batch_time 6m 24s
+batch 8, loss 1.1202322244644165, batch_time 7m 21s
+batch 9, loss 1.121718406677246, batch_time 8m 14s
+batch 10, loss 1.1198537349700928, batch_time 8m 47s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 23 / 200: Loss = 1.11173 Acc = 0.50417  Valid_acc = 0.4833333194255829  Training complete in 10m 31s'
+batch 1, loss 1.1151816844940186, batch_time 0m 53s
+batch 2, loss 1.1756864786148071, batch_time 1m 50s
+batch 3, loss 1.0963411331176758, batch_time 2m 44s
+batch 4, loss 1.0498008728027344, batch_time 3m 41s
+batch 5, loss 1.094859004020691, batch_time 4m 34s
+batch 6, loss 1.14362633228302, batch_time 5m 31s
+batch 7, loss 1.0680315494537354, batch_time 6m 24s
+batch 8, loss 1.1185359954833984, batch_time 7m 22s
+batch 9, loss 1.1200369596481323, batch_time 8m 16s
+batch 10, loss 1.118173360824585, batch_time 8m 48s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 24 / 200: Loss = 1.11003 Acc = 0.50417  Valid_acc = 0.4833333194255829  Training complete in 10m 32s'
+batch 1, loss 1.1135053634643555, batch_time 0m 54s
+batch 2, loss 1.1740201711654663, batch_time 1m 47s
+batch 3, loss 1.0946776866912842, batch_time 2m 41s
+batch 4, loss 1.048142433166504, batch_time 3m 38s
+batch 5, loss 1.0932142734527588, batch_time 4m 31s
+batch 6, loss 1.141993761062622, batch_time 5m 25s
+batch 7, loss 1.0663940906524658, batch_time 6m 18s
+batch 8, loss 1.1168965101242065, batch_time 7m 15s
+batch 9, loss 1.118402123451233, batch_time 8m 8s
+batch 10, loss 1.1165457963943481, batch_time 8m 41s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 25 / 200: Loss = 1.10838 Acc = 0.50417  Valid_acc = 0.4833333194255829  Training complete in 10m 25s'
+batch 1, loss 1.1118803024291992, batch_time 0m 54s
+batch 2, loss 1.172402262687683, batch_time 1m 51s
+batch 3, loss 1.0930633544921875, batch_time 2m 44s
+batch 4, loss 1.046539068222046, batch_time 3m 41s
+batch 5, loss 1.0916106700897217, batch_time 4m 34s
+batch 6, loss 1.1403911113739014, batch_time 5m 31s
+batch 7, loss 1.064795732498169, batch_time 6m 28s
+batch 8, loss 1.1153091192245483, batch_time 7m 24s
+batch 9, loss 1.116824984550476, batch_time 8m 21s
+batch 10, loss 1.1149721145629883, batch_time 8m 54s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 26 / 200: Loss = 1.10678 Acc = 0.50417  Valid_acc = 0.4833333194255829  Training complete in 10m 38s'
+batch 1, loss 1.1103041172027588, batch_time 0m 53s
+batch 2, loss 1.1708617210388184, batch_time 1m 50s
+batch 3, loss 1.091477870941162, batch_time 2m 44s
+batch 4, loss 1.0449403524398804, batch_time 3m 40s
+batch 5, loss 1.090006709098816, batch_time 4m 34s
+batch 6, loss 1.13881254196167, batch_time 5m 31s
+batch 7, loss 1.0632354021072388, batch_time 6m 24s
+batch 8, loss 1.1137540340423584, batch_time 7m 18s
+batch 9, loss 1.1152911186218262, batch_time 8m 12s
+batch 10, loss 1.1134377717971802, batch_time 8m 44s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 27 / 200: Loss = 1.10521 Acc = 0.50417  Valid_acc = 0.4833333194255829  Training complete in 10m 28s'
+batch 1, loss 1.1087510585784912, batch_time 0m 53s
+batch 2, loss 1.1693381071090698, batch_time 1m 50s
+batch 3, loss 1.0899300575256348, batch_time 2m 44s
+batch 4, loss 1.0434023141860962, batch_time 3m 40s
+batch 5, loss 1.08847177028656, batch_time 4m 37s
+batch 6, loss 1.1372876167297363, batch_time 5m 30s
+batch 7, loss 1.0617132186889648, batch_time 6m 24s
+batch 8, loss 1.1122466325759888, batch_time 7m 21s
+batch 9, loss 1.1137951612472534, batch_time 8m 14s
+batch 10, loss 1.1119384765625, batch_time 8m 46s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 28 / 200: Loss = 1.10369 Acc = 0.50417  Valid_acc = 0.4833333194255829  Training complete in 10m 31s'
+batch 1, loss 1.1072560548782349, batch_time 0m 53s
+batch 2, loss 1.167858362197876, batch_time 1m 47s
+batch 3, loss 1.0884453058242798, batch_time 2m 44s
+batch 4, loss 1.0419179201126099, batch_time 3m 41s
+batch 5, loss 1.0869877338409424, batch_time 4m 34s
+batch 6, loss 1.135807991027832, batch_time 5m 27s
+batch 7, loss 1.0602214336395264, batch_time 6m 21s
+batch 8, loss 1.110763669013977, batch_time 7m 14s
+batch 9, loss 1.1122987270355225, batch_time 8m 11s
+batch 10, loss 1.1104516983032227, batch_time 8m 43s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 29 / 200: Loss = 1.10220 Acc = 0.50417  Valid_acc = 0.4833333194255829  Training complete in 10m 28s'
+batch 1, loss 1.1057848930358887, batch_time 0m 54s
+batch 2, loss 1.166402816772461, batch_time 1m 48s
+batch 3, loss 1.086983323097229, batch_time 2m 41s
+batch 4, loss 1.0404564142227173, batch_time 3m 38s
+batch 5, loss 1.085537314414978, batch_time 4m 31s
+batch 6, loss 1.134357213973999, batch_time 5m 28s
+batch 7, loss 1.0587857961654663, batch_time 6m 21s
+batch 8, loss 1.1093229055404663, batch_time 7m 18s
+batch 9, loss 1.1108803749084473, batch_time 8m 11s
+batch 10, loss 1.1090329885482788, batch_time 8m 43s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 30 / 200: Loss = 1.10075 Acc = 0.50417  Valid_acc = 0.4833333194255829  Training complete in 10m 27s'
+batch 1, loss 1.104350209236145, batch_time 0m 53s
+batch 2, loss 1.1649870872497559, batch_time 1m 50s
+batch 3, loss 1.0855578184127808, batch_time 2m 43s
+batch 4, loss 1.039055347442627, batch_time 3m 40s
+batch 5, loss 1.0840977430343628, batch_time 4m 36s
+batch 6, loss 1.1329184770584106, batch_time 5m 33s
+batch 7, loss 1.0574246644973755, batch_time 6m 29s
+batch 8, loss 1.1079425811767578, batch_time 7m 26s
+batch 9, loss 1.1095235347747803, batch_time 8m 23s
+batch 10, loss 1.1076737642288208, batch_time 8m 55s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 31 / 200: Loss = 1.09935 Acc = 0.50417  Valid_acc = 0.4833333194255829  Training complete in 10m 39s'
+batch 1, loss 1.1029808521270752, batch_time 0m 53s
+batch 2, loss 1.1636316776275635, batch_time 1m 47s
+batch 3, loss 1.084193468093872, batch_time 2m 43s
+batch 4, loss 1.0376964807510376, batch_time 3m 37s
+batch 5, loss 1.0827566385269165, batch_time 4m 30s
+batch 6, loss 1.1315914392471313, batch_time 5m 27s
+batch 7, loss 1.0560506582260132, batch_time 6m 20s
+batch 8, loss 1.1066042184829712, batch_time 7m 13s
+batch 9, loss 1.1081714630126953, batch_time 8m 7s
+batch 10, loss 1.1063274145126343, batch_time 8m 39s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 32 / 200: Loss = 1.09800 Acc = 0.50417  Valid_acc = 0.4833333194255829  Training complete in 10m 23s'
+batch 1, loss 1.1016491651535034, batch_time 0m 53s
+batch 2, loss 1.162315011024475, batch_time 1m 50s
+batch 3, loss 1.0828649997711182, batch_time 2m 43s
+batch 4, loss 1.036354899406433, batch_time 3m 40s
+batch 5, loss 1.0814305543899536, batch_time 4m 33s
+batch 6, loss 1.1302709579467773, batch_time 5m 30s
+batch 7, loss 1.054726004600525, batch_time 6m 24s
+batch 8, loss 1.105277419090271, batch_time 7m 20s
+batch 9, loss 1.106851577758789, batch_time 8m 14s
+batch 10, loss 1.105017066001892, batch_time 8m 46s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 33 / 200: Loss = 1.09668 Acc = 0.50417  Valid_acc = 0.4833333194255829  Training complete in 10m 30s'
+batch 1, loss 1.1003485918045044, batch_time 0m 53s
+batch 2, loss 1.161003828048706, batch_time 1m 51s
+batch 3, loss 1.081580400466919, batch_time 2m 44s
+batch 4, loss 1.0350652933120728, batch_time 3m 41s
+batch 5, loss 1.0801644325256348, batch_time 4m 34s
+batch 6, loss 1.1290258169174194, batch_time 5m 31s
+batch 7, loss 1.053437352180481, batch_time 6m 24s
+batch 8, loss 1.1040217876434326, batch_time 7m 21s
+batch 9, loss 1.105593204498291, batch_time 8m 14s
+batch 10, loss 1.1037564277648926, batch_time 8m 47s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 34 / 200: Loss = 1.09540 Acc = 0.50417  Valid_acc = 0.4833333194255829  Training complete in 10m 31s'
+batch 1, loss 1.0990984439849854, batch_time 0m 53s
+batch 2, loss 1.1597846746444702, batch_time 1m 47s
+batch 3, loss 1.0803269147872925, batch_time 2m 40s
+batch 4, loss 1.0337985754013062, batch_time 3m 37s
+batch 5, loss 1.0789154767990112, batch_time 4m 31s
+batch 6, loss 1.127774953842163, batch_time 5m 27s
+batch 7, loss 1.052193284034729, batch_time 6m 21s
+batch 8, loss 1.1027765274047852, batch_time 7m 17s
+batch 9, loss 1.1043550968170166, batch_time 8m 11s
+batch 10, loss 1.1025251150131226, batch_time 8m 43s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 35 / 200: Loss = 1.09415 Acc = 0.50417  Valid_acc = 0.4833333194255829  Training complete in 10m 27s'
+batch 1, loss 1.0978564023971558, batch_time 0m 53s
+batch 2, loss 1.158539891242981, batch_time 1m 50s
+batch 3, loss 1.0790876150131226, batch_time 2m 44s
+batch 4, loss 1.0325943231582642, batch_time 3m 41s
+batch 5, loss 1.0776667594909668, batch_time 4m 34s
+batch 6, loss 1.1265071630477905, batch_time 5m 31s
+batch 7, loss 1.0510106086730957, batch_time 6m 25s
+batch 8, loss 1.1015604734420776, batch_time 7m 21s
+batch 9, loss 1.10316002368927, batch_time 8m 18s
+batch 10, loss 1.1013288497924805, batch_time 8m 51s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 36 / 200: Loss = 1.09293 Acc = 0.50417  Valid_acc = 0.4833333194255829  Training complete in 10m 35s'
+batch 1, loss 1.0966500043869019, batch_time 0m 54s
+batch 2, loss 1.157353162765503, batch_time 1m 51s
+batch 3, loss 1.0778987407684326, batch_time 2m 44s
+batch 4, loss 1.0314053297042847, batch_time 3m 41s
+batch 5, loss 1.0764800310134888, batch_time 4m 34s
+batch 6, loss 1.125347375869751, batch_time 5m 31s
+batch 7, loss 1.0498275756835938, batch_time 6m 25s
+batch 8, loss 1.1004012823104858, batch_time 7m 18s
+batch 9, loss 1.1020022630691528, batch_time 8m 15s
+batch 10, loss 1.1001694202423096, batch_time 8m 47s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 37 / 200: Loss = 1.09175 Acc = 0.50417  Valid_acc = 0.4833333194255829  Training complete in 10m 31s'
+batch 1, loss 1.0954946279525757, batch_time 0m 53s
+batch 2, loss 1.1561962366104126, batch_time 1m 47s
+batch 3, loss 1.076746940612793, batch_time 2m 44s
+batch 4, loss 1.0302655696868896, batch_time 3m 37s
+batch 5, loss 1.075347900390625, batch_time 4m 31s
+batch 6, loss 1.1242088079452515, batch_time 5m 24s
+batch 7, loss 1.0487028360366821, batch_time 6m 21s
+batch 8, loss 1.0992791652679443, batch_time 7m 18s
+batch 9, loss 1.1008710861206055, batch_time 8m 14s
+batch 10, loss 1.0990509986877441, batch_time 8m 47s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 38 / 200: Loss = 1.09062 Acc = 0.50417  Valid_acc = 0.4833333194255829  Training complete in 10m 31s'
+batch 1, loss 1.0944074392318726, batch_time 0m 53s
+batch 2, loss 1.1550884246826172, batch_time 1m 47s
+batch 3, loss 1.0756844282150269, batch_time 2m 44s
+batch 4, loss 1.0292073488235474, batch_time 3m 40s
+batch 5, loss 1.0743156671524048, batch_time 4m 34s
+batch 6, loss 1.123175024986267, batch_time 5m 30s
+batch 7, loss 1.0476301908493042, batch_time 6m 27s
+batch 8, loss 1.0982191562652588, batch_time 7m 24s
+batch 9, loss 1.0998005867004395, batch_time 8m 18s
+batch 10, loss 1.0979907512664795, batch_time 8m 50s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 39 / 200: Loss = 1.08955 Acc = 0.50417  Valid_acc = 0.4833333194255829  Training complete in 10m 34s'
+batch 1, loss 1.093356966972351, batch_time 0m 54s

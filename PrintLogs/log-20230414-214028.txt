@@ -1,0 +1,751 @@
+Input dim:    64
+LSTM output size: 64
+Number of qubits: 4
+Training epochs:  100
+Batch_size:       200
+Num_rounds:       50
+Local_epochs:       10
+Tagger will use Quantum MGU running on backend default.qubit
+weight_shapes = (n_qlayers, n_qubits) = (1, 4)
+Communication round : 1
+client: 1
+epoch: 0  epoch_time 2m 11s
+epoch: 1  epoch_time 2m 13s
+epoch: 2  epoch_time 2m 13s
+epoch: 3  epoch_time 2m 12s
+epoch: 4  epoch_time 2m 12s
+epoch: 5  epoch_time 2m 12s
+epoch: 6  epoch_time 2m 12s
+epoch: 7  epoch_time 2m 12s
+epoch: 8  epoch_time 2m 12s
+epoch: 9  epoch_time 2m 12s
+client: 2
+epoch: 0  epoch_time 1m 39s
+epoch: 1  epoch_time 1m 39s
+epoch: 2  epoch_time 1m 39s
+epoch: 3  epoch_time 1m 39s
+epoch: 4  epoch_time 1m 39s
+epoch: 5  epoch_time 1m 39s
+epoch: 6  epoch_time 1m 39s
+epoch: 7  epoch_time 1m 39s
+epoch: 8  epoch_time 1m 39s
+epoch: 9  epoch_time 1m 39s
+client: 3
+epoch: 0  epoch_time 1m 39s
+epoch: 1  epoch_time 1m 39s
+epoch: 2  epoch_time 1m 39s
+epoch: 3  epoch_time 1m 39s
+epoch: 4  epoch_time 1m 39s
+epoch: 5  epoch_time 1m 39s
+epoch: 6  epoch_time 1m 39s
+epoch: 7  epoch_time 1m 39s
+epoch: 8  epoch_time 1m 39s
+epoch: 9  epoch_time 1m 39s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0   0  57]
+ [  0   0 104]
+ [  0   0  31]]
+Validation precision: 0.0261
+Validation recall: 0.1615
+Validation F1 score: 0.0449
+Client 1: Accuracy 0.16146, Loss 1.14274
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[ 0  0 54]
+ [ 0  0 62]
+ [ 0  0 28]]
+Validation precision: 0.0378
+Validation recall: 0.1944
+Validation F1 score: 0.0633
+Client 2: Accuracy 0.19444, Loss 1.14017
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[ 0  0 57]
+ [ 0  0 66]
+ [ 0  0 21]]
+Validation precision: 0.0213
+Validation recall: 0.1458
+Validation F1 score: 0.0371
+Client 3: Accuracy 0.14583, Loss 1.15268
+Average Accuracy: 0.16725, Average Loss: 1.14520
+Communication round : 2
+client: 1
+epoch: 0  epoch_time 2m 12s
+epoch: 1  epoch_time 2m 12s
+epoch: 2  epoch_time 2m 12s
+epoch: 3  epoch_time 2m 12s
+epoch: 4  epoch_time 2m 12s
+epoch: 5  epoch_time 2m 11s
+epoch: 6  epoch_time 2m 11s
+epoch: 7  epoch_time 2m 11s
+epoch: 8  epoch_time 2m 11s
+epoch: 9  epoch_time 2m 11s
+client: 2
+epoch: 0  epoch_time 1m 39s
+epoch: 1  epoch_time 1m 39s
+epoch: 2  epoch_time 1m 39s
+epoch: 3  epoch_time 1m 39s
+epoch: 4  epoch_time 1m 39s
+epoch: 5  epoch_time 1m 43s
+epoch: 6  epoch_time 1m 44s
+epoch: 7  epoch_time 1m 41s
+epoch: 8  epoch_time 1m 39s
+epoch: 9  epoch_time 1m 39s
+client: 3
+epoch: 0  epoch_time 1m 39s
+epoch: 1  epoch_time 1m 39s
+epoch: 2  epoch_time 1m 39s
+epoch: 3  epoch_time 1m 39s
+epoch: 4  epoch_time 1m 39s
+epoch: 5  epoch_time 1m 39s
+epoch: 6  epoch_time 1m 39s
+epoch: 7  epoch_time 1m 39s
+epoch: 8  epoch_time 1m 38s
+epoch: 9  epoch_time 1m 38s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0   0  57]
+ [  0   0 104]
+ [  0   0  31]]
+Validation precision: 0.0261
+Validation recall: 0.1615
+Validation F1 score: 0.0449
+Client 1: Accuracy 0.16146, Loss 1.14274
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[ 0  0 54]
+ [ 0  0 62]
+ [ 0  0 28]]
+Validation precision: 0.0378
+Validation recall: 0.1944
+Validation F1 score: 0.0633
+Client 2: Accuracy 0.19444, Loss 1.14017
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[ 0  0 57]
+ [ 0  0 66]
+ [ 0  0 21]]
+Validation precision: 0.0213
+Validation recall: 0.1458
+Validation F1 score: 0.0371
+Client 3: Accuracy 0.14583, Loss 1.15268
+Average Accuracy: 0.16725, Average Loss: 1.14520
+Communication round : 3
+client: 1
+epoch: 0  epoch_time 2m 13s
+epoch: 1  epoch_time 2m 12s
+epoch: 2  epoch_time 2m 12s
+epoch: 3  epoch_time 2m 12s
+epoch: 4  epoch_time 2m 12s
+epoch: 5  epoch_time 2m 12s
+epoch: 6  epoch_time 2m 14s
+epoch: 7  epoch_time 2m 16s
+epoch: 8  epoch_time 2m 16s
+epoch: 9  epoch_time 2m 17s
+client: 2
+epoch: 0  epoch_time 1m 46s
+epoch: 1  epoch_time 1m 44s
+epoch: 2  epoch_time 1m 44s
+epoch: 3  epoch_time 1m 43s
+epoch: 4  epoch_time 1m 39s
+epoch: 5  epoch_time 1m 39s
+epoch: 6  epoch_time 1m 39s
+epoch: 7  epoch_time 1m 39s
+epoch: 8  epoch_time 1m 39s
+epoch: 9  epoch_time 1m 39s
+client: 3
+epoch: 0  epoch_time 1m 39s
+epoch: 1  epoch_time 1m 39s
+epoch: 2  epoch_time 1m 39s
+epoch: 3  epoch_time 1m 39s
+epoch: 4  epoch_time 1m 39s
+epoch: 5  epoch_time 1m 39s
+epoch: 6  epoch_time 1m 39s
+epoch: 7  epoch_time 1m 39s
+epoch: 8  epoch_time 1m 39s
+epoch: 9  epoch_time 1m 39s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0   0  57]
+ [  0   0 104]
+ [  0   0  31]]
+Validation precision: 0.0261
+Validation recall: 0.1615
+Validation F1 score: 0.0449
+Client 1: Accuracy 0.16146, Loss 1.14274
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[ 0  0 54]
+ [ 0  0 62]
+ [ 0  0 28]]
+Validation precision: 0.0378
+Validation recall: 0.1944
+Validation F1 score: 0.0633
+Client 2: Accuracy 0.19444, Loss 1.14017
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[ 0  0 57]
+ [ 0  0 66]
+ [ 0  0 21]]
+Validation precision: 0.0213
+Validation recall: 0.1458
+Validation F1 score: 0.0371
+Client 3: Accuracy 0.14583, Loss 1.15268
+Average Accuracy: 0.16725, Average Loss: 1.14520
+Communication round : 4
+client: 1
+epoch: 0  epoch_time 2m 13s
+epoch: 1  epoch_time 2m 12s
+epoch: 2  epoch_time 2m 12s
+epoch: 3  epoch_time 2m 12s
+epoch: 4  epoch_time 2m 12s
+epoch: 5  epoch_time 2m 12s
+epoch: 6  epoch_time 2m 12s
+epoch: 7  epoch_time 2m 12s
+epoch: 8  epoch_time 2m 12s
+epoch: 9  epoch_time 2m 11s
+client: 2
+epoch: 0  epoch_time 1m 39s
+epoch: 1  epoch_time 1m 39s
+epoch: 2  epoch_time 1m 39s
+epoch: 3  epoch_time 1m 39s
+epoch: 4  epoch_time 1m 38s
+epoch: 5  epoch_time 1m 39s
+epoch: 6  epoch_time 1m 38s
+epoch: 7  epoch_time 1m 38s
+epoch: 8  epoch_time 1m 38s
+epoch: 9  epoch_time 1m 38s
+client: 3
+epoch: 0  epoch_time 1m 39s
+epoch: 1  epoch_time 1m 39s
+epoch: 2  epoch_time 1m 39s
+epoch: 3  epoch_time 1m 39s
+epoch: 4  epoch_time 1m 39s
+epoch: 5  epoch_time 1m 39s
+epoch: 6  epoch_time 1m 39s
+epoch: 7  epoch_time 1m 38s
+epoch: 8  epoch_time 1m 39s
+epoch: 9  epoch_time 1m 39s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0   0  57]
+ [  0   0 104]
+ [  0   0  31]]
+Validation precision: 0.0261
+Validation recall: 0.1615
+Validation F1 score: 0.0449
+Client 1: Accuracy 0.16146, Loss 1.14274
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[ 0  0 54]
+ [ 0  0 62]
+ [ 0  0 28]]
+Validation precision: 0.0378
+Validation recall: 0.1944
+Validation F1 score: 0.0633
+Client 2: Accuracy 0.19444, Loss 1.14017
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[ 0  0 57]
+ [ 0  0 66]
+ [ 0  0 21]]
+Validation precision: 0.0213
+Validation recall: 0.1458
+Validation F1 score: 0.0371
+Client 3: Accuracy 0.14583, Loss 1.15268
+Average Accuracy: 0.16725, Average Loss: 1.14520
+Communication round : 5
+client: 1
+epoch: 0  epoch_time 2m 11s
+epoch: 1  epoch_time 2m 12s
+epoch: 2  epoch_time 2m 12s
+epoch: 3  epoch_time 2m 12s
+epoch: 4  epoch_time 2m 14s
+epoch: 5  epoch_time 2m 12s
+epoch: 6  epoch_time 2m 12s
+epoch: 7  epoch_time 2m 11s
+epoch: 8  epoch_time 2m 11s
+epoch: 9  epoch_time 2m 12s
+client: 2
+epoch: 0  epoch_time 1m 39s
+epoch: 1  epoch_time 1m 39s
+epoch: 2  epoch_time 1m 39s
+epoch: 3  epoch_time 1m 39s
+epoch: 4  epoch_time 1m 39s
+epoch: 5  epoch_time 1m 39s
+epoch: 6  epoch_time 1m 39s
+epoch: 7  epoch_time 1m 39s
+epoch: 8  epoch_time 1m 39s
+epoch: 9  epoch_time 1m 39s
+client: 3
+epoch: 0  epoch_time 1m 41s
+epoch: 1  epoch_time 1m 39s
+epoch: 2  epoch_time 1m 39s
+epoch: 3  epoch_time 1m 39s
+epoch: 4  epoch_time 1m 39s
+epoch: 5  epoch_time 1m 39s
+epoch: 6  epoch_time 1m 39s
+epoch: 7  epoch_time 1m 39s
+epoch: 8  epoch_time 1m 39s
+epoch: 9  epoch_time 1m 39s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0   0  57]
+ [  0   0 104]
+ [  0   0  31]]
+Validation precision: 0.0261
+Validation recall: 0.1615
+Validation F1 score: 0.0449
+Client 1: Accuracy 0.16146, Loss 1.14274
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[ 0  0 54]
+ [ 0  0 62]
+ [ 0  0 28]]
+Validation precision: 0.0378
+Validation recall: 0.1944
+Validation F1 score: 0.0633
+Client 2: Accuracy 0.19444, Loss 1.14017
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[ 0  0 57]
+ [ 0  0 66]
+ [ 0  0 21]]
+Validation precision: 0.0213
+Validation recall: 0.1458
+Validation F1 score: 0.0371
+Client 3: Accuracy 0.14583, Loss 1.15268
+Average Accuracy: 0.16725, Average Loss: 1.14520
+Communication round : 6
+client: 1
+epoch: 0  epoch_time 2m 14s
+epoch: 1  epoch_time 2m 12s
+epoch: 2  epoch_time 2m 12s
+epoch: 3  epoch_time 2m 12s
+epoch: 4  epoch_time 2m 12s
+epoch: 5  epoch_time 2m 12s
+epoch: 6  epoch_time 2m 12s
+epoch: 7  epoch_time 2m 12s
+epoch: 8  epoch_time 2m 12s
+epoch: 9  epoch_time 2m 12s
+client: 2
+epoch: 0  epoch_time 1m 40s
+epoch: 1  epoch_time 1m 39s
+epoch: 2  epoch_time 1m 39s
+epoch: 3  epoch_time 1m 39s
+epoch: 4  epoch_time 1m 39s
+epoch: 5  epoch_time 1m 39s
+epoch: 6  epoch_time 1m 39s
+epoch: 7  epoch_time 1m 39s
+epoch: 8  epoch_time 1m 39s
+epoch: 9  epoch_time 1m 39s
+client: 3
+epoch: 0  epoch_time 1m 39s
+epoch: 1  epoch_time 1m 39s
+epoch: 2  epoch_time 1m 39s
+epoch: 3  epoch_time 1m 39s
+epoch: 4  epoch_time 1m 39s
+epoch: 5  epoch_time 1m 39s
+epoch: 6  epoch_time 1m 39s
+epoch: 7  epoch_time 1m 39s
+epoch: 8  epoch_time 1m 39s
+epoch: 9  epoch_time 1m 39s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0   0  57]
+ [  0   0 104]
+ [  0   0  31]]
+Validation precision: 0.0261
+Validation recall: 0.1615
+Validation F1 score: 0.0449
+Client 1: Accuracy 0.16146, Loss 1.14274
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[ 0  0 54]
+ [ 0  0 62]
+ [ 0  0 28]]
+Validation precision: 0.0378
+Validation recall: 0.1944
+Validation F1 score: 0.0633
+Client 2: Accuracy 0.19444, Loss 1.14017
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[ 0  0 57]
+ [ 0  0 66]
+ [ 0  0 21]]
+Validation precision: 0.0213
+Validation recall: 0.1458
+Validation F1 score: 0.0371
+Client 3: Accuracy 0.14583, Loss 1.15268
+Average Accuracy: 0.16725, Average Loss: 1.14520
+Communication round : 7
+client: 1
+epoch: 0  epoch_time 2m 13s
+epoch: 1  epoch_time 2m 12s
+epoch: 2  epoch_time 2m 12s
+epoch: 3  epoch_time 2m 12s
+epoch: 4  epoch_time 2m 12s
+epoch: 5  epoch_time 2m 12s
+epoch: 6  epoch_time 2m 12s
+epoch: 7  epoch_time 2m 12s
+epoch: 8  epoch_time 2m 11s
+epoch: 9  epoch_time 2m 11s
+client: 2
+epoch: 0  epoch_time 1m 40s
+epoch: 1  epoch_time 1m 39s
+epoch: 2  epoch_time 1m 41s
+epoch: 3  epoch_time 1m 39s
+epoch: 4  epoch_time 1m 39s
+epoch: 5  epoch_time 1m 39s
+epoch: 6  epoch_time 1m 39s
+epoch: 7  epoch_time 1m 39s
+epoch: 8  epoch_time 1m 39s
+epoch: 9  epoch_time 1m 39s
+client: 3
+epoch: 0  epoch_time 1m 39s
+epoch: 1  epoch_time 1m 39s
+epoch: 2  epoch_time 1m 39s
+epoch: 3  epoch_time 1m 39s
+epoch: 4  epoch_time 1m 39s
+epoch: 5  epoch_time 1m 39s
+epoch: 6  epoch_time 1m 39s
+epoch: 7  epoch_time 1m 39s
+epoch: 8  epoch_time 1m 39s
+epoch: 9  epoch_time 1m 39s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0   0  57]
+ [  0   0 104]
+ [  0   0  31]]
+Validation precision: 0.0261
+Validation recall: 0.1615
+Validation F1 score: 0.0449
+Client 1: Accuracy 0.16146, Loss 1.14274
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[ 0  0 54]
+ [ 0  0 62]
+ [ 0  0 28]]
+Validation precision: 0.0378
+Validation recall: 0.1944
+Validation F1 score: 0.0633
+Client 2: Accuracy 0.19444, Loss 1.14017
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[ 0  0 57]
+ [ 0  0 66]
+ [ 0  0 21]]
+Validation precision: 0.0213
+Validation recall: 0.1458
+Validation F1 score: 0.0371
+Client 3: Accuracy 0.14583, Loss 1.15268
+Average Accuracy: 0.16725, Average Loss: 1.14520
+Communication round : 8
+client: 1
+epoch: 0  epoch_time 2m 12s
+epoch: 1  epoch_time 2m 12s
+epoch: 2  epoch_time 2m 12s
+epoch: 3  epoch_time 2m 12s
+epoch: 4  epoch_time 2m 12s
+epoch: 5  epoch_time 2m 13s
+epoch: 6  epoch_time 2m 12s
+epoch: 7  epoch_time 2m 12s
+epoch: 8  epoch_time 2m 12s
+epoch: 9  epoch_time 2m 12s
+client: 2
+epoch: 0  epoch_time 1m 40s
+epoch: 1  epoch_time 1m 39s
+epoch: 2  epoch_time 1m 39s
+epoch: 3  epoch_time 1m 39s
+epoch: 4  epoch_time 1m 39s
+epoch: 5  epoch_time 1m 39s
+epoch: 6  epoch_time 1m 39s
+epoch: 7  epoch_time 1m 39s
+epoch: 8  epoch_time 1m 39s
+epoch: 9  epoch_time 1m 39s
+client: 3
+epoch: 0  epoch_time 1m 39s
+epoch: 1  epoch_time 1m 39s
+epoch: 2  epoch_time 1m 39s
+epoch: 3  epoch_time 1m 39s
+epoch: 4  epoch_time 1m 39s
+epoch: 5  epoch_time 1m 39s
+epoch: 6  epoch_time 1m 39s
+epoch: 7  epoch_time 1m 39s
+epoch: 8  epoch_time 1m 39s
+epoch: 9  epoch_time 1m 39s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0   0  57]
+ [  0   0 104]
+ [  0   0  31]]
+Validation precision: 0.0261
+Validation recall: 0.1615
+Validation F1 score: 0.0449
+Client 1: Accuracy 0.16146, Loss 1.14274
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[ 0  0 54]
+ [ 0  0 62]
+ [ 0  0 28]]
+Validation precision: 0.0378
+Validation recall: 0.1944
+Validation F1 score: 0.0633
+Client 2: Accuracy 0.19444, Loss 1.14017
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[ 0  0 57]
+ [ 0  0 66]
+ [ 0  0 21]]
+Validation precision: 0.0213
+Validation recall: 0.1458
+Validation F1 score: 0.0371
+Client 3: Accuracy 0.14583, Loss 1.15268
+Average Accuracy: 0.16725, Average Loss: 1.14520
+Communication round : 9
+client: 1
+epoch: 0  epoch_time 2m 12s
+epoch: 1  epoch_time 2m 12s
+epoch: 2  epoch_time 2m 12s
+epoch: 3  epoch_time 2m 12s
+epoch: 4  epoch_time 2m 12s
+epoch: 5  epoch_time 2m 12s
+epoch: 6  epoch_time 2m 12s
+epoch: 7  epoch_time 2m 12s
+epoch: 8  epoch_time 2m 12s
+epoch: 9  epoch_time 2m 12s
+client: 2
+epoch: 0  epoch_time 1m 41s
+epoch: 1  epoch_time 1m 39s
+epoch: 2  epoch_time 1m 39s
+epoch: 3  epoch_time 1m 39s
+epoch: 4  epoch_time 1m 39s
+epoch: 5  epoch_time 1m 39s
+epoch: 6  epoch_time 1m 39s
+epoch: 7  epoch_time 1m 39s
+epoch: 8  epoch_time 1m 39s
+epoch: 9  epoch_time 1m 39s
+client: 3
+epoch: 0  epoch_time 1m 39s
+epoch: 1  epoch_time 1m 39s
+epoch: 2  epoch_time 1m 39s
+epoch: 3  epoch_time 1m 39s
+epoch: 4  epoch_time 1m 39s
+epoch: 5  epoch_time 1m 39s
+epoch: 6  epoch_time 1m 39s
+epoch: 7  epoch_time 1m 39s
+epoch: 8  epoch_time 1m 39s
+epoch: 9  epoch_time 1m 39s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0   0  57]
+ [  0   0 104]
+ [  0   0  31]]
+Validation precision: 0.0261
+Validation recall: 0.1615
+Validation F1 score: 0.0449
+Client 1: Accuracy 0.16146, Loss 1.14274
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[ 0  0 54]
+ [ 0  0 62]
+ [ 0  0 28]]
+Validation precision: 0.0378
+Validation recall: 0.1944
+Validation F1 score: 0.0633
+Client 2: Accuracy 0.19444, Loss 1.14017
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[ 0  0 57]
+ [ 0  0 66]
+ [ 0  0 21]]
+Validation precision: 0.0213
+Validation recall: 0.1458
+Validation F1 score: 0.0371
+Client 3: Accuracy 0.14583, Loss 1.15268
+Average Accuracy: 0.16725, Average Loss: 1.14520
+Communication round : 10
+client: 1
+epoch: 0  epoch_time 2m 13s
+epoch: 1  epoch_time 2m 12s
+epoch: 2  epoch_time 2m 12s
+epoch: 3  epoch_time 2m 12s
+epoch: 4  epoch_time 2m 12s
+epoch: 5  epoch_time 2m 12s
+epoch: 6  epoch_time 2m 12s
+epoch: 7  epoch_time 2m 12s
+epoch: 8  epoch_time 2m 12s
+epoch: 9  epoch_time 2m 12s
+client: 2
+epoch: 0  epoch_time 1m 41s
+epoch: 1  epoch_time 1m 39s
+epoch: 2  epoch_time 1m 39s
+epoch: 3  epoch_time 1m 39s
+epoch: 4  epoch_time 1m 39s
+epoch: 5  epoch_time 1m 39s
+epoch: 6  epoch_time 1m 39s
+epoch: 7  epoch_time 1m 39s
+epoch: 8  epoch_time 1m 39s
+epoch: 9  epoch_time 1m 39s
+client: 3
+epoch: 0  epoch_time 1m 41s
+epoch: 1  epoch_time 1m 39s
+epoch: 2  epoch_time 1m 39s
+epoch: 3  epoch_time 1m 39s
+epoch: 4  epoch_time 1m 39s
+epoch: 5  epoch_time 1m 39s
+epoch: 6  epoch_time 1m 39s
+epoch: 7  epoch_time 1m 39s
+epoch: 8  epoch_time 1m 39s
+epoch: 9  epoch_time 1m 39s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0   0  57]
+ [  0   0 104]
+ [  0   0  31]]
+Validation precision: 0.0261
+Validation recall: 0.1615
+Validation F1 score: 0.0449
+Client 1: Accuracy 0.16146, Loss 1.14274
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[ 0  0 54]
+ [ 0  0 62]
+ [ 0  0 28]]
+Validation precision: 0.0378
+Validation recall: 0.1944
+Validation F1 score: 0.0633
+Client 2: Accuracy 0.19444, Loss 1.14017
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[ 0  0 57]
+ [ 0  0 66]
+ [ 0  0 21]]
+Validation precision: 0.0213
+Validation recall: 0.1458
+Validation F1 score: 0.0371
+Client 3: Accuracy 0.14583, Loss 1.15268
+Average Accuracy: 0.16725, Average Loss: 1.14520
+Communication round : 11
+client: 1
+epoch: 0  epoch_time 2m 14s
+epoch: 1  epoch_time 2m 12s
+epoch: 2  epoch_time 2m 12s
+epoch: 3  epoch_time 2m 12s
+epoch: 4  epoch_time 2m 12s
+epoch: 5  epoch_time 2m 12s
+epoch: 6  epoch_time 2m 12s
+epoch: 7  epoch_time 2m 12s
+epoch: 8  epoch_time 2m 12s
+epoch: 9  epoch_time 2m 11s
+client: 2
+epoch: 0  epoch_time 1m 39s
+epoch: 1  epoch_time 1m 39s
+epoch: 2  epoch_time 1m 39s
+epoch: 3  epoch_time 1m 39s
+epoch: 4  epoch_time 1m 38s
+epoch: 5  epoch_time 1m 39s
+epoch: 6  epoch_time 1m 39s
+epoch: 7  epoch_time 1m 39s
+epoch: 8  epoch_time 1m 39s
+epoch: 9  epoch_time 1m 39s
+client: 3
+epoch: 0  epoch_time 1m 41s
+epoch: 1  epoch_time 1m 39s
+epoch: 2  epoch_time 1m 39s
+epoch: 3  epoch_time 1m 39s
+epoch: 4  epoch_time 1m 39s
+epoch: 5  epoch_time 1m 39s
+epoch: 6  epoch_time 1m 39s
+epoch: 7  epoch_time 1m 39s
+epoch: 8  epoch_time 1m 39s
+epoch: 9  epoch_time 1m 41s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0   0  57]
+ [  0   0 104]
+ [  0   0  31]]
+Validation precision: 0.0261
+Validation recall: 0.1615
+Validation F1 score: 0.0449
+Client 1: Accuracy 0.16146, Loss 1.14274
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[ 0  0 54]
+ [ 0  0 62]
+ [ 0  0 28]]
+Validation precision: 0.0378
+Validation recall: 0.1944
+Validation F1 score: 0.0633
+Client 2: Accuracy 0.19444, Loss 1.14017
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[ 0  0 57]
+ [ 0  0 66]
+ [ 0  0 21]]
+Validation precision: 0.0213
+Validation recall: 0.1458
+Validation F1 score: 0.0371
+Client 3: Accuracy 0.14583, Loss 1.15268
+Average Accuracy: 0.16725, Average Loss: 1.14520
+Communication round : 12
+client: 1
+epoch: 0  epoch_time 2m 14s
+epoch: 1  epoch_time 2m 12s
+epoch: 2  epoch_time 2m 12s
+epoch: 3  epoch_time 2m 12s
+epoch: 4  epoch_time 2m 12s
+epoch: 5  epoch_time 2m 12s
+epoch: 6  epoch_time 2m 12s
+epoch: 7  epoch_time 2m 12s
+epoch: 8  epoch_time 2m 12s
+epoch: 9  epoch_time 2m 12s
+client: 2
+epoch: 0  epoch_time 1m 39s
+epoch: 1  epoch_time 1m 39s
+epoch: 2  epoch_time 1m 39s
+epoch: 3  epoch_time 1m 39s
+epoch: 4  epoch_time 1m 39s
+epoch: 5  epoch_time 1m 39s
+epoch: 6  epoch_time 1m 39s
+epoch: 7  epoch_time 1m 39s
+epoch: 8  epoch_time 1m 39s
+epoch: 9  epoch_time 1m 39s
+client: 3
+epoch: 0  epoch_time 1m 41s
+epoch: 1  epoch_time 1m 39s
+epoch: 2  epoch_time 1m 39s

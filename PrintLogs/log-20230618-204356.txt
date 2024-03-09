@@ -1,0 +1,1847 @@
+Input dim:    64
+LSTM output size: 64
+Number of qubits: 4
+Training epochs:  100
+Batch_size:       200
+Num_rounds:       150
+Local_epochs:       1
+BitFlip=0.1, Tagger will use Quantum MGU running on backend default.mixed
+weight_shapes = (n_qlayers, n_qubits) = (1, 4)
+batch 1, loss 1.196338176727295, batch_time 1m 13s
+batch 2, loss 1.2259373664855957, batch_time 2m 35s
+batch 3, loss 1.1774506568908691, batch_time 3m 52s
+batch 4, loss 1.142776370048523, batch_time 5m 10s
+batch 5, loss 1.168381690979004, batch_time 6m 36s
+batch 6, loss 1.200394630432129, batch_time 7m 54s
+batch 7, loss 1.1385034322738647, batch_time 9m 12s
+batch 8, loss 1.1770046949386597, batch_time 10m 29s
+batch 9, loss 1.1742502450942993, batch_time 11m 46s
+batch 10, loss 1.1713742017745972, batch_time 12m 33s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 1 / 100: Loss = 1.17724 Acc = 0.50417  Valid_acc = 0.4833333194255829 lr = 0.00100 Training complete in 14m 45s'
+batch 1, loss 1.167870283126831, batch_time 1m 24s
+batch 2, loss 1.2209765911102295, batch_time 2m 48s
+batch 3, loss 1.1482772827148438, batch_time 4m 7s
+batch 4, loss 1.0990772247314453, batch_time 5m 25s
+batch 5, loss 1.14503812789917, batch_time 6m 44s
+batch 6, loss 1.1932847499847412, batch_time 8m 10s
+batch 7, loss 1.1112890243530273, batch_time 9m 36s
+batch 8, loss 1.1647233963012695, batch_time 10m 55s
+batch 9, loss 1.1636959314346313, batch_time 12m 14s
+batch 10, loss 1.1611313819885254, batch_time 13m 1s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 2 / 100: Loss = 1.15754 Acc = 0.50417  Valid_acc = 0.4833333194255829 lr = 0.00100 Training complete in 15m 8s'
+batch 1, loss 1.1566252708435059, batch_time 1m 22s
+batch 2, loss 1.2203454971313477, batch_time 2m 36s
+batch 3, loss 1.1349126100540161, batch_time 3m 59s
+batch 4, loss 1.0833280086517334, batch_time 5m 15s
+batch 5, loss 1.1305018663406372, batch_time 6m 31s
+batch 6, loss 1.1812222003936768, batch_time 7m 47s
+batch 7, loss 1.1019587516784668, batch_time 9m 10s
+batch 8, loss 1.1548041105270386, batch_time 10m 26s
+batch 9, loss 1.1554386615753174, batch_time 11m 42s
+batch 10, loss 1.1521306037902832, batch_time 12m 27s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 3 / 100: Loss = 1.14713 Acc = 0.50417  Valid_acc = 0.4833333194255829 lr = 0.00100 Training complete in 14m 34s'
+batch 1, loss 1.145723581314087, batch_time 1m 14s
+batch 2, loss 1.2097846269607544, batch_time 2m 29s
+batch 3, loss 1.1245537996292114, batch_time 3m 44s
+batch 4, loss 1.0761913061141968, batch_time 4m 60s
+batch 5, loss 1.1197350025177002, batch_time 6m 16s
+batch 6, loss 1.1683878898620605, batch_time 7m 31s
+batch 7, loss 1.0950751304626465, batch_time 8m 48s
+batch 8, loss 1.1446024179458618, batch_time 10m 11s
+batch 9, loss 1.1451290845870972, batch_time 11m 27s
+batch 10, loss 1.1421302556991577, batch_time 12m 17s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 4 / 100: Loss = 1.13713 Acc = 0.50417  Valid_acc = 0.4833333194255829 lr = 0.00100 Training complete in 14m 24s'
+batch 1, loss 1.1360329389572144, batch_time 1m 14s
+batch 2, loss 1.1970877647399902, batch_time 2m 29s
+batch 3, loss 1.1158533096313477, batch_time 3m 44s
+batch 4, loss 1.068941354751587, batch_time 5m 0s
+batch 5, loss 1.1120929718017578, batch_time 6m 16s
+batch 6, loss 1.1594873666763306, batch_time 7m 32s
+batch 7, loss 1.0866012573242188, batch_time 8m 48s
+batch 8, loss 1.135313868522644, batch_time 10m 4s
+batch 9, loss 1.1347047090530396, batch_time 11m 20s
+batch 10, loss 1.132659912109375, batch_time 12m 10s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 5 / 100: Loss = 1.12788 Acc = 0.50417  Valid_acc = 0.4833333194255829 lr = 0.00100 Training complete in 14m 17s'
+batch 1, loss 1.1275681257247925, batch_time 1m 15s
+batch 2, loss 1.186720371246338, batch_time 2m 29s
+batch 3, loss 1.107614278793335, batch_time 3m 44s
+batch 4, loss 1.060443639755249, batch_time 5m 0s
+batch 5, loss 1.1045260429382324, batch_time 6m 16s
+batch 6, loss 1.1516902446746826, batch_time 7m 32s
+batch 7, loss 1.0781304836273193, batch_time 8m 48s
+batch 8, loss 1.1267961263656616, batch_time 10m 4s
+batch 9, loss 1.1254163980484009, batch_time 11m 19s
+batch 10, loss 1.1242623329162598, batch_time 12m 5s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 6 / 100: Loss = 1.11932 Acc = 0.50417  Valid_acc = 0.4833333194255829 lr = 0.00100 Training complete in 14m 12s'
+batch 1, loss 1.1191341876983643, batch_time 1m 15s
+batch 2, loss 1.1780891418457031, batch_time 2m 29s
+batch 3, loss 1.0989787578582764, batch_time 3m 45s
+batch 4, loss 1.0514968633651733, batch_time 5m 1s
+batch 5, loss 1.0955873727798462, batch_time 6m 17s
+batch 6, loss 1.1427916288375854, batch_time 7m 33s
+batch 7, loss 1.0704219341278076, batch_time 8m 49s
+batch 8, loss 1.118325114250183, batch_time 10m 5s
+batch 9, loss 1.116461157798767, batch_time 11m 29s
+batch 10, loss 1.1162246465682983, batch_time 12m 19s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 7 / 100: Loss = 1.11075 Acc = 0.50417  Valid_acc = 0.4833333194255829 lr = 0.00100 Training complete in 14m 27s'
+batch 1, loss 1.1101001501083374, batch_time 1m 15s
+batch 2, loss 1.1694650650024414, batch_time 2m 30s
+batch 3, loss 1.0896580219268799, batch_time 3m 54s
+batch 4, loss 1.0419023036956787, batch_time 5m 19s
+batch 5, loss 1.0854220390319824, batch_time 6m 35s
+batch 6, loss 1.1328248977661133, batch_time 7m 51s
+batch 7, loss 1.0628108978271484, batch_time 9m 8s
+batch 8, loss 1.1093147993087769, batch_time 10m 24s
+batch 9, loss 1.1066759824752808, batch_time 11m 40s
+batch 10, loss 1.107798457145691, batch_time 12m 30s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  0 168   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.2336
+Validation recall: 0.4833
+Validation F1 score: 0.3150
+Epoch 8 / 100: Loss = 1.10160 Acc = 0.50417  Valid_acc = 0.4833333194255829 lr = 0.00100 Training complete in 14m 38s'
+batch 1, loss 1.1003230810165405, batch_time 1m 23s
+batch 2, loss 1.1596330404281616, batch_time 2m 39s
+batch 3, loss 1.0797232389450073, batch_time 3m 54s
+batch 4, loss 1.0310771465301514, batch_time 5m 18s
+batch 5, loss 1.0743882656097412, batch_time 6m 35s
+batch 6, loss 1.1220966577529907, batch_time 7m 51s
+batch 7, loss 1.0547213554382324, batch_time 9m 7s
+batch 8, loss 1.0993679761886597, batch_time 10m 31s
+batch 9, loss 1.0953184366226196, batch_time 11m 49s
+batch 10, loss 1.0984621047973633, batch_time 12m 36s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[  4 164   0]
+ [  0 232   0]
+ [  0  80   0]]
+Validation precision: 0.5856
+Validation recall: 0.4917
+Validation F1 score: 0.3330
+Epoch 9 / 100: Loss = 1.09151 Acc = 0.50625  Valid_acc = 0.49166667461395264 lr = 0.00100 Training complete in 14m 50s'
+batch 1, loss 1.0893563032150269, batch_time 1m 26s
+batch 2, loss 1.1479250192642212, batch_time 2m 45s
+batch 3, loss 1.0688949823379517, batch_time 4m 4s
+batch 4, loss 1.018555760383606, batch_time 5m 23s
+batch 5, loss 1.0622327327728271, batch_time 6m 42s
+batch 6, loss 1.1101733446121216, batch_time 8m 2s
+batch 7, loss 1.0462613105773926, batch_time 9m 28s
+batch 8, loss 1.0882588624954224, batch_time 10m 48s
+batch 9, loss 1.0825045108795166, batch_time 12m 15s
+batch 10, loss 1.0879645347595215, batch_time 13m 6s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[ 19 149   0]
+ [  2 230   0]
+ [  0  80   0]]
+Validation precision: 0.5589
+Validation recall: 0.5188
+Validation F1 score: 0.3921
+Epoch 10 / 100: Loss = 1.08021 Acc = 0.51562  Valid_acc = 0.518750011920929 lr = 0.00100 Training complete in 15m 18s'
+batch 1, loss 1.0767571926116943, batch_time 1m 18s
+batch 2, loss 1.1338210105895996, batch_time 2m 36s
+batch 3, loss 1.0565714836120605, batch_time 3m 54s
+batch 4, loss 1.0035300254821777, batch_time 5m 14s
+batch 5, loss 1.0486305952072144, batch_time 6m 33s
+batch 6, loss 1.09663987159729, batch_time 7m 52s
+batch 7, loss 1.0370653867721558, batch_time 9m 11s
+batch 8, loss 1.0756765604019165, batch_time 10m 39s
+batch 9, loss 1.0682789087295532, batch_time 11m 58s
+batch 10, loss 1.0760204792022705, batch_time 12m 45s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[ 36 132   0]
+ [ 11 221   0]
+ [  0  80   0]]
+Validation precision: 0.5148
+Validation recall: 0.5354
+Validation F1 score: 0.4385
+Epoch 11 / 100: Loss = 1.06730 Acc = 0.53802  Valid_acc = 0.5354166626930237 lr = 0.00100 Training complete in 14m 57s'
+batch 1, loss 1.0625063180923462, batch_time 1m 18s
+batch 2, loss 1.1174460649490356, batch_time 2m 36s
+batch 3, loss 1.0431249141693115, batch_time 4m 3s
+batch 4, loss 0.9862056970596313, batch_time 5m 23s
+batch 5, loss 1.0345535278320312, batch_time 6m 43s
+batch 6, loss 1.082184910774231, batch_time 8m 11s
+batch 7, loss 1.0274839401245117, batch_time 9m 30s
+batch 8, loss 1.0619577169418335, batch_time 10m 51s
+batch 9, loss 1.0531048774719238, batch_time 12m 11s
+batch 10, loss 1.0628314018249512, batch_time 13m 3s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[ 54 114   0]
+ [ 17 215   0]
+ [  0  80   0]]
+Validation precision: 0.5203
+Validation recall: 0.5604
+Validation F1 score: 0.4824
+Epoch 12 / 100: Loss = 1.05314 Acc = 0.55833  Valid_acc = 0.5604166388511658 lr = 0.00100 Training complete in 15m 15s'
+batch 1, loss 1.0473389625549316, batch_time 1m 19s
+batch 2, loss 1.099287509918213, batch_time 2m 37s
+batch 3, loss 1.0289678573608398, batch_time 4m 4s
+batch 4, loss 0.9670514464378357, batch_time 5m 25s
+batch 5, loss 1.020864486694336, batch_time 6m 52s
+batch 6, loss 1.0673153400421143, batch_time 8m 20s
+batch 7, loss 1.01788330078125, batch_time 9m 48s
+batch 8, loss 1.0472702980041504, batch_time 11m 8s
+batch 9, loss 1.0369760990142822, batch_time 12m 28s
+batch 10, loss 1.0483731031417847, batch_time 13m 15s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[ 63 105   0]
+ [ 24 208   0]
+ [  0  80   0]]
+Validation precision: 0.5093
+Validation recall: 0.5646
+Validation F1 score: 0.4946
+Epoch 13 / 100: Loss = 1.03813 Acc = 0.57500  Valid_acc = 0.5645833611488342 lr = 0.00100 Training complete in 15m 27s'
+batch 1, loss 1.0318217277526855, batch_time 1m 19s
+batch 2, loss 1.0800609588623047, batch_time 2m 38s
+batch 3, loss 1.0145447254180908, batch_time 4m 5s
+batch 4, loss 0.9469270706176758, batch_time 5m 25s
+batch 5, loss 1.0077964067459106, batch_time 6m 53s
+batch 6, loss 1.0520882606506348, batch_time 8m 14s
+batch 7, loss 1.0089668035507202, batch_time 9m 34s
+batch 8, loss 1.0317715406417847, batch_time 10m 54s
+batch 9, loss 1.0203336477279663, batch_time 12m 14s
+batch 10, loss 1.0329327583312988, batch_time 13m 2s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[ 75  93   0]
+ [ 27 205   0]
+ [  0  80   0]]
+Validation precision: 0.5195
+Validation recall: 0.5833
+Validation F1 score: 0.5193
+Epoch 14 / 100: Loss = 1.02272 Acc = 0.58542  Valid_acc = 0.5833333134651184 lr = 0.00100 Training complete in 15m 14s'
+batch 1, loss 1.0171163082122803, batch_time 1m 27s
+batch 2, loss 1.060687780380249, batch_time 2m 47s
+batch 3, loss 1.0006771087646484, batch_time 4m 6s
+batch 4, loss 0.9271512627601624, batch_time 5m 27s
+batch 5, loss 0.9957433342933655, batch_time 6m 47s
+batch 6, loss 1.037091851234436, batch_time 8m 7s
+batch 7, loss 1.0010936260223389, batch_time 9m 27s
+batch 8, loss 1.0157067775726318, batch_time 10m 47s
+batch 9, loss 1.0034538507461548, batch_time 12m 7s
+batch 10, loss 1.0170960426330566, batch_time 12m 60s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[ 80  88   0]
+ [ 31 201   0]
+ [  0  80   0]]
+Validation precision: 0.5155
+Validation recall: 0.5854
+Validation F1 score: 0.5240
+Epoch 15 / 100: Loss = 1.00758 Acc = 0.59479  Valid_acc = 0.5854166746139526 lr = 0.00100 Training complete in 15m 12s'
+batch 1, loss 1.0042036771774292, batch_time 1m 27s
+batch 2, loss 1.0420204401016235, batch_time 2m 55s
+batch 3, loss 0.9880223274230957, batch_time 4m 22s
+batch 4, loss 0.9089646339416504, batch_time 5m 42s
+batch 5, loss 0.9843612313270569, batch_time 7m 3s
+batch 6, loss 1.022229790687561, batch_time 8m 31s
+batch 7, loss 0.994205892086029, batch_time 9m 51s
+batch 8, loss 0.9990456700325012, batch_time 11m 20s
+batch 9, loss 0.9867174625396729, batch_time 12m 40s
+batch 10, loss 1.0011342763900757, batch_time 13m 28s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[ 83  85   0]
+ [ 30 202   0]
+ [  0  80   0]]
+Validation precision: 0.5231
+Validation recall: 0.5938
+Validation F1 score: 0.5327
+Epoch 16 / 100: Loss = 0.99309 Acc = 0.59688  Valid_acc = 0.59375 lr = 0.00100 Training complete in 15m 40s'
+batch 1, loss 0.993101954460144, batch_time 1m 19s
+batch 2, loss 1.0240422487258911, batch_time 2m 38s
+batch 3, loss 0.976498007774353, batch_time 3m 58s
+batch 4, loss 0.8928674459457397, batch_time 5m 18s
+batch 5, loss 0.9726000428199768, batch_time 6m 46s
+batch 6, loss 1.006937026977539, batch_time 8m 6s
+batch 7, loss 0.9872989654541016, batch_time 9m 34s
+batch 8, loss 0.9813318848609924, batch_time 10m 54s
+batch 9, loss 0.969363808631897, batch_time 12m 14s
+batch 10, loss 0.9847729206085205, batch_time 13m 2s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[ 83  85   0]
+ [ 28 204   0]
+ [  1  79   0]]
+Validation precision: 0.5273
+Validation recall: 0.5979
+Validation F1 score: 0.5362
+Epoch 17 / 100: Loss = 0.97888 Acc = 0.60312  Valid_acc = 0.5979166626930237 lr = 0.00100 Training complete in 15m 14s'
+batch 1, loss 0.9824358224868774, batch_time 1m 19s
+batch 2, loss 1.0057179927825928, batch_time 2m 39s
+batch 3, loss 0.9652262330055237, batch_time 3m 59s
+batch 4, loss 0.8778513073921204, batch_time 5m 27s
+batch 5, loss 0.9595156908035278, batch_time 6m 47s
+batch 6, loss 0.9902613162994385, batch_time 8m 15s
+batch 7, loss 0.9789497256278992, batch_time 9m 35s
+batch 8, loss 0.961883008480072, batch_time 10m 55s
+batch 9, loss 0.950387179851532, batch_time 12m 15s
+batch 10, loss 0.9671465158462524, batch_time 13m 3s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[ 83  85   0]
+ [ 25 207   0]
+ [  1  79   0]]
+Validation precision: 0.5362
+Validation recall: 0.6042
+Validation F1 score: 0.5416
+Epoch 18 / 100: Loss = 0.96394 Acc = 0.60729  Valid_acc = 0.6041666865348816 lr = 0.00100 Training complete in 15m 15s'
+batch 1, loss 0.9709957838058472, batch_time 1m 19s
+batch 2, loss 0.9857999682426453, batch_time 2m 39s
+batch 3, loss 0.9531909823417664, batch_time 3m 58s
+batch 4, loss 0.862594485282898, batch_time 5m 19s
+batch 5, loss 0.9449301958084106, batch_time 6m 39s
+batch 6, loss 0.9716012477874756, batch_time 7m 60s
+batch 7, loss 0.968232274055481, batch_time 9m 20s
+batch 8, loss 0.9403461217880249, batch_time 10m 41s
+batch 9, loss 0.9290567636489868, batch_time 12m 1s
+batch 10, loss 0.9472095966339111, batch_time 12m 49s
+C:\Users\swk\Anaconda3\envs\swk01\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation confusion matrix:
+[[ 83  85   0]
+ [ 25 207   0]
+ [  1  79   0]]
+Validation precision: 0.5362
+Validation recall: 0.6042
+Validation F1 score: 0.5416
+Epoch 19 / 100: Loss = 0.94740 Acc = 0.60833  Valid_acc = 0.6041666865348816 lr = 0.00100 Training complete in 15m 1s'
+batch 1, loss 0.9580478668212891, batch_time 1m 19s
+batch 2, loss 0.9629201889038086, batch_time 2m 39s
+batch 3, loss 0.9398443698883057, batch_time 3m 59s
+batch 4, loss 0.8462531566619873, batch_time 5m 27s
+batch 5, loss 0.9291679859161377, batch_time 6m 47s
+batch 6, loss 0.9506320357322693, batch_time 8m 8s
+batch 7, loss 0.9547539949417114, batch_time 9m 28s
+batch 8, loss 0.9163773059844971, batch_time 10m 48s
+batch 9, loss 0.9054718017578125, batch_time 12m 16s
+batch 10, loss 0.9238889217376709, batch_time 13m 8s
+Validation confusion matrix:
+[[ 83  85   0]
+ [ 27 205   0]
+ [  1  78   1]]
+Validation precision: 0.6976
+Validation recall: 0.6021
+Validation F1 score: 0.5426
+Epoch 20 / 100: Loss = 0.92874 Acc = 0.60990  Valid_acc = 0.6020833253860474 lr = 0.00100 Training complete in 15m 20s'
+batch 1, loss 0.9435838460922241, batch_time 1m 19s
+batch 2, loss 0.9368752241134644, batch_time 2m 47s
+batch 3, loss 0.9245850443840027, batch_time 4m 6s
+batch 4, loss 0.8283010125160217, batch_time 5m 35s
+batch 5, loss 0.9123728275299072, batch_time 6m 55s
+batch 6, loss 0.9274213314056396, batch_time 8m 23s
+batch 7, loss 0.9379330277442932, batch_time 9m 43s
+batch 8, loss 0.8902508020401001, batch_time 11m 11s
+batch 9, loss 0.8804458379745483, batch_time 12m 31s
+batch 10, loss 0.8965531587600708, batch_time 13m 19s
+Validation confusion matrix:
+[[ 83  85   0]
+ [ 27 205   0]
+ [  2  68  10]]
+Validation precision: 0.7028
+Validation recall: 0.6208
+Validation F1 score: 0.5804
+Epoch 21 / 100: Loss = 0.90783 Acc = 0.61771  Valid_acc = 0.6208333373069763 lr = 0.00100 Training complete in 15m 31s'
+batch 1, loss 0.9276925325393677, batch_time 1m 19s
+batch 2, loss 0.9082955121994019, batch_time 2m 39s
+batch 3, loss 0.906967282295227, batch_time 4m 6s
+batch 4, loss 0.8086293339729309, batch_time 5m 26s
+batch 5, loss 0.8947138786315918, batch_time 6m 47s
+batch 6, loss 0.9026004672050476, batch_time 8m 15s
+batch 7, loss 0.9172114133834839, batch_time 9m 43s
+batch 8, loss 0.8627841472625732, batch_time 11m 11s
+batch 9, loss 0.8552635908126831, batch_time 12m 39s
+batch 10, loss 0.8650174140930176, batch_time 13m 27s
+Validation confusion matrix:
+[[ 84  84   0]
+ [ 29 198   5]
+ [  2  59  19]]
+Validation precision: 0.6682
+Validation recall: 0.6271
+Validation F1 score: 0.6027
+Epoch 22 / 100: Loss = 0.88492 Acc = 0.63646  Valid_acc = 0.6270833611488342 lr = 0.00100 Training complete in 15m 39s'
+batch 1, loss 0.9107651710510254, batch_time 1m 19s
+batch 2, loss 0.8784044981002808, batch_time 2m 39s
+batch 3, loss 0.8867976665496826, batch_time 4m 7s
+batch 4, loss 0.7874687314033508, batch_time 5m 27s
+batch 5, loss 0.8764763474464417, batch_time 6m 48s
+batch 6, loss 0.8773711919784546, batch_time 8m 8s
+batch 7, loss 0.8928177952766418, batch_time 9m 36s
+batch 8, loss 0.8354455232620239, batch_time 10m 57s
+batch 9, loss 0.831501305103302, batch_time 12m 17s
+batch 10, loss 0.8300704956054688, batch_time 13m 5s
+Validation confusion matrix:
+[[ 82  86   0]
+ [ 27 196   9]
+ [  3  48  29]]
+Validation precision: 0.6705
+Validation recall: 0.6396
+Validation F1 score: 0.6241
+Epoch 23 / 100: Loss = 0.86071 Acc = 0.65938  Valid_acc = 0.6395833492279053 lr = 0.00100 Training complete in 15m 17s'
+batch 1, loss 0.89345383644104, batch_time 1m 27s
+batch 2, loss 0.84886634349823, batch_time 2m 47s
+batch 3, loss 0.8648124933242798, batch_time 4m 6s
+batch 4, loss 0.7658393383026123, batch_time 5m 26s
+batch 5, loss 0.8579403758049011, batch_time 6m 47s
+batch 6, loss 0.8531557321548462, batch_time 8m 7s
+batch 7, loss 0.8663474321365356, batch_time 9m 27s
+batch 8, loss 0.8097345232963562, batch_time 10m 48s
+batch 9, loss 0.810611367225647, batch_time 12m 8s
+batch 10, loss 0.7935666441917419, batch_time 12m 55s
+Validation confusion matrix:
+[[ 83  85   0]
+ [ 26 196  10]
+ [  4  38  38]]
+Validation precision: 0.6860
+Validation recall: 0.6604
+Validation F1 score: 0.6496
+Epoch 24 / 100: Loss = 0.83643 Acc = 0.67448  Valid_acc = 0.6604166626930237 lr = 0.00100 Training complete in 15m 8s'
+batch 1, loss 0.8763030171394348, batch_time 1m 19s
+batch 2, loss 0.8216907382011414, batch_time 2m 47s
+batch 3, loss 0.8425028920173645, batch_time 4m 14s
+batch 4, loss 0.745292603969574, batch_time 5m 35s
+batch 5, loss 0.8394580483436584, batch_time 6m 55s
+batch 6, loss 0.8315503597259521, batch_time 8m 23s
+batch 7, loss 0.8403176069259644, batch_time 9m 43s
+batch 8, loss 0.7870163917541504, batch_time 11m 4s
+batch 9, loss 0.79365074634552, batch_time 12m 31s
+batch 10, loss 0.7586557865142822, batch_time 13m 19s
+Validation confusion matrix:
+[[ 83  84   1]
+ [ 26 195  11]
+ [  5  33  42]]
+Validation precision: 0.6865
+Validation recall: 0.6667
+Validation F1 score: 0.6570
+Epoch 25 / 100: Loss = 0.81364 Acc = 0.69427  Valid_acc = 0.6666666865348816 lr = 0.00100 Training complete in 15m 32s'
+batch 1, loss 0.8598147034645081, batch_time 1m 19s
+batch 2, loss 0.7986142635345459, batch_time 2m 46s
+batch 3, loss 0.8217259049415588, batch_time 4m 6s
+batch 4, loss 0.7275737524032593, batch_time 5m 26s
+batch 5, loss 0.8216473460197449, batch_time 6m 47s
+batch 6, loss 0.8134730458259583, batch_time 8m 15s
+batch 7, loss 0.8169354200363159, batch_time 9m 35s
+batch 8, loss 0.7676855325698853, batch_time 10m 55s
+batch 9, loss 0.7807267904281616, batch_time 12m 15s
+batch 10, loss 0.7282651662826538, batch_time 13m 8s
+Validation confusion matrix:
+[[ 84  82   2]
+ [ 27 194  11]
+ [  5  30  45]]
+Validation precision: 0.6892
+Validation recall: 0.6729
+Validation F1 score: 0.6643
+Epoch 26 / 100: Loss = 0.79365 Acc = 0.70208  Valid_acc = 0.6729166507720947 lr = 0.00100 Training complete in 15m 20s'
+batch 1, loss 0.8440598249435425, batch_time 1m 27s
+batch 2, loss 0.7799532413482666, batch_time 2m 47s
+batch 3, loss 0.803666353225708, batch_time 4m 6s
+batch 4, loss 0.7131995558738708, batch_time 5m 27s
+batch 5, loss 0.8050974607467651, batch_time 6m 47s
+batch 6, loss 0.7989606857299805, batch_time 8m 7s
+batch 7, loss 0.796846866607666, batch_time 9m 35s
+batch 8, loss 0.7511075139045715, batch_time 10m 55s
+batch 9, loss 0.7707923650741577, batch_time 12m 15s
+batch 10, loss 0.7035044431686401, batch_time 13m 3s
+Validation confusion matrix:
+[[ 88  75   5]
+ [ 29 192  11]
+ [  5  25  50]]
+Validation precision: 0.6965
+Validation recall: 0.6875
+Validation F1 score: 0.6808
+Epoch 27 / 100: Loss = 0.77672 Acc = 0.71146  Valid_acc = 0.6875 lr = 0.00100 Training complete in 15m 15s'
+batch 1, loss 0.8286659121513367, batch_time 1m 19s
+batch 2, loss 0.7649590373039246, batch_time 2m 39s
+batch 3, loss 0.7885546684265137, batch_time 3m 58s
+batch 4, loss 0.7017711997032166, batch_time 5m 18s
+batch 5, loss 0.7900549173355103, batch_time 6m 38s
+batch 6, loss 0.7870900630950928, batch_time 7m 59s
+batch 7, loss 0.7796177864074707, batch_time 9m 19s
+batch 8, loss 0.7362829446792603, batch_time 10m 39s
+batch 9, loss 0.762537956237793, batch_time 11m 59s
+batch 10, loss 0.683966875076294, batch_time 12m 52s
+Validation confusion matrix:
+[[ 91  70   7]
+ [ 30 191  11]
+ [  5  22  53]]
+Validation precision: 0.7034
+Validation recall: 0.6979
+Validation F1 score: 0.6922
+Epoch 28 / 100: Loss = 0.76235 Acc = 0.71875  Valid_acc = 0.6979166865348816 lr = 0.00100 Training complete in 15m 4s'
+batch 1, loss 0.8133119344711304, batch_time 1m 19s
+batch 2, loss 0.7523831129074097, batch_time 2m 39s
+batch 3, loss 0.7760747671127319, batch_time 3m 59s
+batch 4, loss 0.6925162076950073, batch_time 5m 19s
+batch 5, loss 0.7764531373977661, batch_time 6m 39s
+batch 6, loss 0.7769390344619751, batch_time 7m 59s
+batch 7, loss 0.7646458745002747, batch_time 9m 27s
+batch 8, loss 0.7225279808044434, batch_time 10m 55s
+batch 9, loss 0.7548643350601196, batch_time 12m 15s
+batch 10, loss 0.6684426069259644, batch_time 13m 3s
+Validation confusion matrix:
+[[ 93  68   7]
+ [ 31 189  12]
+ [  6  20  54]]
+Validation precision: 0.7035
+Validation recall: 0.7000
+Validation F1 score: 0.6950
+Epoch 29 / 100: Loss = 0.74982 Acc = 0.72656  Valid_acc = 0.699999988079071 lr = 0.00100 Training complete in 15m 15s'
+batch 1, loss 0.7980947494506836, batch_time 1m 19s
+batch 2, loss 0.741299033164978, batch_time 2m 39s
+batch 3, loss 0.7655747532844543, batch_time 3m 59s
+batch 4, loss 0.6848753690719604, batch_time 5m 19s
+batch 5, loss 0.7641373872756958, batch_time 6m 39s
+batch 6, loss 0.7679130434989929, batch_time 8m 1s
+batch 7, loss 0.7512301802635193, batch_time 9m 21s
+batch 8, loss 0.7096682786941528, batch_time 10m 41s
+batch 9, loss 0.7474271655082703, batch_time 12m 1s
+batch 10, loss 0.655680775642395, batch_time 12m 49s
+Validation confusion matrix:
+[[ 96  65   7]
+ [ 30 190  12]
+ [  7  18  55]]
+Validation precision: 0.7129
+Validation recall: 0.7104
+Validation F1 score: 0.7060
+Epoch 30 / 100: Loss = 0.73859 Acc = 0.73385  Valid_acc = 0.7104166746139526 lr = 0.00100 Training complete in 15m 1s'
+batch 1, loss 0.7831487059593201, batch_time 1m 19s
+batch 2, loss 0.7310675978660583, batch_time 2m 39s
+batch 3, loss 0.7563742399215698, batch_time 3m 58s
+batch 4, loss 0.6784855127334595, batch_time 5m 18s
+batch 5, loss 0.7528770565986633, batch_time 6m 38s
+batch 6, loss 0.7596405148506165, batch_time 8m 7s
+batch 7, loss 0.7390651702880859, batch_time 9m 27s
+batch 8, loss 0.6977340579032898, batch_time 10m 47s
+batch 9, loss 0.7402145862579346, batch_time 12m 7s
+batch 10, loss 0.6448929309844971, batch_time 12m 59s
+Validation confusion matrix:
+[[ 99  63   6]
+ [ 30 189  13]
+ [  7  18  55]]
+Validation precision: 0.7170
+Validation recall: 0.7146
+Validation F1 score: 0.7110
+Epoch 31 / 100: Loss = 0.72835 Acc = 0.73802  Valid_acc = 0.7145833373069763 lr = 0.00100 Training complete in 15m 11s'
+batch 1, loss 0.7687958478927612, batch_time 1m 27s
+batch 2, loss 0.7214474678039551, batch_time 2m 47s
+batch 3, loss 0.7481424808502197, batch_time 4m 6s
+batch 4, loss 0.6731045842170715, batch_time 5m 26s
+batch 5, loss 0.7424126267433167, batch_time 6m 46s
+batch 6, loss 0.7519755363464355, batch_time 8m 6s
+batch 7, loss 0.7277602553367615, batch_time 9m 26s
+batch 8, loss 0.686842143535614, batch_time 10m 46s
+batch 9, loss 0.7331668734550476, batch_time 12m 6s
+batch 10, loss 0.6354669332504272, batch_time 12m 54s
+Validation confusion matrix:
+[[100  62   6]
+ [ 31 189  12]
+ [  7  18  55]]
+Validation precision: 0.7188
+Validation recall: 0.7167
+Validation F1 score: 0.7133
+Epoch 32 / 100: Loss = 0.71891 Acc = 0.73906  Valid_acc = 0.7166666388511658 lr = 0.00100 Training complete in 15m 6s'
+batch 1, loss 0.7552232146263123, batch_time 1m 27s
+batch 2, loss 0.7123422622680664, batch_time 2m 47s
+batch 3, loss 0.7405616641044617, batch_time 4m 14s
+batch 4, loss 0.6682825088500977, batch_time 5m 33s
+batch 5, loss 0.7324472069740295, batch_time 6m 53s
+batch 6, loss 0.7445920705795288, batch_time 8m 13s
+batch 7, loss 0.717172384262085, batch_time 9m 33s
+batch 8, loss 0.6769648790359497, batch_time 10m 53s
+batch 9, loss 0.725999653339386, batch_time 12m 13s
+batch 10, loss 0.6269516944885254, batch_time 13m 6s
+Validation confusion matrix:
+[[102  59   7]
+ [ 31 191  10]
+ [  7  18  55]]
+Validation precision: 0.7268
+Validation recall: 0.7250
+Validation F1 score: 0.7217
+Epoch 33 / 100: Loss = 0.71005 Acc = 0.74375  Valid_acc = 0.7250000238418579 lr = 0.00100 Training complete in 15m 18s'
+batch 1, loss 0.7426182627677917, batch_time 1m 26s
+batch 2, loss 0.7036350965499878, batch_time 2m 47s
+batch 3, loss 0.7336195111274719, batch_time 4m 6s
+batch 4, loss 0.6636903285980225, batch_time 5m 26s
+batch 5, loss 0.7228186726570129, batch_time 6m 46s
+batch 6, loss 0.7375404834747314, batch_time 8m 6s
+batch 7, loss 0.7069942355155945, batch_time 9m 26s
+batch 8, loss 0.6678527593612671, batch_time 10m 46s
+batch 9, loss 0.718535304069519, batch_time 12m 6s
+batch 10, loss 0.6190131306648254, batch_time 12m 59s
+Validation confusion matrix:
+[[104  57   7]
+ [ 32 190  10]
+ [  7  18  55]]
+Validation precision: 0.7284
+Validation recall: 0.7271
+Validation F1 score: 0.7242
+Epoch 34 / 100: Loss = 0.70163 Acc = 0.74844  Valid_acc = 0.7270833253860474 lr = 0.00100 Training complete in 15m 11s'
+batch 1, loss 0.7309162616729736, batch_time 1m 27s
+batch 2, loss 0.6953412294387817, batch_time 2m 47s
+batch 3, loss 0.7270926237106323, batch_time 4m 6s
+batch 4, loss 0.6591488122940063, batch_time 5m 34s
+batch 5, loss 0.7133978009223938, batch_time 6m 54s
+batch 6, loss 0.730459988117218, batch_time 8m 14s
+batch 7, loss 0.6972877979278564, batch_time 9m 34s
+batch 8, loss 0.6593546271324158, batch_time 10m 55s
+batch 9, loss 0.7107957005500793, batch_time 12m 23s
+batch 10, loss 0.6114687919616699, batch_time 13m 10s
+Validation confusion matrix:
+[[104  57   7]
+ [ 34 188  10]
+ [  8  16  56]]
+Validation precision: 0.7253
+Validation recall: 0.7250
+Validation F1 score: 0.7225
+Epoch 35 / 100: Loss = 0.69353 Acc = 0.75156  Valid_acc = 0.7250000238418579 lr = 0.00100 Training complete in 15m 22s'
+batch 1, loss 0.720005214214325, batch_time 1m 27s
+batch 2, loss 0.6872763633728027, batch_time 2m 47s
+batch 3, loss 0.7208881974220276, batch_time 4m 6s
+batch 4, loss 0.6547046303749084, batch_time 5m 26s
+batch 5, loss 0.704231858253479, batch_time 6m 46s
+batch 6, loss 0.723444938659668, batch_time 8m 7s
+batch 7, loss 0.6879581212997437, batch_time 9m 34s
+batch 8, loss 0.6513104438781738, batch_time 10m 55s
+batch 9, loss 0.7027986645698547, batch_time 12m 16s
+batch 10, loss 0.604107141494751, batch_time 13m 4s
+Validation confusion matrix:
+[[108  54   6]
+ [ 35 187  10]
+ [  8  15  57]]
+Validation precision: 0.7335
+Validation recall: 0.7333
+Validation F1 score: 0.7316
+Epoch 36 / 100: Loss = 0.68567 Acc = 0.76198  Valid_acc = 0.7333333492279053 lr = 0.00100 Training complete in 15m 16s'
+batch 1, loss 0.7098969221115112, batch_time 1m 19s
+batch 2, loss 0.6795253753662109, batch_time 2m 40s
+batch 3, loss 0.7149636745452881, batch_time 3m 59s
+batch 4, loss 0.6502807140350342, batch_time 5m 27s
+batch 5, loss 0.6952217817306519, batch_time 6m 55s
+batch 6, loss 0.7163741588592529, batch_time 8m 23s
+batch 7, loss 0.6790246963500977, batch_time 9m 51s
+batch 8, loss 0.6436247825622559, batch_time 11m 19s
+batch 9, loss 0.6946048736572266, batch_time 12m 48s
+batch 10, loss 0.5969789028167725, batch_time 13m 35s
+Validation confusion matrix:
+[[110  51   7]
+ [ 35 188   9]
+ [  8  15  57]]
+Validation precision: 0.7395
+Validation recall: 0.7396
+Validation F1 score: 0.7380
+Epoch 37 / 100: Loss = 0.67805 Acc = 0.76719  Valid_acc = 0.7395833134651184 lr = 0.00100 Training complete in 15m 48s'
+batch 1, loss 0.700450599193573, batch_time 1m 19s
+batch 2, loss 0.6720843315124512, batch_time 2m 39s
+batch 3, loss 0.709072470664978, batch_time 3m 59s
+batch 4, loss 0.6461458206176758, batch_time 5m 19s
+batch 5, loss 0.6864269375801086, batch_time 6m 47s
+batch 6, loss 0.7091513872146606, batch_time 8m 7s
+batch 7, loss 0.6703429818153381, batch_time 9m 27s
+batch 8, loss 0.6361796855926514, batch_time 10m 48s
+batch 9, loss 0.686180830001831, batch_time 12m 8s
+batch 10, loss 0.5900471210479736, batch_time 12m 56s
+Validation confusion matrix:
+[[112  49   7]
+ [ 36 187   9]
+ [  8  14  58]]
+Validation precision: 0.7434
+Validation recall: 0.7438
+Validation F1 score: 0.7426
+Epoch 38 / 100: Loss = 0.67061 Acc = 0.77135  Valid_acc = 0.7437499761581421 lr = 0.00100 Training complete in 15m 8s'
+batch 1, loss 0.6914438009262085, batch_time 1m 27s
+batch 2, loss 0.6648991703987122, batch_time 2m 55s
+batch 3, loss 0.7032312154769897, batch_time 4m 14s
+batch 4, loss 0.6421157121658325, batch_time 5m 43s
+batch 5, loss 0.6777931451797485, batch_time 7m 10s
+batch 6, loss 0.7019308805465698, batch_time 8m 30s
+batch 7, loss 0.6617110371589661, batch_time 9m 58s
+batch 8, loss 0.6288844347000122, batch_time 11m 19s
+batch 9, loss 0.6775448322296143, batch_time 12m 46s
+batch 10, loss 0.583298921585083, batch_time 13m 34s
+Validation confusion matrix:
+[[113  48   7]
+ [ 36 187   9]
+ [  8  13  59]]
+Validation precision: 0.7475
+Validation recall: 0.7479
+Validation F1 score: 0.7469
+Epoch 39 / 100: Loss = 0.66329 Acc = 0.77135  Valid_acc = 0.7479166388511658 lr = 0.00100 Training complete in 15m 46s'
+batch 1, loss 0.6827583312988281, batch_time 1m 19s
+batch 2, loss 0.6580119132995605, batch_time 2m 39s
+batch 3, loss 0.6973329782485962, batch_time 4m 7s
+batch 4, loss 0.6380808353424072, batch_time 5m 27s
+batch 5, loss 0.6691877245903015, batch_time 6m 47s
+batch 6, loss 0.6945676803588867, batch_time 8m 7s
+batch 7, loss 0.6532453298568726, batch_time 9m 28s
+batch 8, loss 0.6216176152229309, batch_time 10m 48s
+batch 9, loss 0.6687765717506409, batch_time 12m 8s
+batch 10, loss 0.5766180753707886, batch_time 13m 1s
+Validation confusion matrix:
+[[114  47   7]
+ [ 36 187   9]
+ [  8  13  59]]
+Validation precision: 0.7496
+Validation recall: 0.7500
+Validation F1 score: 0.7491
+Epoch 40 / 100: Loss = 0.65602 Acc = 0.77552  Valid_acc = 0.75 lr = 0.00100 Training complete in 15m 13s'
+batch 1, loss 0.6743203401565552, batch_time 1m 19s
+batch 2, loss 0.6513392329216003, batch_time 2m 39s
+batch 3, loss 0.6915170550346375, batch_time 3m 59s
+batch 4, loss 0.6340803503990173, batch_time 5m 19s
+batch 5, loss 0.6606716513633728, batch_time 6m 39s
+batch 6, loss 0.6872061491012573, batch_time 8m 7s
+batch 7, loss 0.6448216438293457, batch_time 9m 35s
+batch 8, loss 0.614319384098053, batch_time 11m 4s
+batch 9, loss 0.6601160764694214, batch_time 12m 31s
+batch 10, loss 0.5700288414955139, batch_time 13m 19s
+Validation confusion matrix:
+[[115  45   8]
+ [ 36 189   7]
+ [  8  12  60]]
+Validation precision: 0.7578
+Validation recall: 0.7583
+Validation F1 score: 0.7574
+Epoch 41 / 100: Loss = 0.64884 Acc = 0.78177  Valid_acc = 0.7583333253860474 lr = 0.00100 Training complete in 15m 31s'
+batch 1, loss 0.6659928560256958, batch_time 1m 19s
+batch 2, loss 0.6449928283691406, batch_time 2m 39s
+batch 3, loss 0.685589075088501, batch_time 3m 59s
+batch 4, loss 0.6300057172775269, batch_time 5m 19s
+batch 5, loss 0.6521786451339722, batch_time 6m 40s
+batch 6, loss 0.6797457933425903, batch_time 7m 60s
+batch 7, loss 0.6364951133728027, batch_time 9m 28s
+batch 8, loss 0.6069212555885315, batch_time 10m 48s
+batch 9, loss 0.6516374945640564, batch_time 12m 8s
+batch 10, loss 0.5634949803352356, batch_time 12m 56s
+Validation confusion matrix:
+[[117  44   7]
+ [ 35 190   7]
+ [  8  11  61]]
+Validation precision: 0.7663
+Validation recall: 0.7667
+Validation F1 score: 0.7659
+Epoch 42 / 100: Loss = 0.64171 Acc = 0.78646  Valid_acc = 0.7666666507720947 lr = 0.00100 Training complete in 15m 8s'
+batch 1, loss 0.6577625274658203, batch_time 1m 19s
+batch 2, loss 0.6389726400375366, batch_time 2m 40s
+batch 3, loss 0.6797192096710205, batch_time 3m 59s
+batch 4, loss 0.6258653402328491, batch_time 5m 19s
+batch 5, loss 0.6437766551971436, batch_time 6m 39s
+batch 6, loss 0.6724357008934021, batch_time 7m 60s
+batch 7, loss 0.6282476782798767, batch_time 9m 20s
+batch 8, loss 0.599437952041626, batch_time 10m 40s
+batch 9, loss 0.643452525138855, batch_time 12m 0s
+batch 10, loss 0.5570634007453918, batch_time 12m 48s
+Validation confusion matrix:
+[[118  43   7]
+ [ 36 188   8]
+ [  7  14  59]]
+Validation precision: 0.7603
+Validation recall: 0.7604
+Validation F1 score: 0.7598
+Epoch 43 / 100: Loss = 0.63467 Acc = 0.78854  Valid_acc = 0.7604166865348816 lr = 0.00100 Training complete in 15m 0s'
+batch 1, loss 0.6496519446372986, batch_time 1m 27s
+batch 2, loss 0.6334216594696045, batch_time 2m 47s
+batch 3, loss 0.673730731010437, batch_time 4m 7s
+batch 4, loss 0.6214879155158997, batch_time 5m 27s
+batch 5, loss 0.6354368925094604, batch_time 6m 47s
+batch 6, loss 0.6650128364562988, batch_time 8m 8s
+batch 7, loss 0.6202749609947205, batch_time 9m 28s
+batch 8, loss 0.5918822288513184, batch_time 10m 48s
+batch 9, loss 0.635593056678772, batch_time 12m 16s
+batch 10, loss 0.5507533550262451, batch_time 13m 8s
+Validation confusion matrix:
+[[117  44   7]
+ [ 39 186   7]
+ [  8  12  60]]
+Validation precision: 0.7563
+Validation recall: 0.7562
+Validation F1 score: 0.7559
+Epoch 44 / 100: Loss = 0.62772 Acc = 0.79062  Valid_acc = 0.7562500238418579 lr = 0.00100 Training complete in 15m 20s'
+batch 1, loss 0.6417675018310547, batch_time 1m 19s
+batch 2, loss 0.6282572746276855, batch_time 2m 40s
+batch 3, loss 0.6679103374481201, batch_time 3m 60s
+batch 4, loss 0.6167464256286621, batch_time 5m 20s
+batch 5, loss 0.6272395253181458, batch_time 6m 40s
+batch 6, loss 0.6577467918395996, batch_time 8m 1s
+batch 7, loss 0.6125514507293701, batch_time 9m 29s
+batch 8, loss 0.5843316912651062, batch_time 10m 49s
+batch 9, loss 0.6282095313072205, batch_time 12m 18s
+batch 10, loss 0.5445751547813416, batch_time 13m 6s
+Validation confusion matrix:
+[[118  43   7]
+ [ 39 186   7]
+ [  8  12  60]]
+Validation precision: 0.7585
+Validation recall: 0.7583
+Validation F1 score: 0.7580
+Epoch 45 / 100: Loss = 0.62093 Acc = 0.79635  Valid_acc = 0.7583333253860474 lr = 0.00100 Training complete in 15m 18s'
+batch 1, loss 0.6341983079910278, batch_time 1m 19s
+batch 2, loss 0.6235460042953491, batch_time 2m 40s
+batch 3, loss 0.662121057510376, batch_time 3m 60s
+batch 4, loss 0.6116025447845459, batch_time 5m 28s
+batch 5, loss 0.6193310618400574, batch_time 6m 57s
+batch 6, loss 0.6505411863327026, batch_time 8m 17s
+batch 7, loss 0.6053466796875, batch_time 9m 38s
+batch 8, loss 0.5768778920173645, batch_time 11m 6s
+batch 9, loss 0.6213805675506592, batch_time 12m 26s
+batch 10, loss 0.5385587215423584, batch_time 13m 19s
+Validation confusion matrix:
+[[120  41   7]
+ [ 39 186   7]
+ [  7  13  60]]
+Validation precision: 0.7627
+Validation recall: 0.7625
+Validation F1 score: 0.7623
+Epoch 46 / 100: Loss = 0.61435 Acc = 0.79844  Valid_acc = 0.762499988079071 lr = 0.00100 Training complete in 15m 31s'
+batch 1, loss 0.6270918846130371, batch_time 1m 19s
+batch 2, loss 0.6191424131393433, batch_time 2m 41s
+batch 3, loss 0.6565050482749939, batch_time 4m 0s
+batch 4, loss 0.6060054302215576, batch_time 5m 20s
+batch 5, loss 0.6117889881134033, batch_time 6m 41s
+batch 6, loss 0.6435213088989258, batch_time 8m 1s
+batch 7, loss 0.5986132621765137, batch_time 9m 21s
+batch 8, loss 0.5696002840995789, batch_time 10m 42s
+batch 9, loss 0.6149901151657104, batch_time 12m 2s
+batch 10, loss 0.5326235294342041, batch_time 12m 50s
+Validation confusion matrix:
+[[121  40   7]
+ [ 38 187   7]
+ [  7  12  61]]
+Validation precision: 0.7688
+Validation recall: 0.7688
+Validation F1 score: 0.7686
+Epoch 47 / 100: Loss = 0.60799 Acc = 0.80469  Valid_acc = 0.768750011920929 lr = 0.00100 Training complete in 15m 2s'
+batch 1, loss 0.6206070184707642, batch_time 1m 19s
+batch 2, loss 0.6149334907531738, batch_time 2m 48s
+batch 3, loss 0.6510505080223083, batch_time 4m 7s
+batch 4, loss 0.6001205444335938, batch_time 5m 28s
+batch 5, loss 0.6046860218048096, batch_time 6m 49s
+batch 6, loss 0.6364932060241699, batch_time 8m 9s
+batch 7, loss 0.5924915671348572, batch_time 9m 30s
+batch 8, loss 0.5625037550926208, batch_time 10m 50s
+batch 9, loss 0.6090235710144043, batch_time 12m 12s
+batch 10, loss 0.5267497301101685, batch_time 13m 1s
+Validation confusion matrix:
+[[122  39   7]
+ [ 38 187   7]
+ [  7  13  60]]
+Validation precision: 0.7690
+Validation recall: 0.7688
+Validation F1 score: 0.7686
+Epoch 48 / 100: Loss = 0.60187 Acc = 0.80885  Valid_acc = 0.768750011920929 lr = 0.00100 Training complete in 15m 16s'
+batch 1, loss 0.6147762537002563, batch_time 1m 21s
+batch 2, loss 0.6108275651931763, batch_time 2m 44s
+batch 3, loss 0.6457792520523071, batch_time 4m 13s
+batch 4, loss 0.5938742756843567, batch_time 5m 43s
+batch 5, loss 0.5979579091072083, batch_time 7m 5s
+batch 6, loss 0.6296834945678711, batch_time 8m 35s
+batch 7, loss 0.5868247747421265, batch_time 9m 57s
+batch 8, loss 0.555625855922699, batch_time 11m 19s
+batch 9, loss 0.6033268570899963, batch_time 12m 41s
+batch 10, loss 0.5208535194396973, batch_time 13m 35s
+Validation confusion matrix:
+[[123  37   8]
+ [ 39 186   7]
+ [  7  13  60]]
+Validation precision: 0.7690
+Validation recall: 0.7688
+Validation F1 score: 0.7687
+Epoch 49 / 100: Loss = 0.59595 Acc = 0.81250  Valid_acc = 0.768750011920929 lr = 0.00100 Training complete in 15m 49s'
+batch 1, loss 0.6096177697181702, batch_time 1m 29s
+batch 2, loss 0.6067830324172974, batch_time 2m 51s
+batch 3, loss 0.6406331062316895, batch_time 4m 13s
+batch 4, loss 0.5875993967056274, batch_time 5m 35s
+batch 5, loss 0.5916264057159424, batch_time 6m 56s
+batch 6, loss 0.6228505373001099, batch_time 8m 19s
+batch 7, loss 0.5815537571907043, batch_time 9m 49s
+batch 8, loss 0.5489000678062439, batch_time 11m 11s
+batch 9, loss 0.5978614091873169, batch_time 12m 34s
+batch 10, loss 0.5150125026702881, batch_time 13m 22s
+Validation confusion matrix:
+[[124  36   8]
+ [ 36 189   7]
+ [  7  13  60]]
+Validation precision: 0.7770
+Validation recall: 0.7771
+Validation F1 score: 0.7769
+Epoch 50 / 100: Loss = 0.59024 Acc = 0.81458  Valid_acc = 0.7770833373069763 lr = 0.00100 Training complete in 15m 36s'
+batch 1, loss 0.6048985123634338, batch_time 1m 20s
+batch 2, loss 0.6028014421463013, batch_time 2m 41s
+batch 3, loss 0.6356469392776489, batch_time 4m 1s
+batch 4, loss 0.5813235640525818, batch_time 5m 29s
+batch 5, loss 0.585666298866272, batch_time 6m 49s
+batch 6, loss 0.6160705089569092, batch_time 8m 10s
+batch 7, loss 0.5765904188156128, batch_time 9m 30s
+batch 8, loss 0.5423314571380615, batch_time 10m 59s
+batch 9, loss 0.5926786661148071, batch_time 12m 27s
+batch 10, loss 0.5090509057044983, batch_time 13m 19s
+Validation confusion matrix:
+[[123  36   9]
+ [ 35 190   7]
+ [  7  13  60]]
+Validation precision: 0.7767
+Validation recall: 0.7771
+Validation F1 score: 0.7767
+Epoch 51 / 100: Loss = 0.58471 Acc = 0.81719  Valid_acc = 0.7770833373069763 lr = 0.00100 Training complete in 15m 32s'
+batch 1, loss 0.6006300449371338, batch_time 1m 27s
+batch 2, loss 0.5988239049911499, batch_time 2m 48s
+batch 3, loss 0.6306840777397156, batch_time 4m 8s
+batch 4, loss 0.5751157402992249, batch_time 5m 28s
+batch 5, loss 0.5800604820251465, batch_time 6m 48s
+batch 6, loss 0.6095221638679504, batch_time 8m 9s
+batch 7, loss 0.5718070864677429, batch_time 9m 37s
+batch 8, loss 0.5358938574790955, batch_time 10m 57s
+batch 9, loss 0.5876481533050537, batch_time 12m 25s
+batch 10, loss 0.5030978322029114, batch_time 13m 13s
+Validation confusion matrix:
+[[124  35   9]
+ [ 33 192   7]
+ [  7  13  60]]
+Validation precision: 0.7829
+Validation recall: 0.7833
+Validation F1 score: 0.7829
+Epoch 52 / 100: Loss = 0.57933 Acc = 0.81927  Valid_acc = 0.7833333611488342 lr = 0.00100 Training complete in 15m 25s'
+batch 1, loss 0.5966325402259827, batch_time 1m 27s
+batch 2, loss 0.5948945879936218, batch_time 2m 48s
+batch 3, loss 0.6257902979850769, batch_time 4m 8s
+batch 4, loss 0.5691170692443848, batch_time 5m 28s
+batch 5, loss 0.5747692584991455, batch_time 6m 49s
+batch 6, loss 0.6030247211456299, batch_time 8m 9s
+batch 7, loss 0.5671935677528381, batch_time 9m 29s
+batch 8, loss 0.5295689105987549, batch_time 10m 57s
+batch 9, loss 0.5828134417533875, batch_time 12m 18s
+batch 10, loss 0.4971754550933838, batch_time 13m 6s
+Validation confusion matrix:
+[[124  35   9]
+ [ 33 192   7]
+ [  7  13  60]]
+Validation precision: 0.7829
+Validation recall: 0.7833
+Validation F1 score: 0.7829
+Epoch 53 / 100: Loss = 0.57410 Acc = 0.82396  Valid_acc = 0.7833333611488342 lr = 0.00100 Training complete in 15m 18s'
+batch 1, loss 0.5928791165351868, batch_time 1m 19s
+batch 2, loss 0.5909923315048218, batch_time 2m 40s
+batch 3, loss 0.6208674907684326, batch_time 4m 0s
+batch 4, loss 0.5633353590965271, batch_time 5m 21s
+batch 5, loss 0.569722592830658, batch_time 6m 41s
+batch 6, loss 0.5966551899909973, batch_time 8m 1s
+batch 7, loss 0.5627263784408569, batch_time 9m 21s
+batch 8, loss 0.523329496383667, batch_time 10m 41s
+batch 9, loss 0.5781119465827942, batch_time 12m 2s
+batch 10, loss 0.4912533462047577, batch_time 12m 50s
+Validation confusion matrix:
+[[124  35   9]
+ [ 34 191   7]
+ [  7  13  60]]
+Validation precision: 0.7809
+Validation recall: 0.7812
+Validation F1 score: 0.7809
+Epoch 54 / 100: Loss = 0.56899 Acc = 0.82708  Valid_acc = 0.78125 lr = 0.00100 Training complete in 15m 2s'
+batch 1, loss 0.5893318057060242, batch_time 1m 19s
+batch 2, loss 0.5871509909629822, batch_time 2m 40s
+batch 3, loss 0.6159668564796448, batch_time 4m 8s
+batch 4, loss 0.5577883720397949, batch_time 5m 28s
+batch 5, loss 0.5649813413619995, batch_time 6m 49s
+batch 6, loss 0.590400755405426, batch_time 8m 9s
+batch 7, loss 0.5583869218826294, batch_time 9m 29s
+batch 8, loss 0.5171650052070618, batch_time 10m 50s
+batch 9, loss 0.5735273957252502, batch_time 12m 11s
+batch 10, loss 0.4853762090206146, batch_time 12m 58s
+Validation confusion matrix:
+[[122  37   9]
+ [ 34 191   7]
+ [  7  13  60]]
+Validation precision: 0.7766
+Validation recall: 0.7771
+Validation F1 score: 0.7766
+Epoch 55 / 100: Loss = 0.56401 Acc = 0.83281  Valid_acc = 0.7770833373069763 lr = 0.00100 Training complete in 15m 11s'
+batch 1, loss 0.5859352350234985, batch_time 1m 27s
+batch 2, loss 0.5833368301391602, batch_time 2m 49s
+batch 3, loss 0.6110019087791443, batch_time 4m 8s
+batch 4, loss 0.5523937940597534, batch_time 5m 36s
+batch 5, loss 0.5604547262191772, batch_time 6m 57s
+batch 6, loss 0.5842403173446655, batch_time 8m 17s
+batch 7, loss 0.5542118549346924, batch_time 9m 37s
+batch 8, loss 0.5110417604446411, batch_time 10m 57s
+batch 9, loss 0.5690948963165283, batch_time 12m 25s
+batch 10, loss 0.4796134829521179, batch_time 13m 13s
+Validation confusion matrix:
+[[123  36   9]
+ [ 35 190   7]
+ [  6  14  60]]
+Validation precision: 0.7767
+Validation recall: 0.7771
+Validation F1 score: 0.7767
+Epoch 56 / 100: Loss = 0.55913 Acc = 0.83594  Valid_acc = 0.7770833373069763 lr = 0.00100 Training complete in 15m 26s'
+batch 1, loss 0.5826505422592163, batch_time 1m 19s
+batch 2, loss 0.5795941948890686, batch_time 2m 40s
+batch 3, loss 0.6060789823532104, batch_time 3m 60s
+batch 4, loss 0.5472323298454285, batch_time 5m 28s
+batch 5, loss 0.5561988353729248, batch_time 6m 56s
+batch 6, loss 0.5782448053359985, batch_time 8m 17s
+batch 7, loss 0.5501487255096436, batch_time 9m 45s
+batch 8, loss 0.5049965381622314, batch_time 11m 6s
+batch 9, loss 0.5648077726364136, batch_time 12m 26s
+batch 10, loss 0.47383996844291687, batch_time 13m 14s
+Validation confusion matrix:
+[[126  33   9]
+ [ 35 190   7]
+ [  6  14  60]]
+Validation precision: 0.7831
+Validation recall: 0.7833
+Validation F1 score: 0.7831
+Epoch 57 / 100: Loss = 0.55438 Acc = 0.83750  Valid_acc = 0.7833333611488342 lr = 0.00100 Training complete in 15m 26s'
+batch 1, loss 0.5794320106506348, batch_time 1m 27s
+batch 2, loss 0.575891375541687, batch_time 2m 48s
+batch 3, loss 0.6010659337043762, batch_time 4m 10s
+batch 4, loss 0.5422960519790649, batch_time 5m 31s
+batch 5, loss 0.5521568059921265, batch_time 7m 1s
+batch 6, loss 0.5724966526031494, batch_time 8m 31s
+batch 7, loss 0.5461141467094421, batch_time 10m 1s
+batch 8, loss 0.49906355142593384, batch_time 11m 31s
+batch 9, loss 0.5606145262718201, batch_time 12m 53s
+batch 10, loss 0.46812573075294495, batch_time 13m 46s
+Validation confusion matrix:
+[[127  32   9]
+ [ 34 191   7]
+ [  6  14  60]]
+Validation precision: 0.7873
+Validation recall: 0.7875
+Validation F1 score: 0.7873
+Epoch 58 / 100: Loss = 0.54973 Acc = 0.84010  Valid_acc = 0.7875000238418579 lr = 0.00100 Training complete in 16m 0s'
+batch 1, loss 0.576336681842804, batch_time 1m 29s
+batch 2, loss 0.5723177194595337, batch_time 2m 60s
+batch 3, loss 0.5960862636566162, batch_time 4m 29s
+batch 4, loss 0.5375845432281494, batch_time 5m 51s
+batch 5, loss 0.548285722732544, batch_time 7m 22s
+batch 6, loss 0.5668745040893555, batch_time 8m 51s
+batch 7, loss 0.5421703457832336, batch_time 10m 13s
+batch 8, loss 0.4932596683502197, batch_time 11m 43s
+batch 9, loss 0.5565248131752014, batch_time 13m 13s
+batch 10, loss 0.4624679386615753, batch_time 14m 2s
+Validation confusion matrix:
+[[128  31   9]
+ [ 33 192   7]
+ [  6  13  61]]
+Validation precision: 0.7935
+Validation recall: 0.7937
+Validation F1 score: 0.7936
+Epoch 59 / 100: Loss = 0.54519 Acc = 0.84375  Valid_acc = 0.793749988079071 lr = 0.00100 Training complete in 16m 16s'
+batch 1, loss 0.5733258724212646, batch_time 1m 21s
+batch 2, loss 0.5687592029571533, batch_time 2m 52s
+batch 3, loss 0.5910519957542419, batch_time 4m 13s
+batch 4, loss 0.5331133604049683, batch_time 5m 35s
+batch 5, loss 0.5445311069488525, batch_time 7m 4s
+batch 6, loss 0.5613564252853394, batch_time 8m 34s
+batch 7, loss 0.5382398962974548, batch_time 9m 56s
+batch 8, loss 0.4875633120536804, batch_time 11m 18s
+batch 9, loss 0.5524996519088745, batch_time 12m 40s
+batch 10, loss 0.45688825845718384, batch_time 13m 29s
+Validation confusion matrix:
+[[127  31  10]
+ [ 33 191   8]
+ [  6  13  61]]
+Validation precision: 0.7893
+Validation recall: 0.7896
+Validation F1 score: 0.7894
+Epoch 60 / 100: Loss = 0.54073 Acc = 0.84844  Valid_acc = 0.7895833253860474 lr = 0.00100 Training complete in 15m 43s'
+batch 1, loss 0.5703872442245483, batch_time 1m 21s
+batch 2, loss 0.5652759671211243, batch_time 2m 44s
+batch 3, loss 0.5860636830329895, batch_time 4m 13s
+batch 4, loss 0.5288654565811157, batch_time 5m 43s
+batch 5, loss 0.5409078001976013, batch_time 7m 5s
+batch 6, loss 0.5559890270233154, batch_time 8m 27s
+batch 7, loss 0.5344236493110657, batch_time 9m 49s
+batch 8, loss 0.4819468855857849, batch_time 11m 11s
+batch 9, loss 0.5485547184944153, batch_time 12m 33s
+batch 10, loss 0.4513714909553528, batch_time 13m 27s
+Validation confusion matrix:
+[[127  31  10]
+ [ 32 192   8]
+ [  6  13  61]]
+Validation precision: 0.7913
+Validation recall: 0.7917
+Validation F1 score: 0.7914
+Epoch 61 / 100: Loss = 0.53638 Acc = 0.84896  Valid_acc = 0.7916666865348816 lr = 0.00100 Training complete in 15m 41s'
+batch 1, loss 0.5674690008163452, batch_time 1m 29s
+batch 2, loss 0.5618367195129395, batch_time 2m 51s
+batch 3, loss 0.5810900926589966, batch_time 4m 20s
+batch 4, loss 0.5249587297439575, batch_time 5m 42s
+batch 5, loss 0.5374331474304199, batch_time 7m 4s
+batch 6, loss 0.5508192181587219, batch_time 8m 26s
+batch 7, loss 0.5306538343429565, batch_time 9m 48s
+batch 8, loss 0.47652366757392883, batch_time 11m 18s
+batch 9, loss 0.5446934700012207, batch_time 12m 40s
+batch 10, loss 0.4459264874458313, batch_time 13m 28s
+Validation confusion matrix:
+[[126  32  10]
+ [ 32 192   8]
+ [  6  13  61]]
+Validation precision: 0.7892
+Validation recall: 0.7896
+Validation F1 score: 0.7893
+Epoch 62 / 100: Loss = 0.53214 Acc = 0.85208  Valid_acc = 0.7895833253860474 lr = 0.00100 Training complete in 15m 41s'
+batch 1, loss 0.5646205544471741, batch_time 1m 27s
+batch 2, loss 0.5585471987724304, batch_time 2m 50s
+batch 3, loss 0.5762170553207397, batch_time 4m 19s
+batch 4, loss 0.5212461948394775, batch_time 5m 41s
+batch 5, loss 0.5341019630432129, batch_time 7m 3s
+batch 6, loss 0.5457912087440491, batch_time 8m 25s
+batch 7, loss 0.5268781185150146, batch_time 9m 55s
+batch 8, loss 0.47126495838165283, batch_time 11m 17s
+batch 9, loss 0.5408465266227722, batch_time 12m 39s
+batch 10, loss 0.4406132102012634, batch_time 13m 27s
+Validation confusion matrix:
+[[127  31  10]
+ [ 32 193   7]
+ [  6  13  61]]
+Validation precision: 0.7933
+Validation recall: 0.7937
+Validation F1 score: 0.7935
+Epoch 63 / 100: Loss = 0.52801 Acc = 0.85312  Valid_acc = 0.793749988079071 lr = 0.00100 Training complete in 15m 41s'
+batch 1, loss 0.561733603477478, batch_time 1m 29s
+batch 2, loss 0.5552753806114197, batch_time 2m 52s
+batch 3, loss 0.571429431438446, batch_time 4m 13s
+batch 4, loss 0.5177828669548035, batch_time 5m 35s
+batch 5, loss 0.5309675335884094, batch_time 6m 57s
+batch 6, loss 0.5408647060394287, batch_time 8m 19s
+batch 7, loss 0.5231544375419617, batch_time 9m 40s
+batch 8, loss 0.46623069047927856, batch_time 11m 9s
+batch 9, loss 0.5370703935623169, batch_time 12m 33s
+batch 10, loss 0.4354638159275055, batch_time 13m 28s
+Validation confusion matrix:
+[[127  31  10]
+ [ 31 195   6]
+ [  6  13  61]]
+Validation precision: 0.7974
+Validation recall: 0.7979
+Validation F1 score: 0.7975
+Epoch 64 / 100: Loss = 0.52400 Acc = 0.85625  Valid_acc = 0.7979166507720947 lr = 0.00100 Training complete in 15m 45s'
+batch 1, loss 0.5588241815567017, batch_time 1m 23s
+batch 2, loss 0.552101731300354, batch_time 2m 48s
+batch 3, loss 0.5667327046394348, batch_time 4m 11s
+batch 4, loss 0.5144373178482056, batch_time 5m 35s
+batch 5, loss 0.5280041694641113, batch_time 6m 58s
+batch 6, loss 0.536106288433075, batch_time 8m 20s
+batch 7, loss 0.5195503234863281, batch_time 9m 42s
+batch 8, loss 0.46132904291152954, batch_time 11m 13s
+batch 9, loss 0.5332602262496948, batch_time 12m 43s
+batch 10, loss 0.4304403066635132, batch_time 13m 37s
+Validation confusion matrix:
+[[129  29  10]
+ [ 30 196   6]
+ [  6  14  60]]
+Validation precision: 0.8016
+Validation recall: 0.8021
+Validation F1 score: 0.8016
+Epoch 65 / 100: Loss = 0.52008 Acc = 0.85573  Valid_acc = 0.8020833134651184 lr = 0.00100 Training complete in 15m 49s'
+batch 1, loss 0.5558764934539795, batch_time 1m 19s
+batch 2, loss 0.5489963293075562, batch_time 2m 41s
+batch 3, loss 0.562113344669342, batch_time 4m 1s
+batch 4, loss 0.5113049149513245, batch_time 5m 21s
+batch 5, loss 0.5250972509384155, batch_time 6m 49s
+batch 6, loss 0.5314532518386841, batch_time 8m 9s
+batch 7, loss 0.5159830451011658, batch_time 9m 30s
+batch 8, loss 0.4566535949707031, batch_time 10m 50s
+batch 9, loss 0.5294938087463379, batch_time 12m 10s
+batch 10, loss 0.4255843758583069, batch_time 12m 58s
+Validation confusion matrix:
+[[129  29  10]
+ [ 30 196   6]
+ [  6  14  60]]
+Validation precision: 0.8016
+Validation recall: 0.8021
+Validation F1 score: 0.8016
+Epoch 66 / 100: Loss = 0.51626 Acc = 0.85729  Valid_acc = 0.8020833134651184 lr = 0.00100 Training complete in 15m 11s'
+batch 1, loss 0.5529163479804993, batch_time 1m 19s
+batch 2, loss 0.5458716750144958, batch_time 2m 41s
+batch 3, loss 0.5576443672180176, batch_time 3m 60s
+batch 4, loss 0.508326530456543, batch_time 5m 28s
+batch 5, loss 0.5223652720451355, batch_time 6m 56s
+batch 6, loss 0.5269652605056763, batch_time 8m 24s
+batch 7, loss 0.5125567317008972, batch_time 9m 44s
+batch 8, loss 0.4521808624267578, batch_time 11m 5s
+batch 9, loss 0.525763213634491, batch_time 12m 25s
+batch 10, loss 0.42095524072647095, batch_time 13m 17s
+Validation confusion matrix:
+[[129  29  10]
+ [ 30 196   6]
+ [  6  14  60]]
+Validation precision: 0.8016
+Validation recall: 0.8021
+Validation F1 score: 0.8016
+Epoch 67 / 100: Loss = 0.51255 Acc = 0.85990  Valid_acc = 0.8020833134651184 lr = 0.00100 Training complete in 15m 30s'
+batch 1, loss 0.5499917268753052, batch_time 1m 19s
+batch 2, loss 0.5428626537322998, batch_time 2m 48s
+batch 3, loss 0.5533537268638611, batch_time 4m 8s
+batch 4, loss 0.5054731369018555, batch_time 5m 36s
+batch 5, loss 0.5197173953056335, batch_time 6m 56s
+batch 6, loss 0.5226197242736816, batch_time 8m 17s
+batch 7, loss 0.5092378854751587, batch_time 9m 37s
+batch 8, loss 0.44792166352272034, batch_time 11m 5s
+batch 9, loss 0.521986722946167, batch_time 12m 25s
+batch 10, loss 0.416404128074646, batch_time 13m 13s
+Validation confusion matrix:
+[[129  29  10]
+ [ 30 196   6]
+ [  6  14  60]]
+Validation precision: 0.8016
+Validation recall: 0.8021
+Validation F1 score: 0.8016
+Epoch 68 / 100: Loss = 0.50896 Acc = 0.86146  Valid_acc = 0.8020833134651184 lr = 0.00100 Training complete in 15m 26s'
+batch 1, loss 0.5470969080924988, batch_time 1m 19s
+batch 2, loss 0.5398393869400024, batch_time 2m 41s
+batch 3, loss 0.549207329750061, batch_time 4m 1s
+batch 4, loss 0.5027984976768494, batch_time 5m 21s
+batch 5, loss 0.5171761512756348, batch_time 6m 42s
+batch 6, loss 0.5183923244476318, batch_time 8m 9s
+batch 7, loss 0.50603187084198, batch_time 9m 30s
+batch 8, loss 0.4438677728176117, batch_time 10m 50s
+batch 9, loss 0.5182933807373047, batch_time 12m 11s
+batch 10, loss 0.41203147172927856, batch_time 12m 58s
+Validation confusion matrix:
+[[131  27  10]
+ [ 31 195   6]
+ [  6  13  61]]
+Validation precision: 0.8060
+Validation recall: 0.8063
+Validation F1 score: 0.8061
+Epoch 69 / 100: Loss = 0.50547 Acc = 0.86458  Valid_acc = 0.8062499761581421 lr = 0.00100 Training complete in 15m 11s'
+batch 1, loss 0.5441668033599854, batch_time 1m 19s
+batch 2, loss 0.5369177460670471, batch_time 2m 40s
+batch 3, loss 0.545231819152832, batch_time 3m 60s
+batch 4, loss 0.5002197623252869, batch_time 5m 20s
+batch 5, loss 0.5146912336349487, batch_time 6m 49s
+batch 6, loss 0.5143616199493408, batch_time 8m 9s
+batch 7, loss 0.5028867125511169, batch_time 9m 29s
+batch 8, loss 0.4400404393672943, batch_time 10m 49s
+batch 9, loss 0.5145373344421387, batch_time 12m 11s
+batch 10, loss 0.40779417753219604, batch_time 13m 4s
+Validation confusion matrix:
+[[131  27  10]
+ [ 31 195   6]
+ [  7  12  61]]
+Validation precision: 0.8061
+Validation recall: 0.8063
+Validation F1 score: 0.8061
+Epoch 70 / 100: Loss = 0.50208 Acc = 0.86771  Valid_acc = 0.8062499761581421 lr = 0.00100 Training complete in 15m 19s'
+batch 1, loss 0.5412793755531311, batch_time 1m 21s
+batch 2, loss 0.5340438485145569, batch_time 2m 44s
+batch 3, loss 0.5414275527000427, batch_time 4m 5s
+batch 4, loss 0.49776431918144226, batch_time 5m 27s
+batch 5, loss 0.5122817158699036, batch_time 6m 48s
+batch 6, loss 0.5104857087135315, batch_time 8m 10s
+batch 7, loss 0.4998300075531006, batch_time 9m 32s
+batch 8, loss 0.43635737895965576, batch_time 10m 54s
+batch 9, loss 0.5108330845832825, batch_time 12m 15s
+batch 10, loss 0.4036633372306824, batch_time 13m 4s
+Validation confusion matrix:
+[[131  28   9]
+ [ 32 194   6]
+ [  7  12  61]]
+Validation precision: 0.8042
+Validation recall: 0.8042
+Validation F1 score: 0.8041
+Epoch 71 / 100: Loss = 0.49880 Acc = 0.86927  Valid_acc = 0.8041666746139526 lr = 0.00100 Training complete in 15m 18s'
+batch 1, loss 0.5383678078651428, batch_time 1m 21s
+batch 2, loss 0.531190812587738, batch_time 2m 43s
+batch 3, loss 0.537744402885437, batch_time 4m 3s
+batch 4, loss 0.4953891932964325, batch_time 5m 22s
+batch 5, loss 0.5099640488624573, batch_time 6m 50s
+batch 6, loss 0.5067117810249329, batch_time 8m 17s
+batch 7, loss 0.4968695044517517, batch_time 9m 37s
+batch 8, loss 0.43288469314575195, batch_time 10m 57s
+batch 9, loss 0.5072116255760193, batch_time 12m 17s
+batch 10, loss 0.3996387720108032, batch_time 13m 4s
+Validation confusion matrix:
+[[132  27   9]
+ [ 31 195   6]
+ [  7  12  61]]
+Validation precision: 0.8083
+Validation recall: 0.8083
+Validation F1 score: 0.8082
+Epoch 72 / 100: Loss = 0.49560 Acc = 0.87187  Valid_acc = 0.8083333373069763 lr = 0.00100 Training complete in 15m 16s'
+batch 1, loss 0.5355021953582764, batch_time 1m 19s
+batch 2, loss 0.5284014940261841, batch_time 2m 39s
+batch 3, loss 0.5342251658439636, batch_time 3m 59s
+batch 4, loss 0.4930373728275299, batch_time 5m 18s
+batch 5, loss 0.50773024559021, batch_time 6m 44s
+batch 6, loss 0.5030694603919983, batch_time 8m 3s
+batch 7, loss 0.49403300881385803, batch_time 9m 31s
+batch 8, loss 0.4295935332775116, batch_time 10m 58s
+batch 9, loss 0.5035371780395508, batch_time 12m 18s
+batch 10, loss 0.39575693011283875, batch_time 13m 5s
+Validation confusion matrix:
+[[131  28   9]
+ [ 31 195   6]
+ [  7  12  61]]
+Validation precision: 0.8061
+Validation recall: 0.8063
+Validation F1 score: 0.8061
+Epoch 73 / 100: Loss = 0.49249 Acc = 0.87344  Valid_acc = 0.8062499761581421 lr = 0.00100 Training complete in 15m 17s'
+batch 1, loss 0.5326754450798035, batch_time 1m 19s
+batch 2, loss 0.5255991816520691, batch_time 2m 47s
+batch 3, loss 0.5308945178985596, batch_time 4m 6s
+batch 4, loss 0.49074363708496094, batch_time 5m 26s
+batch 5, loss 0.5055476427078247, batch_time 6m 46s
+batch 6, loss 0.499561607837677, batch_time 8m 13s
+batch 7, loss 0.49129945039749146, batch_time 9m 33s
+batch 8, loss 0.42645689845085144, batch_time 10m 53s
+batch 9, loss 0.4999634921550751, batch_time 12m 21s
+batch 10, loss 0.39194124937057495, batch_time 13m 8s
+Validation confusion matrix:
+[[131  28   9]
+ [ 31 195   6]
+ [  7  12  61]]
+Validation precision: 0.8061
+Validation recall: 0.8063
+Validation F1 score: 0.8061
+Epoch 74 / 100: Loss = 0.48947 Acc = 0.87604  Valid_acc = 0.8062499761581421 lr = 0.00100 Training complete in 15m 19s'
+batch 1, loss 0.5298969745635986, batch_time 1m 26s
+batch 2, loss 0.5228985548019409, batch_time 2m 48s
+batch 3, loss 0.527736485004425, batch_time 4m 7s
+batch 4, loss 0.48855137825012207, batch_time 5m 27s
+batch 5, loss 0.5033184885978699, batch_time 6m 47s
+batch 6, loss 0.4961243271827698, batch_time 8m 6s
+batch 7, loss 0.4886399805545807, batch_time 9m 27s
+batch 8, loss 0.42345723509788513, batch_time 10m 54s
+batch 9, loss 0.4963409900665283, batch_time 12m 13s
+batch 10, loss 0.38824474811553955, batch_time 13m 5s
+Validation confusion matrix:
+[[130  29   9]
+ [ 31 195   6]
+ [  7  12  61]]
+Validation precision: 0.8040
+Validation recall: 0.8042
+Validation F1 score: 0.8040
+Epoch 75 / 100: Loss = 0.48652 Acc = 0.87865  Valid_acc = 0.8041666746139526 lr = 0.00100 Training complete in 15m 16s'
+batch 1, loss 0.527082622051239, batch_time 1m 27s
+batch 2, loss 0.5201016068458557, batch_time 2m 47s
+batch 3, loss 0.5246652364730835, batch_time 4m 7s
+batch 4, loss 0.48643022775650024, batch_time 5m 26s
+batch 5, loss 0.5012237429618835, batch_time 6m 46s
+batch 6, loss 0.49281442165374756, batch_time 8m 5s
+batch 7, loss 0.4860912561416626, batch_time 9m 25s
+batch 8, loss 0.4206324815750122, batch_time 10m 53s
+batch 9, loss 0.4929341971874237, batch_time 12m 14s
+batch 10, loss 0.3846946358680725, batch_time 13m 5s
+Validation confusion matrix:
+[[130  29   9]
+ [ 32 194   6]
+ [  7  11  62]]
+Validation precision: 0.8041
+Validation recall: 0.8042
+Validation F1 score: 0.8041
+Epoch 76 / 100: Loss = 0.48367 Acc = 0.88073  Valid_acc = 0.8041666746139526 lr = 0.00100 Training complete in 15m 17s'
+batch 1, loss 0.5243790745735168, batch_time 1m 19s
+batch 2, loss 0.5174254179000854, batch_time 2m 47s
+batch 3, loss 0.5216859579086304, batch_time 4m 14s
+batch 4, loss 0.4843520224094391, batch_time 5m 41s
+batch 5, loss 0.49911484122276306, batch_time 7m 0s
+batch 6, loss 0.4896166920661926, batch_time 8m 20s
+batch 7, loss 0.4836626648902893, batch_time 9m 39s
+batch 8, loss 0.41795405745506287, batch_time 10m 59s
+batch 9, loss 0.489551305770874, batch_time 12m 19s
+batch 10, loss 0.38128411769866943, batch_time 13m 6s
+Validation confusion matrix:
+[[130  29   9]
+ [ 33 193   6]
+ [  7  11  62]]
+Validation precision: 0.8022
+Validation recall: 0.8021
+Validation F1 score: 0.8021
+Epoch 77 / 100: Loss = 0.48090 Acc = 0.88281  Valid_acc = 0.8020833134651184 lr = 0.00100 Training complete in 15m 18s'
+batch 1, loss 0.5217083096504211, batch_time 1m 20s
+batch 2, loss 0.514753520488739, batch_time 2m 48s
+batch 3, loss 0.5188028812408447, batch_time 4m 7s
+batch 4, loss 0.48231086134910583, batch_time 5m 27s
+batch 5, loss 0.4970817565917969, batch_time 6m 54s
+batch 6, loss 0.48650822043418884, batch_time 8m 13s
+batch 7, loss 0.48131120204925537, batch_time 9m 33s
+batch 8, loss 0.4154059588909149, batch_time 10m 52s
+batch 9, loss 0.4863402247428894, batch_time 12m 12s
+batch 10, loss 0.37797072529792786, batch_time 12m 59s
+Validation confusion matrix:
+[[132  28   8]
+ [ 33 193   6]
+ [  7  11  62]]
+Validation precision: 0.8067
+Validation recall: 0.8063
+Validation F1 score: 0.8063
+Epoch 78 / 100: Loss = 0.47822 Acc = 0.88229  Valid_acc = 0.8062499761581421 lr = 0.00100 Training complete in 15m 11s'
+batch 1, loss 0.5190862417221069, batch_time 1m 26s
+batch 2, loss 0.5121100544929504, batch_time 2m 55s
+batch 3, loss 0.5159504413604736, batch_time 4m 14s
+batch 4, loss 0.4803241789340973, batch_time 5m 33s
+batch 5, loss 0.4950929880142212, batch_time 6m 59s
+batch 6, loss 0.48356372117996216, batch_time 8m 23s
+batch 7, loss 0.479098379611969, batch_time 9m 39s
+batch 8, loss 0.4130026698112488, batch_time 10m 55s
+batch 9, loss 0.48322150111198425, batch_time 12m 19s
+batch 10, loss 0.37474656105041504, batch_time 13m 5s
+Validation confusion matrix:
+[[131  29   8]
+ [ 33 193   6]
+ [  7  11  62]]
+Validation precision: 0.8045
+Validation recall: 0.8042
+Validation F1 score: 0.8042
+Epoch 79 / 100: Loss = 0.47562 Acc = 0.88385  Valid_acc = 0.8041666746139526 lr = 0.00100 Training complete in 15m 12s'
+batch 1, loss 0.5165249705314636, batch_time 1m 15s
+batch 2, loss 0.509403645992279, batch_time 2m 33s
+batch 3, loss 0.5130982995033264, batch_time 3m 56s
+batch 4, loss 0.4783410131931305, batch_time 5m 12s
+batch 5, loss 0.4932066798210144, batch_time 6m 28s
+batch 6, loss 0.48074132204055786, batch_time 7m 44s
+batch 7, loss 0.47699639201164246, batch_time 9m 1s
+batch 8, loss 0.4106917679309845, batch_time 10m 17s
+batch 9, loss 0.48024868965148926, batch_time 11m 34s
+batch 10, loss 0.37169983983039856, batch_time 12m 24s
+Validation confusion matrix:
+[[130  30   8]
+ [ 32 194   6]
+ [  7  11  62]]
+Validation precision: 0.8042
+Validation recall: 0.8042
+Validation F1 score: 0.8041
+Epoch 80 / 100: Loss = 0.47310 Acc = 0.88646  Valid_acc = 0.8041666746139526 lr = 0.00100 Training complete in 14m 31s'
+batch 1, loss 0.5140528082847595, batch_time 1m 23s
+batch 2, loss 0.5067916512489319, batch_time 2m 40s
+batch 3, loss 0.51032954454422, batch_time 3m 55s
+batch 4, loss 0.47637832164764404, batch_time 5m 12s
+batch 5, loss 0.4912869930267334, batch_time 6m 28s
+batch 6, loss 0.4780006408691406, batch_time 7m 44s
+batch 7, loss 0.4749661087989807, batch_time 9m 7s
+batch 8, loss 0.40850967168807983, batch_time 10m 23s
+batch 9, loss 0.4773596227169037, batch_time 11m 39s
+batch 10, loss 0.36867469549179077, batch_time 12m 25s
+Validation confusion matrix:
+[[130  30   8]
+ [ 32 194   6]
+ [  7  11  62]]
+Validation precision: 0.8042
+Validation recall: 0.8042
+Validation F1 score: 0.8041
+Epoch 81 / 100: Loss = 0.47064 Acc = 0.88646  Valid_acc = 0.8041666746139526 lr = 0.00100 Training complete in 14m 32s'
+batch 1, loss 0.5116093754768372, batch_time 1m 15s
+batch 2, loss 0.5041425824165344, batch_time 2m 40s
+batch 3, loss 0.5074681043624878, batch_time 4m 3s
+batch 4, loss 0.47442126274108887, batch_time 5m 19s
+batch 5, loss 0.48943090438842773, batch_time 6m 35s
+batch 6, loss 0.4753127098083496, batch_time 7m 50s
+batch 7, loss 0.47304147481918335, batch_time 9m 6s
+batch 8, loss 0.40641313791275024, batch_time 10m 30s
+batch 9, loss 0.47468602657318115, batch_time 11m 52s
+batch 10, loss 0.36585479974746704, batch_time 12m 38s
+Validation confusion matrix:
+[[130  30   8]
+ [ 31 195   6]
+ [  7  11  62]]
+Validation precision: 0.8062
+Validation recall: 0.8063
+Validation F1 score: 0.8061
+Epoch 82 / 100: Loss = 0.46824 Acc = 0.88646  Valid_acc = 0.8062499761581421 lr = 0.00100 Training complete in 14m 45s'
+batch 1, loss 0.5092345476150513, batch_time 1m 21s
+batch 2, loss 0.5015646815299988, batch_time 2m 38s
+batch 3, loss 0.5047293901443481, batch_time 4m 1s
+batch 4, loss 0.4725141227245331, batch_time 5m 25s
+batch 5, loss 0.4875745177268982, batch_time 6m 49s
+batch 6, loss 0.4727577865123749, batch_time 8m 5s
+batch 7, loss 0.4712492525577545, batch_time 9m 21s
+batch 8, loss 0.40436387062072754, batch_time 10m 37s
+batch 9, loss 0.4720775783061981, batch_time 11m 53s
+batch 10, loss 0.36312389373779297, batch_time 12m 39s
+Validation confusion matrix:
+[[131  29   8]
+ [ 31 195   6]
+ [  7  11  62]]
+Validation precision: 0.8083
+Validation recall: 0.8083
+Validation F1 score: 0.8082
+Epoch 83 / 100: Loss = 0.46592 Acc = 0.88698  Valid_acc = 0.8083333373069763 lr = 0.00100 Training complete in 14m 46s'
+batch 1, loss 0.507021963596344, batch_time 1m 22s
+batch 2, loss 0.49900561571121216, batch_time 2m 40s
+batch 3, loss 0.5019320249557495, batch_time 3m 56s
+batch 4, loss 0.4705643653869629, batch_time 5m 12s
+batch 5, loss 0.48569992184638977, batch_time 6m 35s
+batch 6, loss 0.4703224301338196, batch_time 7m 51s
+batch 7, loss 0.46956026554107666, batch_time 9m 8s
+batch 8, loss 0.4024055302143097, batch_time 10m 24s
+batch 9, loss 0.4696838855743408, batch_time 11m 40s
+batch 10, loss 0.36048656702041626, batch_time 12m 25s
+Validation confusion matrix:
+[[131  29   8]
+ [ 31 195   6]
+ [  7  11  62]]
+Validation precision: 0.8083
+Validation recall: 0.8083
+Validation F1 score: 0.8082
+Epoch 84 / 100: Loss = 0.46367 Acc = 0.88802  Valid_acc = 0.8083333373069763 lr = 0.00100 Training complete in 14m 33s'
+batch 1, loss 0.5048006176948547, batch_time 1m 15s
+batch 2, loss 0.49642837047576904, batch_time 2m 32s
+batch 3, loss 0.4991142749786377, batch_time 3m 48s
+batch 4, loss 0.4686931371688843, batch_time 5m 4s
+batch 5, loss 0.48391133546829224, batch_time 6m 20s
+batch 6, loss 0.4680591821670532, batch_time 7m 36s
+batch 7, loss 0.4679121971130371, batch_time 8m 52s
+batch 8, loss 0.4005361497402191, batch_time 10m 16s
+batch 9, loss 0.4673691391944885, batch_time 11m 32s
+batch 10, loss 0.35790812969207764, batch_time 12m 23s
+Validation confusion matrix:
+[[130  30   8]
+ [ 30 196   6]
+ [  7  11  62]]
+Validation precision: 0.8081
+Validation recall: 0.8083
+Validation F1 score: 0.8081
+Epoch 85 / 100: Loss = 0.46147 Acc = 0.89062  Valid_acc = 0.8083333373069763 lr = 0.00100 Training complete in 14m 31s'
+batch 1, loss 0.5027157068252563, batch_time 1m 15s
+batch 2, loss 0.4939166307449341, batch_time 2m 32s
+batch 3, loss 0.49623823165893555, batch_time 3m 48s
+batch 4, loss 0.4666840732097626, batch_time 5m 4s
+batch 5, loss 0.4820389151573181, batch_time 6m 20s
+batch 6, loss 0.4659317135810852, batch_time 7m 37s
+batch 7, loss 0.4663243889808655, batch_time 8m 53s
+batch 8, loss 0.398726224899292, batch_time 10m 17s
+batch 9, loss 0.4652417004108429, batch_time 11m 33s
+batch 10, loss 0.355439156293869, batch_time 12m 18s
+Validation confusion matrix:
+[[130  30   8]
+ [ 27 199   6]
+ [  7  11  62]]
+Validation precision: 0.8142
+Validation recall: 0.8146
+Validation F1 score: 0.8141
+Epoch 86 / 100: Loss = 0.45933 Acc = 0.89167  Valid_acc = 0.8145833611488342 lr = 0.00100 Training complete in 14m 26s'
+batch 1, loss 0.5006651282310486, batch_time 1m 15s
+batch 2, loss 0.4914857745170593, batch_time 2m 32s
+batch 3, loss 0.4934283494949341, batch_time 3m 48s
+batch 4, loss 0.46484166383743286, batch_time 5m 4s
+batch 5, loss 0.480264812707901, batch_time 6m 20s
+batch 6, loss 0.4639279842376709, batch_time 7m 44s
+batch 7, loss 0.46482861042022705, batch_time 8m 60s
+batch 8, loss 0.39697831869125366, batch_time 10m 16s
+batch 9, loss 0.46312016248703003, batch_time 11m 32s
+batch 10, loss 0.35300296545028687, batch_time 12m 18s
+Validation confusion matrix:
+[[130  30   8]
+ [ 27 199   6]
+ [  8  10  62]]
+Validation precision: 0.8142
+Validation recall: 0.8146
+Validation F1 score: 0.8142
+Epoch 87 / 100: Loss = 0.45725 Acc = 0.89167  Valid_acc = 0.8145833611488342 lr = 0.00100 Training complete in 14m 25s'
+batch 1, loss 0.49866724014282227, batch_time 1m 15s
+batch 2, loss 0.48904144763946533, batch_time 2m 32s
+batch 3, loss 0.49056529998779297, batch_time 3m 48s
+batch 4, loss 0.462870329618454, batch_time 5m 4s
+batch 5, loss 0.47846221923828125, batch_time 6m 27s
+batch 6, loss 0.46201202273368835, batch_time 7m 43s
+batch 7, loss 0.4633578360080719, batch_time 8m 59s
+batch 8, loss 0.3953113257884979, batch_time 10m 15s
+batch 9, loss 0.46114808320999146, batch_time 11m 31s
+batch 10, loss 0.35070139169692993, batch_time 12m 17s
+Validation confusion matrix:
+[[130  30   8]
+ [ 27 199   6]
+ [  8  10  62]]
+Validation precision: 0.8142
+Validation recall: 0.8146
+Validation F1 score: 0.8142
+Epoch 88 / 100: Loss = 0.45521 Acc = 0.89219  Valid_acc = 0.8145833611488342 lr = 0.00100 Training complete in 14m 25s'
+batch 1, loss 0.49670445919036865, batch_time 1m 15s
+batch 2, loss 0.4866345524787903, batch_time 2m 32s
+batch 3, loss 0.4877200722694397, batch_time 3m 54s
+batch 4, loss 0.46104246377944946, batch_time 5m 10s
+batch 5, loss 0.4767445921897888, batch_time 6m 27s
+batch 6, loss 0.4602199196815491, batch_time 7m 42s
+batch 7, loss 0.4619251489639282, batch_time 9m 4s
+batch 8, loss 0.39363807439804077, batch_time 10m 20s
+batch 9, loss 0.45918112993240356, batch_time 11m 44s
+batch 10, loss 0.3484337329864502, batch_time 12m 29s
+Validation confusion matrix:
+[[129  31   8]
+ [ 27 199   6]
+ [  8  10  62]]
+Validation precision: 0.8120
+Validation recall: 0.8125
+Validation F1 score: 0.8120
+Epoch 89 / 100: Loss = 0.45322 Acc = 0.89323  Valid_acc = 0.8125 lr = 0.00100 Training complete in 14m 37s'
+batch 1, loss 0.49477657675743103, batch_time 1m 15s
+batch 2, loss 0.48426979780197144, batch_time 2m 32s
+batch 3, loss 0.48490938544273376, batch_time 3m 48s
+batch 4, loss 0.45912104845046997, batch_time 5m 4s
+batch 5, loss 0.475020170211792, batch_time 6m 27s
+batch 6, loss 0.45849117636680603, batch_time 7m 43s
+batch 7, loss 0.46051427721977234, batch_time 9m 7s
+batch 8, loss 0.39199358224868774, batch_time 10m 23s
+batch 9, loss 0.4573401212692261, batch_time 11m 39s
+batch 10, loss 0.3462877571582794, batch_time 12m 29s
+Validation confusion matrix:
+[[129  31   8]
+ [ 26 200   6]
+ [  7  10  63]]
+Validation precision: 0.8162
+Validation recall: 0.8167
+Validation F1 score: 0.8161
+Epoch 90 / 100: Loss = 0.45127 Acc = 0.89375  Valid_acc = 0.8166666626930237 lr = 0.00100 Training complete in 14m 36s'
+batch 1, loss 0.49288439750671387, batch_time 1m 23s
+batch 2, loss 0.4819747805595398, batch_time 2m 39s
+batch 3, loss 0.48220008611679077, batch_time 3m 55s
+batch 4, loss 0.45728299021720886, batch_time 5m 11s
+batch 5, loss 0.47335106134414673, batch_time 6m 35s
+batch 6, loss 0.456859827041626, batch_time 7m 59s
+batch 7, loss 0.4591498374938965, batch_time 9m 15s
+batch 8, loss 0.3903595805168152, batch_time 10m 31s
+batch 9, loss 0.45545893907546997, batch_time 11m 47s
+batch 10, loss 0.34417724609375, batch_time 12m 37s
+Validation confusion matrix:
+[[129  31   8]
+ [ 26 200   6]
+ [  7  10  63]]
+Validation precision: 0.8162
+Validation recall: 0.8167
+Validation F1 score: 0.8161
+Epoch 91 / 100: Loss = 0.44937 Acc = 0.89583  Valid_acc = 0.8166666626930237 lr = 0.00100 Training complete in 14m 45s'
+batch 1, loss 0.4910080134868622, batch_time 1m 23s
+batch 2, loss 0.47968345880508423, batch_time 2m 39s
+batch 3, loss 0.4795529842376709, batch_time 4m 3s
+batch 4, loss 0.45543915033340454, batch_time 5m 18s
+batch 5, loss 0.47168833017349243, batch_time 6m 42s
+batch 6, loss 0.45529550313949585, batch_time 7m 58s
+batch 7, loss 0.4577794075012207, batch_time 9m 14s
+batch 8, loss 0.3887161612510681, batch_time 10m 30s
+batch 9, loss 0.4537302255630493, batch_time 11m 47s
+batch 10, loss 0.3422017991542816, batch_time 12m 32s
+Validation confusion matrix:
+[[129  30   9]
+ [ 26 200   6]
+ [  7  10  63]]
+Validation precision: 0.8161
+Validation recall: 0.8167
+Validation F1 score: 0.8162
+Epoch 92 / 100: Loss = 0.44751 Acc = 0.89531  Valid_acc = 0.8166666626930237 lr = 0.00100 Training complete in 14m 41s'
+batch 1, loss 0.489196240901947, batch_time 1m 15s
+batch 2, loss 0.47744321823120117, batch_time 2m 32s
+batch 3, loss 0.47698974609375, batch_time 3m 48s
+batch 4, loss 0.45361679792404175, batch_time 5m 4s
+batch 5, loss 0.4701058268547058, batch_time 6m 20s
+batch 6, loss 0.4538266658782959, batch_time 7m 36s
+batch 7, loss 0.4564912021160126, batch_time 8m 52s
+batch 8, loss 0.38712331652641296, batch_time 10m 8s
+batch 9, loss 0.4520081877708435, batch_time 11m 24s
+batch 10, loss 0.3401988744735718, batch_time 12m 9s
+Validation confusion matrix:
+[[129  30   9]
+ [ 25 200   7]
+ [  7  10  63]]
+Validation precision: 0.8161
+Validation recall: 0.8167
+Validation F1 score: 0.8161
+Epoch 93 / 100: Loss = 0.44570 Acc = 0.89583  Valid_acc = 0.8166666626930237 lr = 0.00100 Training complete in 14m 17s'
+batch 1, loss 0.48739027976989746, batch_time 1m 23s
+batch 2, loss 0.47528886795043945, batch_time 2m 40s
+batch 3, loss 0.47447633743286133, batch_time 3m 55s
+batch 4, loss 0.4518197774887085, batch_time 5m 11s
+batch 5, loss 0.46851566433906555, batch_time 6m 27s
+batch 6, loss 0.45239579677581787, batch_time 7m 43s
+batch 7, loss 0.4551979899406433, batch_time 9m 7s
+batch 8, loss 0.38550668954849243, batch_time 10m 23s
+batch 9, loss 0.45036035776138306, batch_time 11m 46s
+batch 10, loss 0.3382807970046997, batch_time 12m 37s
+Validation confusion matrix:
+[[128  31   9]
+ [ 25 200   7]
+ [  7  10  63]]
+Validation precision: 0.8140
+Validation recall: 0.8146
+Validation F1 score: 0.8140
+Epoch 94 / 100: Loss = 0.44392 Acc = 0.89635  Valid_acc = 0.8145833611488342 lr = 0.00100 Training complete in 14m 44s'
+batch 1, loss 0.48564451932907104, batch_time 1m 23s
+batch 2, loss 0.47321581840515137, batch_time 2m 40s
+batch 3, loss 0.4720231890678406, batch_time 3m 56s
+batch 4, loss 0.4500519931316376, batch_time 5m 19s
+batch 5, loss 0.46693435311317444, batch_time 6m 35s
+batch 6, loss 0.45101967453956604, batch_time 7m 59s
+batch 7, loss 0.4539378881454468, batch_time 9m 15s
+batch 8, loss 0.3839130401611328, batch_time 10m 31s
+batch 9, loss 0.44874143600463867, batch_time 11m 47s
+batch 10, loss 0.33637839555740356, batch_time 12m 32s
+Validation confusion matrix:
+[[129  30   9]
+ [ 25 200   7]
+ [  7  10  63]]
+Validation precision: 0.8161
+Validation recall: 0.8167
+Validation F1 score: 0.8161
+Epoch 95 / 100: Loss = 0.44219 Acc = 0.89635  Valid_acc = 0.8166666626930237 lr = 0.00100 Training complete in 14m 40s'
+batch 1, loss 0.4839184284210205, batch_time 1m 22s
+batch 2, loss 0.47120606899261475, batch_time 2m 47s
+batch 3, loss 0.46970272064208984, batch_time 4m 3s
+batch 4, loss 0.44827502965927124, batch_time 5m 19s
+batch 5, loss 0.4653770923614502, batch_time 6m 42s
+batch 6, loss 0.44973576068878174, batch_time 7m 58s
+batch 7, loss 0.45266836881637573, batch_time 9m 14s
+batch 8, loss 0.3823119103908539, batch_time 10m 30s
+batch 9, loss 0.44716978073120117, batch_time 11m 53s
+batch 10, loss 0.33452242612838745, batch_time 12m 39s
+Validation confusion matrix:
+[[129  30   9]
+ [ 25 200   7]
+ [  7  10  63]]
+Validation precision: 0.8161
+Validation recall: 0.8167
+Validation F1 score: 0.8161
+Epoch 96 / 100: Loss = 0.44049 Acc = 0.89792  Valid_acc = 0.8166666626930237 lr = 0.00100 Training complete in 14m 47s'
+batch 1, loss 0.4821930229663849, batch_time 1m 15s
+batch 2, loss 0.4692525863647461, batch_time 2m 32s
+batch 3, loss 0.4674251675605774, batch_time 3m 48s
+batch 4, loss 0.44655662775039673, batch_time 5m 4s
+batch 5, loss 0.46380120515823364, batch_time 6m 20s
+batch 6, loss 0.44840073585510254, batch_time 7m 36s
+batch 7, loss 0.451413631439209, batch_time 8m 52s
+batch 8, loss 0.3807675838470459, batch_time 10m 8s
+batch 9, loss 0.44565850496292114, batch_time 11m 24s
+batch 10, loss 0.33270567655563354, batch_time 12m 9s
+Validation confusion matrix:
+[[129  30   9]
+ [ 27 198   7]
+ [  7  10  63]]
+Validation precision: 0.8120
+Validation recall: 0.8125
+Validation F1 score: 0.8121
+Epoch 97 / 100: Loss = 0.43882 Acc = 0.89948  Valid_acc = 0.8125 lr = 0.00100 Training complete in 14m 17s'
+batch 1, loss 0.48055779933929443, batch_time 1m 15s
+batch 2, loss 0.4673333466053009, batch_time 2m 33s
+batch 3, loss 0.4652588963508606, batch_time 3m 48s
+batch 4, loss 0.44481274485588074, batch_time 5m 12s
+batch 5, loss 0.4622530937194824, batch_time 6m 28s
+batch 6, loss 0.44712287187576294, batch_time 7m 44s
+batch 7, loss 0.450162410736084, batch_time 9m 7s
+batch 8, loss 0.3792175054550171, batch_time 10m 23s
+batch 9, loss 0.44412410259246826, batch_time 11m 39s
+batch 10, loss 0.3309662938117981, batch_time 12m 24s
+Validation confusion matrix:
+[[130  29   9]
+ [ 27 198   7]
+ [  7  10  63]]
+Validation precision: 0.8141
+Validation recall: 0.8146
+Validation F1 score: 0.8143
+Epoch 98 / 100: Loss = 0.43718 Acc = 0.90000  Valid_acc = 0.8145833611488342 lr = 0.00100 Training complete in 14m 32s'
+batch 1, loss 0.47891902923583984, batch_time 1m 15s
+batch 2, loss 0.4654746651649475, batch_time 2m 32s
+batch 3, loss 0.4631313681602478, batch_time 3m 47s
+batch 4, loss 0.44307881593704224, batch_time 5m 11s
+batch 5, loss 0.46069079637527466, batch_time 6m 34s
+batch 6, loss 0.4458920359611511, batch_time 7m 50s
+batch 7, loss 0.44894319772720337, batch_time 9m 5s
+batch 8, loss 0.377689927816391, batch_time 10m 21s
+batch 9, loss 0.442650705575943, batch_time 11m 37s
+batch 10, loss 0.3292340040206909, batch_time 12m 27s
+Validation confusion matrix:
+[[130  29   9]
+ [ 27 198   7]
+ [  7  10  63]]
+Validation precision: 0.8141
+Validation recall: 0.8146
+Validation F1 score: 0.8143
+Epoch 99 / 100: Loss = 0.43557 Acc = 0.90052  Valid_acc = 0.8145833611488342 lr = 0.00100 Training complete in 14m 35s'
+batch 1, loss 0.4772939682006836, batch_time 1m 15s
+batch 2, loss 0.4636167287826538, batch_time 2m 39s
+batch 3, loss 0.4610424041748047, batch_time 3m 55s
+batch 4, loss 0.4414401650428772, batch_time 5m 10s
+batch 5, loss 0.45920395851135254, batch_time 6m 26s
+batch 6, loss 0.4446863532066345, batch_time 7m 50s
+batch 7, loss 0.44769400358200073, batch_time 9m 13s
+batch 8, loss 0.37615716457366943, batch_time 10m 36s
+batch 9, loss 0.44121378660202026, batch_time 11m 53s
+batch 10, loss 0.32758164405822754, batch_time 12m 38s
+Validation confusion matrix:
+[[130  29   9]
+ [ 27 198   7]
+ [  7  10  63]]
+Validation precision: 0.8141
+Validation recall: 0.8146
+Validation F1 score: 0.8143
+Epoch 100 / 100: Loss = 0.43399 Acc = 0.90104  Valid_acc = 0.8145833611488342 lr = 0.00100 Training complete in 14m 45s'
