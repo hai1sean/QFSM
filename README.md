@@ -1,8 +1,6 @@
-# Speech Emotion Recognition 
+# QFSM: A Novel Quantum Federated Learning Algorithm for Speech Emotion Recognition with Minimal Gated Unit
 
-用 LSTM、CNN、SVM、MLP 进行语音情感识别，Keras 实现。
-
-改进了特征提取方式，识别准确率提高到了 80% 左右。原来的版本的存档在 [First-Version 分支](https://github.com/Renovamen/Speech-Emotion-Recognition/tree/First-Version)。
+一个使用量子最小门控单元设计的，用于语音情感识别的，量子联邦学习算法
 
 [English Document](README_EN.md) | 中文文档
 
@@ -12,7 +10,7 @@
 ## Environments
 
 - Python 3.8
-- Keras & TensorFlow 2
+- PennyLane  // 主页：https://pennylane.ai/
 
 
 &nbsp;
