@@ -5,7 +5,7 @@
 由 [经典SER方法](https://github.com/Renovamen/Speech-Emotion-Recognition.git) 添加量子模型QMGU与量子联邦框架后构建
 
 [经典MGU](https://link.springer.com/article/10.1007/s11633-016-1006-2)的结构设计可见文献 
->[1] Zhou G B, Wu J, Zhang C L, et al. Minimal gated unit for recurrent neural networks[J]. International Journal of Automation and Computing, 2016, 13(3): 226-234.
+>[MGU] Zhou G B, Wu J, Zhang C L, et al. Minimal gated unit for recurrent neural networks[J]. International Journal of Automation and Computing, 2016, 13(3): 226-234.
 
 QMGU相比 [QLSTM](https://github.com/rdisipio/qlstm.git) 和 [QGRU](https://github.com/zhenhouhong/QSpeech.git) 由于使用了更少的VQC模块 训练速度提升十分明显
 
@@ -35,9 +35,9 @@ QMGU相比 [QLSTM](https://github.com/rdisipio/qlstm.git) 和 [QGRU](https://git
 ├── extract_feats/         // 特征提取        
 │   └── opensmile.py       // 使用 Opensmile 提取特征
 ├── utils/                 // 辅助工具
-│   ├── files.py           // 用于整理数据集（分类、批量重命名）
-│   ├── opts.py            // 使用 argparse 从命令行读入参数
-│   └── plot.py            // 绘图 
+│   ├── files.py           
+│   ├── opts.py            
+│   └── plot.py            
 ├── features/              // 存储提取好的特征可存储在此，路径通过lstm.yaml设置
 ├── checkpoints/           // 存储训练好的模型权重
 ├── PrintLogs/             // 打印训练时的评估指标
@@ -60,15 +60,15 @@ QMGU相比 [QLSTM](https://github.com/rdisipio/qlstm.git) 和 [QGRU](https://git
 
 1. [RAVDESS](https://zenodo.org/record/1188976)
 
-   英文，24 个人（12 名男性，12 名女性）的大约 1500 个音频，表达了 8 种不同的情绪（第三位数字表示情绪类别）：01 = neutral，02 = calm，03 = happy，04 = sad，05 = angry，06 = fearful，07 = disgust，08 = surprised。
+   英文，该数据集由加拿大莱尔森大学（Ryerson University）的音频研究小组开发，并由情感研究实验室（Emotional Analysis Lab）提供，共有24个专业发音人，语音情感部分共有8种情绪，neutral, calm, happy, sad, angry, fearful, disgust, surprised，每个发音人录制60条，共1440条不同的英语发音样本。
 
 2. [EMO-DB](http://www.emodb.bilderbar.info/download/)
 
-   德语，10 个人（5 名男性，5 名女性）的大约 500 个音频，表达了 7 种不同的情绪（倒数第二个字母表示情绪类别）：N = neutral，W = angry，A = fear，F = happy，T = sad，E = disgust，L = boredom。
+   德语，德语语音情感数据集，该数据集由德国的柏林工业大学的语音学研究小组创建，共有10个专业发音人，涵盖了7种不同的情绪，包括neutral, angry, fear, happy, sad, disgust, boredom，共535个德语语音样本。
 
 3. CASIA
 
-   汉语，只能下载到部分。4 个人（2 名男性，2 名女性）的大约 1200 个音频，表达了 6 种不同的情绪：neutral，happy，sad，angry，fearful，surprised。
+   汉语语音情感数据集，中国科学院自动化研究所录制，共包括四个专业发音人，六种情绪，生气、高兴、害怕、悲伤、惊讶和中性，共9,600句不同发音，包括300句相同文本和100句不同文本。其中300句相同文本部分可以免费获取得到，共1200个音频可供使用。
 
 
 &nbsp;
