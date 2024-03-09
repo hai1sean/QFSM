@@ -10,7 +10,7 @@
 ## Environments
 
 - Python 3.8
-- PennyLane  // 主页：https://pennylane.ai/
+- PennyLane   量子模拟平台 主页：https://pennylane.ai/
 
 
 &nbsp;
