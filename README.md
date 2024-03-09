@@ -16,7 +16,7 @@ QMGU相比 [QLSTM](https://github.com/rdisipio/qlstm.git) 和 [QGRU](https://git
 
 ## Environments
 
-- Python 3.8
+- Python 3.7
 - [PennyLane](https://pennylane.ai/)   一个量子模拟平台 
 
 
