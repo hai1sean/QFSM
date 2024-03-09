@@ -2,7 +2,9 @@
 
 一个使用量子最小门控单元设计的，用于语音情感识别的，量子联邦学习算法
 
-由经典SER代码：https://github.com/Renovamen/Speech-Emotion-Recognition.git 添加量子模型与联邦框架后构建
+由经典SER方法 https://github.com/Renovamen/Speech-Emotion-Recognition.git 添加量子模型QMGU与量子联邦框架后构建
+
+经典MGU的结构设计见文献 [1]Zhou G B, Wu J, Zhang C L, et al. Minimal gated unit for recurrent neural networks[J]. International Journal of Automation and Computing, 2016, 13(3): 226-234.
 
 [English Document](README_EN.md) | 中文文档
 
